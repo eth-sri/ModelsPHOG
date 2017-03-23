@@ -3,3 +3,5 @@ bazel-genfiles
 bazel-out
 bazel-phog
 bazel-testlogs
+bazel-models_phog
+bazel-ModelsPHOG
