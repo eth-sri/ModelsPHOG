@@ -136,17 +136,6 @@ bool ExecuteEqProgram(
   return ExecuteEqProgramByIdInAll(exec, traversal, debug_info, called_p, all, cb);
 }
 
-// Utility function to return the context from running a straight-line TCond program.
-//
-// The parameter all is the list of call targets that all may point to.
-bool ComputeContextFromTCondProgram(
-    const TCondLanguage::ExecutionForTree* exec,
-    SlicedTreeTraversal traversal,
-    const TCondLanguage::Program& cond,
-    const TGenProgram* all,
-    std::vector<int>* context);
-
-
 class TGenModel {
 public:
   typedef TCondLanguage::Feature Feature;
