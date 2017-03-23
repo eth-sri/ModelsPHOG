@@ -1,0 +1,116 @@
+empty
+empty
+PREV_LEAF PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF NEXT_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE =eq= PREV_NODE_TYPE WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+PREV_NODE_VALUE UP WRITE_VALUE DOWN_FIRST RIGHT PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+PREV_DFS PREV_NODE_VALUE PREV_NODE_CONTEXT DOWN_FIRST DOWN_FIRST WRITE_VALUE NEXT_LEAF WRITE_VALUE =eq= PREV_DFS PREV_NODE_VALUE WRITE_TYPE PREV_NODE_TYPE DOWN_LAST
+empty
+empty
+empty
+PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_VALUE PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_VALUE =eq= PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF PREV_NODE_VALUE WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_NODE_TYPE WRITE_VALUE =eq= PREV_NODE_TYPE DOWN_FIRST PREV_DFS WRITE_VALUE
+empty
+PREV_NODE_TYPE PREV_NODE_TYPE WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE =eq= PREV_NODE_TYPE WRITE_VALUE
+empty
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_VALUE RIGHT PREV_NODE_TYPE PREV_NODE_TYPE WRITE_VALUE =eq= LEFT DOWN_LAST PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE =eq= PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+PREV_NODE_TYPE PREV_NODE_VALUE PREV_NODE_VALUE RIGHT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE =eq= LEFT WRITE_VALUE PREV_DFS PREV_LEAF WRITE_VALUE
+empty
+empty
+PREV_LEAF PREV_NODE_CONTEXT RIGHT PREV_NODE_CONTEXT WRITE_VALUE RIGHT WRITE_VALUE =eq= PREV_LEAF UP NEXT_LEAF PREV_NODE_TYPE UP DOWN_FIRST DOWN_FIRST WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+PREV_NODE_TYPE WRITE_VALUE =eq= PREV_NODE_TYPE WRITE_VALUE
+PREV_NODE_TYPE WRITE_VALUE =eq= PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+PREV_NODE_TYPE WRITE_VALUE =eq= PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+UP PREV_LEAF WRITE_VALUE PREV_LEAF LEFT WRITE_VALUE =eq= 
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch WRITE_TYPE: on "Module" goto 0; on "Expr" goto 1; on "Str" goto 2; on "Import" goto 3; on "alias" goto 4; on "If" goto 5; on "CompareEq" goto 6; on "NameLoad" goto 7; on "body" goto 8; on "Call" goto 9; on "AttributeLoad" goto 10; on "attr" goto 11; on "ImportFrom" goto 12; on "Assign" goto 13; on "NameStore" goto 14; on "TupleLoad" goto 15; on "ClassDef" goto 16; on "bases" goto 17; on "Pass" goto 18; on "decorator_list" goto 19; on "ListLoad" goto 20; on "Index" goto 21; on "keyword" goto 22; on "name" goto 23; on "Num" goto 24; on "Dict" goto 25; on "TryExcept" goto 26; on "handlers" goto 27; on "ExceptHandler" goto 28; on "type" goto 29; on "FunctionDef" goto 30; on "arguments" goto 31; on "args" goto 32; on "NameParam" goto 33; on "defaults" goto 34; on "AttributeStore" goto 35; on "With" goto 36; on "BinOpMod" goto 37; on "SubscriptLoad" goto 38; on "orelse" goto 39; on "Return" goto 40; on "Lambda" goto 41; on "BoolOpAnd" goto 42; on "CompareIs" goto 43; on "vararg" goto 44; on "kwarg" goto 45; on "CompareLt" goto 46; on "UnaryOpNot" goto 47; on "CompareGt" goto 48; on "For" goto 49; on "CompareNotIn" goto 50; on "Raise" goto 51; on "ListComp" goto 52; on "comprehension" goto 53; on "BinOpSub" goto 54; on "BinOpDiv" goto 55; on "Print" goto 56; on "TupleStore" goto 57; on "TryFinally" goto 58; on "finalbody" goto 59; on "identifier" goto 60; on "BinOpAdd" goto 61; on "CompareIsNot" goto 62; on "Slice" goto 63; on "Yield" goto 64; on "Assert" goto 65; on "SubscriptStore" goto 66; on "BinOpMult" goto 67; on "Continue" goto 68; on "CompareNotEq" goto 69; on "CompareIn" goto 70; on "BoolOpOr" goto 71; on "While" goto 72; on "Break" goto 73; on "GeneratorExp" goto 74; on "BinOpBitAnd" goto 75; on "CompareGtE" goto 76; on "ExtSlice" goto 77; on "IfExp" goto 78; on "AugAssignAdd" goto 79; on "CompareLtELtE" goto 80; on "Global" goto 81; on "UnaryOpUAdd" goto 82; on "DictComp" goto 83; on "BinOpBitOr" goto 84; on "BinOpFloorDiv" goto 85; on "AugAssignMult" goto 86; on "Delete" goto 87; on "SubscriptDel" goto 88; on "NameDel" goto 89; on "CompareLtE" goto 90; on "AugAssignSub" goto 91; on "AttributeDel" goto 92; on "BinOpPow" goto 93; on "BinOpBitXor" goto 94; on "UnaryOpUSub" goto 95; on "BinOpLShift" goto 96; on "CompareLtELt" goto 97; on "AugAssignBitOr" goto 98; on "Exec" goto 99; on "CompareLtLt" goto 100; on "AugAssignMod" goto 101; on "Set" goto 102; on "AugAssignDiv" goto 103; on "BinOpRShift" goto 104; on "UnaryOpInvert" goto 105; on "Ellipsis" goto 106; on "ListStore" goto 107; on "AugAssignBitAnd" goto 108; on "AugAssignBitXor" goto 109; on "CompareEqEq" goto 110; on "SetComp" goto 111; on "CompareLtLtE" goto 112; on "AugAssignRShift" goto 113; else goto 114

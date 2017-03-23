@@ -1,0 +1,3430 @@
+empty
+UP PREV_DFS WRITE_TYPE PREV_DFS WRITE_VALUE PREV_LEAF PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP PREV_DFS WRITE_TYPE PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+PREV_LEAF WRITE_TYPE WRITE_VALUE
+switch PREV_LEAF PREV_LEAF LEFT WRITE_TYPE: on "Identifier" goto 3; on "ThisExpression" goto 4; else goto 5
+PREV_LEAF WRITE_VALUE
+switch UP WRITE_TYPE: on "MemberExpression" goto 6; else goto 7
+PREV_LEAF WRITE_VALUE
+empty
+empty
+UP UP WRITE_VALUE
+switch PREV_LEAF LEFT WRITE_TYPE: on "ArrayAccess" goto 10; on "CallExpression" goto 11; else goto 12
+UP WRITE_TYPE PREV_DFS WRITE_TYPE PREV_LEAF WRITE_VALUE
+switch UP UP WRITE_TYPE: on "CallExpression" goto 9; on "VariableDeclarator" goto 13; else goto 14
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "Identifier" goto 1; on "ThisExpression" goto 2; on "MemberExpression" goto 8; else goto 15
+UP PREV_NODE_CONTEXT WRITE_POS PREV_NODE_CONTEXT LEFT DOWN_FIRST WRITE_TYPE
+PREV_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+switch UP WRITE_POS: on "-1001" goto 20; else goto 21
+switch PREV_LEAF PREV_NODE_TYPE PREV_DFS WRITE_TYPE: on "Identifier" goto 18; on "ThisExpression" goto 19; else goto 22
+UP WRITE_POS PREV_NODE_CONTEXT PREV_NODE_CONTEXT WRITE_POS DOWN_FIRST WRITE_TYPE
+switch UP PREV_DFS WRITE_TYPE: on "CallExpression" goto 17; on "Property" goto 23; else goto 24
+UP PREV_DFS WRITE_TYPE PREV_LEAF PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP WRITE_POS PREV_NODE_CONTEXT WRITE_POS DOWN_LAST WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+UP WRITE_POS UP WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "Identifier" goto 26; on "ThisExpression" goto 27; else goto 28
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_TYPE PREV_NODE_TYPE DOWN_LAST WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE DOWN_FIRST NEXT_LEAF WRITE_VALUE
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "ThisExpression" goto 30; on "CallExpression" goto 31; else goto 32
+UP PREV_DFS WRITE_TYPE DOWN_LAST PREV_DFS WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP PREV_DFS WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "1" goto 36; on "selector" goto 37; on "args" goto 38; on "classes|namespaces" goto 39; else goto 40
+PREV_LEAF WRITE_VALUE
+empty
+empty
+switch UP WRITE_POS: on "-1000" goto 43; else goto 44
+empty
+empty
+empty
+empty
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "namespaces|elem" goto 47; on "className" goto 48; on "fnOut" goto 49; on "dataTypes" goto 50; else goto 51
+PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "BinaryExpression" goto 52; on "LiteralString" goto 53; on "ArrayExpression" goto 54; else goto 55
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ArrayAccess" goto 35; on "LogicalExpression" goto 41; on "FunctionExpression" goto 42; on "LiteralRegExp" goto 45; on "NewExpression" goto 46; else goto 56
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 16; on "Identifier" goto 25; on "ThisExpression" goto 29; on "MemberExpression" goto 33; on "CallExpression" goto 34; else goto 57
+PREV_DFS PREV_NODE_VALUE RIGHT WRITE_VALUE NEXT_LEAF WRITE_VALUE NEXT_LEAF WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "-1" goto 67; on "args" goto 68; on "handlers|classNames|els" goto 69; on "match" goto 70; else goto 71
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "MemberExpression" goto 62; on "ArrayAccess" goto 63; on "Property" goto 64; on "LiteralString" goto 65; on "LiteralNumber" goto 66; on "UpdateExpression" goto 72; else goto 73
+switch LEFT WRITE_TYPE: on "CallExpression" goto 61; else goto 74
+switch LEFT PREV_NODE_VALUE RIGHT WRITE_TYPE: on "Property" goto 59; on "LiteralNumber" goto 60; else goto 75
+LEFT WRITE_TYPE PREV_LEAF WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+switch LEFT WRITE_VALUE: on "deferred" goto 78; else goto 79
+UP WRITE_POS
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "elem" goto 81; on "valHooks" goto 82; on "cache" goto 83; on "relative" goto 84; else goto 85
+PREV_DFS WRITE_VALUE
+LEFT WRITE_VALUE
+PREV_DFS WRITE_POS WRITE_VALUE UP PREV_LEAF WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "MemberExpression" goto 77; on "ArrayAccess" goto 80; on "CallExpression" goto 86; on "BinaryExpression" goto 87; on "UpdateExpression" goto 88; else goto 89
+PREV_DFS WRITE_VALUE UP PREV_LEAF WRITE_VALUE
+empty
+empty
+switch LEFT WRITE_VALUE: on "-1" goto 92; else goto 93
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "" goto 110; else goto 111
+switch PREV_DFS WRITE_VALUE: on "" goto 109; else goto 112
+switch PREV_DFS WRITE_VALUE: on "" goto 108; else goto 113
+switch PREV_DFS WRITE_VALUE: on "" goto 107; else goto 114
+switch PREV_DFS WRITE_VALUE: on "" goto 106; else goto 115
+switch PREV_DFS WRITE_VALUE: on "" goto 105; else goto 116
+switch PREV_DFS WRITE_VALUE: on "" goto 104; else goto 117
+switch PREV_DFS WRITE_VALUE: on "" goto 103; else goto 118
+switch PREV_DFS WRITE_VALUE: on "" goto 102; else goto 119
+switch PREV_DFS WRITE_VALUE: on "" goto 101; else goto 120
+switch PREV_DFS WRITE_VALUE: on "" goto 100; else goto 121
+switch PREV_DFS WRITE_VALUE: on "" goto 97; on "relative|filter" goto 98; on "find" goto 99; else goto 122
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 94; on "BinaryExpression" goto 95; on "LiteralString" goto 96; else goto 123
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+switch UP WRITE_POS: on "-1000" goto 126; else goto 127
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "valHooks" goto 128; on "steps" goto 129; else goto 130
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 76; on "Identifier" goto 90; on "Property" goto 91; on "LiteralString" goto 124; on "LiteralNumber" goto 125; else goto 131
+switch LEFT NEXT_LEAF UP WRITE_TYPE: on "MemberExpression" goto 0; on "Program" goto 58; else goto 132
+empty
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "target|sel" goto 135; on "selectors" goto 136; else goto 137
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+switch UP PREV_LEAF WRITE_VALUE: on "elem" goto 142; else goto 143
+LEFT PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch LEFT LEFT WRITE_VALUE: on "parseInt" goto 134; on "jQuery" goto 138; on "setTimeout" goto 139; on "$inherits" goto 140; on "forEach" goto 141; on "matcher" goto 144; else goto 145
+LEFT LEFT WRITE_TYPE PREV_DFS WRITE_VALUE NEXT_LEAF RIGHT WRITE_VALUE
+switch WRITE_POS: on "-1002" goto 146; else goto 147
+UP PREV_LEAF LEFT WRITE_TYPE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+switch LEFT PREV_NODE_TYPE WRITE_VALUE: on "target" goto 152; else goto 153
+empty
+empty
+switch UP UP PREV_NODE_VALUE WRITE_TYPE: on "Identifier" goto 150; on "ArrayAccess" goto 151; on "VariableDeclarator" goto 154; on "ExpressionStatement" goto 155; else goto 156
+empty
+empty
+empty
+switch LEFT PREV_NODE_TYPE WRITE_VALUE: on "document" goto 158; on "hooks" goto 159; else goto 160
+UP PREV_DFS WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "addCombinator" goto 169; else goto 170
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "fn" goto 172; on "$parse" goto 173; else goto 174
+empty
+LEFT WRITE_VALUE
+switch LEFT PREV_NODE_VALUE RIGHT WRITE_TYPE: on "Identifier" goto 165; on "MemberExpression" goto 166; on "LiteralString" goto 167; on "ArrayExpression" goto 168; on "FunctionExpression" goto 171; on "BlockStatement" goto 175; on "ObjectExpression" goto 176; else goto 177
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "createPositionalPseudo" goto 179; on "addToPrefiltersOrTransports" goto 180; else goto 181
+empty
+empty
+empty
+PREV_NODE_VALUE NEXT_LEAF DOWN_FIRST WRITE_TYPE
+empty
+switch LEFT PREV_NODE_VALUE RIGHT WRITE_TYPE: on "Identifier" goto 182; on "BinaryExpression" goto 183; on "LiteralString" goto 184; on "FunctionExpression" goto 185; on "LiteralNumber" goto 186; else goto 187
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+LEFT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "it" goto 190; on "describe" goto 191; on "clearTimeout" goto 192; else goto 193
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch UP UP WRITE_TYPE: on "VariableDeclarator" goto 178; on "Property" goto 188; on "LogicalExpression" goto 189; on "ExpressionStatement" goto 194; on "ReturnStatement" goto 195; else goto 196
+switch LEFT WRITE_VALUE: on "parseInt" goto 149; on "jQuery" goto 157; on "setTimeout" goto 161; on "$" goto 162; on "require" goto 163; on "define" goto 164; else goto 197
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+LEFT PREV_DFS PREV_LEAF WRITE_VALUE
+UP PREV_LEAF WRITE_VALUE
+empty
+LEFT PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_VALUE: on "-1" goto 201; on "elem" goto 202; on "arguments" goto 203; else goto 204
+LEFT PREV_DFS PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "preexisting" goto 209; else goto 210
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "obj" goto 212; on "deep" goto 213; else goto 214
+LEFT PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "each" goto 208; on "splice" goto 211; on "extend" goto 215; else goto 216
+empty
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "queue|set" goto 218; on "map" goto 219; on "prop" goto 220; on "merge" goto 221; else goto 222
+empty
+empty
+empty
+empty
+switch LEFT PREV_DFS LEFT WRITE_VALUE: on "-1" goto 224; on "Ext" goto 225; on "ace" goto 226; else goto 227
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+switch LEFT PREV_DFS PREV_DFS WRITE_VALUE: on "console" goto 231; on "Y|YAHOO" goto 232; else goto 233
+empty
+switch LEFT PREV_DFS WRITE_VALUE: on "addEventListener" goto 230; on "log" goto 234; else goto 235
+LEFT WRITE_VALUE
+empty
+empty
+empty
+switch LEFT PREV_DFS PREV_DFS WRITE_VALUE: on "-1" goto 238; on "YUI" goto 239; else goto 240
+empty
+empty
+switch LEFT WRITE_VALUE: on "ngLocale" goto 242; else goto 243
+empty
+empty
+LEFT PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "setLang" goto 246; else goto 247
+LEFT WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+empty
+LEFT WRITE_VALUE
+switch UP PREV_LEAF WRITE_VALUE: on "data" goto 251; else goto 252
+LEFT WRITE_VALUE
+empty
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch LEFT PREV_LEAF WRITE_VALUE: on "data" goto 253; on "trigger" goto 254; on "demands" goto 255; on "directive" goto 256; on "test" goto 257; else goto 258
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch LEFT PREV_DFS WRITE_VALUE: on "makeTestYear" goto 261; on "assertEquals" goto 262; else goto 263
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+LEFT WRITE_VALUE
+switch LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE: on "ThisExpression" goto 266; on "CallExpression" goto 267; on "FunctionExpression" goto 268; on "LiteralBoolean" goto 269; on "UnaryExpression" goto 270; else goto 271
+switch LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE: on "-1" goto 248; on "Identifier" goto 249; on "MemberExpression" goto 250; on "LiteralString" goto 259; on "ArrayExpression" goto 260; on "LiteralNumber" goto 264; on "ObjectExpression" goto 265; else goto 272
+switch LEFT PREV_DFS WRITE_VALUE: on "define" goto 228; on "set" goto 229; on "addEventListener|log|bind" goto 236; on "css|setAttribute" goto 237; on "add" goto 241; on "module" goto 244; on "exportSymbol" goto 245; else goto 273
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1002" goto 280; else goto 281
+switch LEFT PREV_DFS WRITE_VALUE: on "slice" goto 275; on "substring" goto 276; on "substr" goto 277; on "max" goto 278; on "pow" goto 279; else goto 282
+UP PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+switch LEFT WRITE_VALUE: on "-1" goto 284; else goto 285
+empty
+empty
+WRITE_POS LEFT PREV_DFS WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "extend" goto 286; on "merge" goto 287; on "ownerDocument" goto 288; else goto 289
+switch LEFT WRITE_TYPE: on "Identifier" goto 217; on "ThisExpression" goto 223; on "LiteralString" goto 274; on "LiteralNumber" goto 283; else goto 290
+switch LEFT PREV_LEAF WRITE_VALUE: on "replace" goto 199; on "on" goto 200; on "call" goto 205; on "apply" goto 206; on "attr" goto 207; else goto 291
+LEFT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_TYPE: on "LiteralString" goto 293; else goto 294
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_DFS WRITE_VALUE: on "-1" goto 297; on "0" goto 298; on "length" goto 299; else goto 300
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_VALUE DOWN_LAST WRITE_TYPE: on "LiteralString" goto 302; on "LiteralNull" goto 303; else goto 304
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE NEXT_LEAF WRITE_VALUE
+switch UP PREV_NODE_VALUE DOWN_LAST WRITE_TYPE: on "Identifier" goto 308; on "MemberExpression" goto 309; on "LiteralNumber" goto 310; else goto 311
+switch UP WRITE_VALUE: on "\p" goto 295; on "\e\e\e" goto 296; on "<" goto 301; on "\e\e|!\e" goto 305; on "!\e\e" goto 306; on "in" goto 307; else goto 312
+empty
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch LEFT WRITE_VALUE: on "change._change" goto 314; on "globalEval" goto 315; on "boxSizing" goto 316; on "olddisplay" goto 317; on "fxshow" goto 318; else goto 319
+empty
+empty
+empty
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+UP PREV_NODE_VALUE DOWN_FIRST DOWN_LAST WRITE_VALUE
+switch LEFT PREV_DFS PREV_DFS WRITE_VALUE: on "setLang" goto 327; on "on" goto 328; else goto 329
+empty
+empty
+switch LEFT PREV_NODE_VALUE WRITE_POS: on "-1001" goto 331; else goto 332
+UP PREV_NODE_VALUE DOWN_FIRST DOWN_LAST WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_LEAF WRITE_VALUE: on "-1" goto 330; on "appendChild" goto 333; else goto 334
+switch PREV_DFS PREV_LEAF WRITE_VALUE: on "|elem" goto 320; on "it" goto 321; on "describe" goto 322; on "$" goto 323; on "define" goto 324; on "test" goto 325; on "assertEquals" goto 326; else goto 335
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_VALUE: on "type" goto 338; on "options" goto 339; on "context" goto 340; on "tag" goto 341; else goto 342
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "results" goto 344; on "seed" goto 345; on "leadingRelative" goto 346; else goto 347
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+LEFT WRITE_VALUE
+switch UP PREV_DFS WRITE_VALUE: on "\o\o" goto 350; on "preFilter" goto 351; else goto 352
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "args" goto 354; on "type" goto 355; on "options" goto 356; on "context" goto 357; on "results" goto 358; on "tmp|srcElements|destElements" goto 359; on "firingStart" goto 360; else goto 361
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+switch UP UP WRITE_TYPE: on "ExpressionStatement" goto 371; on "ConditionalExpression" goto 372; else goto 373
+switch LEFT WRITE_VALUE: on "selector|queue" goto 364; on "elem" goto 365; on "preexisting|context" goto 366; on "value" goto 367; on "types" goto 368; on "postFinder" goto 369; on "pattern" goto 370; else goto 374
+switch UP UP WRITE_TYPE: on "CallExpression" goto 343; on "VariableDeclarator" goto 348; on "BinaryExpression" goto 349; on "LogicalExpression" goto 353; on "AssignmentExpression" goto 362; on "IfStatement" goto 363; else goto 375
+switch UP WRITE_VALUE: on "\a\a" goto 337; else goto 376
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT PREV_NODE_VALUE RIGHT WRITE_VALUE NEXT_LEAF WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE WRITE_POS
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+switch LEFT PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "VariableDeclarator" goto 381; on "LiteralString" goto 382; on "LiteralNumber" goto 383; on "LiteralBoolean" goto 384; else goto 385
+LEFT WRITE_VALUE
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "compile|setDocument" goto 388; on "contains" goto 389; else goto 390
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "firingStart" goto 392; on "documentIsHTML" goto 393; else goto 394
+empty
+LEFT WRITE_VALUE
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "handlers|eventHandle" goto 398; on "stack|dirruns" goto 399; on "gTestfile" goto 400; else goto 401
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "list" goto 403; on "bulk" goto 404; else goto 405
+LEFT PREV_NODE_VALUE PREV_LEAF WRITE_VALUE NEXT_LEAF WRITE_VALUE
+switch LEFT PREV_NODE_VALUE PREV_DFS WRITE_TYPE: on "ArrayAccess" goto 387; on "CallExpression" goto 391; on "LogicalExpression" goto 395; on "UpdateExpression" goto 396; on "UnaryExpression" goto 397; on "AssignmentExpression" goto 402; on "IfStatement" goto 406; else goto 407
+switch LEFT PREV_NODE_VALUE UP WRITE_TYPE: on "MemberExpression" goto 378; on "BinaryExpression" goto 379; on "FunctionExpression" goto 380; on "VariableDeclaration" goto 386; else goto 408
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "value" goto 410; on "fixHook" goto 411; on "xhrSupported" goto 412; else goto 413
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch UP LEFT WRITE_VALUE: on "-1" goto 414; on "type" goto 415; on "tmp" goto 416; on "stack|nid" goto 417; on "origCount" goto 418; on "start" goto 419; on "diff" goto 420; else goto 421
+empty
+empty
+switch UP LEFT WRITE_TYPE: on "BinaryExpression" goto 423; else goto 424
+LEFT WRITE_VALUE
+empty
+switch UP WRITE_POS: on "-1002" goto 425; on "-1000" goto 426; else goto 427
+LEFT WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+switch UP PREV_DFS PREV_DFS WRITE_TYPE: on "Identifier" goto 429; on "ForStatement" goto 430; else goto 431
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "cache" goto 433; on "type" goto 434; on "diff" goto 435; on "j" goto 436; on "tokens" goto 437; on "matches" goto 438; on "key" goto 439; else goto 440
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "data" goto 443; on "matcherOut" goto 444; else goto 445
+switch UP WRITE_POS: on "-1001" goto 441; on "-1000" goto 442; else goto 446
+switch UP UP WRITE_TYPE: on "ExpressionStatement" goto 409; on "AssignmentExpression" goto 422; on "ForStatement" goto 428; on "SequenceExpression" goto 432; else goto 447
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+switch LEFT LEFT WRITE_VALUE: on "fn" goto 450; on "define" goto 451; on "ngLocale" goto 452; else goto 453
+UP PREV_NODE_VALUE DOWN_FIRST DOWN_LAST WRITE_VALUE
+empty
+empty
+empty
+empty
+switch WRITE_POS: on "-1003" goto 458; else goto 459
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch UP PREV_LEAF WRITE_VALUE: on "-1" goto 456; on "elem" goto 457; on "0" goto 460; on "elements" goto 461; else goto 462
+LEFT WRITE_VALUE PREV_DFS WRITE_VALUE
+switch LEFT WRITE_TYPE: on "ThisExpression" goto 449; on "ArrayExpression" goto 454; on "LiteralNumber" goto 455; on "LiteralNull" goto 463; else goto 464
+switch LEFT PREV_DFS RIGHT WRITE_TYPE: on "Identifier" goto 148; on "CallExpression" goto 198; on "Property" goto 292; on "BinaryExpression" goto 313; on "LiteralString" goto 336; on "LogicalExpression" goto 377; on "AssignmentExpression" goto 448; else goto 465
+empty
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+empty
+LEFT PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch UP PREV_LEAF WRITE_VALUE: on "className" goto 467; on "value" goto 468; on "ptr" goto 469; on "pushStack" goto 470; on "false" goto 471; else goto 472
+UP WRITE_POS
+empty
+empty
+empty
+LEFT LEFT WRITE_VALUE
+switch LEFT LEFT WRITE_VALUE: on "fn" goto 474; on "data" goto 475; on "getAll" goto 476; on "cloneCopyEvent" goto 477; else goto 478
+LEFT PREV_NODE_TYPE WRITE_VALUE
+LEFT PREV_NODE_VALUE RIGHT WRITE_VALUE
+empty
+empty
+empty
+empty
+switch UP PREV_LEAF WRITE_VALUE: on "add" goto 482; on "type|name" goto 483; on "events" goto 484; else goto 485
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_DFS WRITE_VALUE: on "value|parseFloat" goto 488; on "i" goto 489; on "val" goto 490; on "undefined" goto 491; else goto 492
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+LEFT PREV_NODE_VALUE WRITE_POS
+switch UP PREV_DFS WRITE_VALUE: on "-1" goto 495; on "!" goto 496; else goto 497
+empty
+LEFT PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+UP PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "css" goto 493; on "call" goto 494; on "_data" goto 498; on "access|removeEvent" goto 499; on "insertBefore" goto 500; on "_removeData" goto 501; on "swap" goto 502; else goto 503
+switch LEFT PREV_LEAF RIGHT WRITE_VALUE: on "elem" goto 479; on "set" goto 480; on "get" goto 481; on "remove" goto 486; on "nodeName" goto 487; else goto 504
+UP PREV_LEAF WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1002" goto 507; on "-1001" goto 508; on "-1000" goto 509; else goto 510
+empty
+empty
+switch UP WRITE_POS: on "-1000" goto 512; else goto 513
+empty
+empty
+empty
+empty
+switch UP PREV_LEAF WRITE_VALUE: on "selector" goto 514; on "context" goto 515; on "i" goto 516; on "cached" goto 517; else goto 518
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS WRITE_VALUE
+switch UP PREV_LEAF WRITE_VALUE: on "elem" goto 520; on "0" goto 521; on "ret" goto 522; else goto 523
+empty
+empty
+empty
+empty
+switch LEFT PREV_NODE_TYPE WRITE_VALUE: on "elem" goto 525; on "jQuery" goto 526; on "arguments" goto 527; else goto 528
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch LEFT PREV_DFS WRITE_VALUE: on "clone" goto 531; on "fixCloneNodeIssues" goto 532; else goto 533
+LEFT PREV_DFS WRITE_VALUE NEXT_LEAF WRITE_VALUE
+switch LEFT WRITE_VALUE: on "arguments" goto 529; on "i" goto 530; on "node" goto 534; else goto 535
+switch LEFT WRITE_VALUE: on "selector" goto 519; on "name" goto 524; else goto 536
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1002" goto 511; else goto 537
+empty
+empty
+empty
+empty
+empty
+switch LEFT PREV_NODE_TYPE WRITE_VALUE: on "selector" goto 539; on "selectors|handleObj" goto 540; on "j" goto 541; on "i" goto 542; else goto 543
+empty
+empty
+switch UP PREV_NODE_TYPE WRITE_POS: on "-1000" goto 545; else goto 546
+empty
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_VALUE: on "jQuery" goto 544; on "expect|Fay$$_" goto 547; on "callback" goto 548; else goto 549
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 550; on "-1000" goto 551; else goto 552
+empty
+empty
+empty
+empty
+UP PREV_LEAF WRITE_VALUE WRITE_POS
+switch UP PREV_LEAF WRITE_VALUE: on "queue" goto 554; on "type|teardown" goto 555; on "key" goto 556; on "false" goto 557; else goto 558
+empty
+empty
+empty
+switch UP PREV_LEAF WRITE_VALUE: on "each" goto 560; on "types" goto 561; else goto 562
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP LEFT PREV_LEAF WRITE_VALUE: on "value" goto 564; on "j" goto 565; on "key" goto 566; on "i" goto 567; on "isFunction" goto 568; else goto 569
+LEFT LEFT PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT PREV_NODE_TYPE WRITE_VALUE: on "elem" goto 559; on "type" goto 563; on "value" goto 570; else goto 571
+switch WRITE_POS: on "-1002" goto 538; on "-1001" goto 553; else goto 572
+switch LEFT WRITE_VALUE: on "-1" goto 473; on "elem" goto 505; on "$" goto 506; else goto 573
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch LEFT PREV_NODE_VALUE WRITE_POS: on "-1001" goto 576; on "-1000" goto 577; else goto 578
+LEFT PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+switch UP UP WRITE_POS: on "-1001" goto 580; on "-1000" goto 581; else goto 582
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_LEAF PREV_DFS WRITE_VALUE: on "-1" goto 584; on "1" goto 585; on "jQuery" goto 586; on "keepScripts" goto 587; else goto 588
+LEFT PREV_NODE_VALUE PREV_NODE_TYPE WRITE_VALUE
+LEFT PREV_NODE_VALUE WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE WRITE_POS
+switch LEFT WRITE_VALUE: on "selector" goto 579; on "fn" goto 583; on "context" goto 589; on "value" goto 590; else goto 591
+switch UP WRITE_TYPE: on "CallExpression" goto 574; on "BinaryExpression" goto 575; else goto 592
+LEFT PREV_LEAF WRITE_VALUE
+empty
+empty
+WRITE_POS LEFT PREV_DFS DOWN_FIRST WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch LEFT WRITE_VALUE: on "$" goto 594; on "expect" goto 595; on "equal" goto 596; else goto 597
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP PREV_DFS WRITE_POS
+LEFT PREV_NODE_TYPE WRITE_VALUE
+empty
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_VALUE: on "selector" goto 600; on "i" goto 601; on "stack1" goto 602; else goto 603
+LEFT WRITE_VALUE
+switch UP WRITE_TYPE: on "CallExpression" goto 598; on "BinaryExpression" goto 599; on "AssignmentExpression" goto 604; else goto 605
+WRITE_POS
+empty
+switch UP PREV_DFS DOWN_LAST WRITE_TYPE: on "CallExpression" goto 607; else goto 608
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "parseInt" goto 610; on "matcherFromTokens" goto 611; else goto 612
+empty
+LEFT WRITE_VALUE
+switch UP UP LEFT WRITE_TYPE: on "Identifier" goto 609; on "LogicalExpression" goto 613; on "ExpressionStatement" goto 614; else goto 615
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 618; else goto 619
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "CallExpression" goto 616; on "LiteralString" goto 617; else goto 620
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+switch UP PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "CallExpression" goto 621; on "AssignmentExpression" goto 622; else goto 623
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+switch UP WRITE_TYPE: on "CallExpression" goto 625; on "AssignmentExpression" goto 626; else goto 627
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1002" goto 631; on "-1001" goto 632; else goto 633
+empty
+LEFT PREV_NODE_TYPE WRITE_VALUE
+empty
+LEFT WRITE_VALUE
+switch UP WRITE_POS: on "-1000" goto 637; else goto 638
+UP UP WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "Identifier" goto 643; on "LiteralString" goto 644; else goto 645
+LEFT PREV_DFS WRITE_VALUE
+switch UP PREV_NODE_TYPE PREV_LEAF WRITE_POS: on "-1006" goto 642; on "-1004" goto 646; else goto 647
+switch LEFT LEFT WRITE_VALUE: on "elem" goto 639; on "getAll" goto 640; on "_yuitest_coverline" goto 641; else goto 648
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT PREV_NODE_CONTEXT RIGHT RIGHT WRITE_POS WRITE_VALUE
+LEFT WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1003" goto 650; on "-1002" goto 651; on "-1001" goto 652; else goto 653
+empty
+empty
+switch WRITE_POS: on "-1003" goto 655; else goto 656
+LEFT PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+PREV_DFS PREV_LEAF WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "define" goto 659; on "assertEquals" goto 660; on "on" goto 661; on "attr" goto 662; on "declare" goto 663; else goto 664
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1003" goto 657; on "-1002" goto 658; else goto 665
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "Identifier" goto 670; on "ThisExpression" goto 671; on "LiteralString" goto 672; else goto 673
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_POS: on "-1003" goto 669; else goto 674
+UP WRITE_POS
+WRITE_POS
+switch WRITE_POS: on "-1003" goto 675; on "-1001" goto 676; else goto 677
+switch LEFT PREV_DFS WRITE_TYPE: on "Identifier" goto 649; on "CallExpression" goto 654; on "Property" goto 666; on "BinaryExpression" goto 667; on "AssignmentExpression" goto 668; else goto 678
+switch LEFT WRITE_VALUE: on "it" goto 629; on "describe" goto 630; on "$" goto 634; on "require|$dynamic" goto 635; on "type" goto 636; else goto 679
+UP LEFT DOWN_FIRST WRITE_TYPE WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+LEFT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS PREV_NODE_TYPE WRITE_POS LEFT DOWN_LAST WRITE_VALUE
+switch LEFT PREV_DFS WRITE_TYPE: on "CallExpression" goto 681; on "Property" goto 682; on "BinaryExpression" goto 683; on "AssignmentExpression" goto 684; else goto 685
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+LEFT PREV_LEAF WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "sel" goto 687; on "each" goto 688; on "call" goto 689; on "apply" goto 690; on "contains" goto 691; on "access" goto 692; else goto 693
+LEFT PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch WRITE_POS: on "-1003" goto 697; else goto 698
+LEFT PREV_DFS WRITE_VALUE
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "selector" goto 699; on "elem" goto 700; else goto 701
+switch LEFT WRITE_VALUE: on "-1" goto 694; on "jQuery" goto 695; on "$" goto 696; else goto 702
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+switch UP WRITE_TYPE: on "CallExpression" goto 704; on "AssignmentExpression" goto 705; else goto 706
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+empty
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT PREV_NODE_VALUE PREV_NODE_TYPE WRITE_VALUE: on "selector" goto 709; on "list" goto 710; on "div" goto 711; else goto 712
+empty
+switch UP WRITE_TYPE: on "AssignmentExpression" goto 713; else goto 714
+empty
+empty
+switch WRITE_POS: on "-1002" goto 716; else goto 717
+LEFT PREV_LEAF PREV_LEAF PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_TYPE: on "ArrayExpression" goto 718; else goto 719
+empty
+UP UP WRITE_POS
+empty
+empty
+LEFT PREV_NODE_TYPE WRITE_VALUE
+switch LEFT WRITE_VALUE: on "-1" goto 721; on "selector" goto 722; on "tokens" goto 723; on "temp" goto 724; else goto 725
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1000" goto 720; else goto 726
+switch LEFT PREV_DFS UP WRITE_TYPE: on "ArrayAccess|NewExpression" goto 708; on "ExpressionStatement" goto 715; else goto 727
+LEFT PREV_NODE_VALUE WRITE_POS
+LEFT PREV_NODE_TYPE WRITE_VALUE
+empty
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_VALUE: on "data" goto 729; on "i" goto 730; on "stack1|event" goto 731; else goto 732
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+LEFT PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+switch LEFT PREV_NODE_TYPE WRITE_VALUE: on "type" goto 738; on "types" goto 739; else goto 740
+empty
+empty
+switch LEFT PREV_NODE_TYPE WRITE_VALUE: on "j" goto 742; else goto 743
+empty
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_VALUE: on "args" goto 734; on "elem" goto 735; on "hooks" goto 736; on "data" goto 737; on "type" goto 741; on "tmp" goto 744; on "special" goto 745; else goto 746
+empty
+empty
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+LEFT PREV_NODE_TYPE WRITE_VALUE
+switch LEFT WRITE_VALUE: on "selector" goto 748; on "tmp|node|outermostContext" goto 749; on "diff" goto 750; on "cur" goto 751; on "handle" goto 752; on "memory" goto 753; on "newSelector" goto 754; else goto 755
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_VALUE: on "-1" goto 733; on "\o\o" goto 747; else goto 756
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+switch WRITE_POS: on "-1002" goto 763; on "-1001" goto 764; else goto 765
+switch LEFT PREV_DFS WRITE_VALUE: on "-1" goto 758; on "merge" goto 759; on "call" goto 760; on "access" goto 761; on "winnow" goto 762; else goto 766
+switch UP WRITE_TYPE: on "AssignmentExpression" goto 757; else goto 767
+empty
+empty
+empty
+empty
+empty
+switch LEFT PREV_DFS WRITE_VALUE: on "call" goto 769; on "apply" goto 770; on "access" goto 771; on "clone" goto 772; else goto 773
+empty
+LEFT PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_VALUE: on "-1" goto 774; on "setTimeout" goto 775; else goto 776
+LEFT PREV_LEAF WRITE_VALUE
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "target" goto 779; else goto 780
+empty
+switch UP WRITE_TYPE: on "CallExpression" goto 778; on "AssignmentExpression" goto 781; else goto 782
+LEFT WRITE_TYPE PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+UP PREV_NODE_TYPE PREV_LEAF WRITE_VALUE
+switch UP WRITE_TYPE: on "CallExpression" goto 784; on "AssignmentExpression" goto 785; else goto 786
+LEFT WRITE_VALUE
+empty
+empty
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+switch LEFT PREV_DFS WRITE_TYPE: on "CallExpression" goto 789; on "BinaryExpression" goto 790; on "AssignmentExpression" goto 791; else goto 792
+LEFT PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+empty
+switch UP PREV_DFS DOWN_FIRST WRITE_VALUE: on "\e\e\e" goto 795; on "null" goto 796; else goto 797
+PREV_DFS WRITE_VALUE
+switch UP WRITE_TYPE: on "CallExpression" goto 794; on "BinaryExpression" goto 798; else goto 799
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_VALUE: on "handlers|type" goto 801; on "nid" goto 802; on "start" goto 803; on "cur" goto 804; on "null" goto 805; else goto 806
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "$" goto 808; on "j" goto 809; else goto 810
+empty
+switch WRITE_POS: on "-1001" goto 811; else goto 812
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "NewExpression" goto 788; on "UnaryExpression" goto 793; on "LiteralNull" goto 800; on "AssignmentExpression" goto 807; else goto 813
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ThisExpression" goto 703; on "ArrayAccess" goto 707; on "ArrayExpression" goto 728; on "LogicalExpression|ConditionalExpression" goto 768; on "FunctionExpression" goto 777; on "ObjectExpression" goto 783; on "LiteralBoolean" goto 787; else goto 814
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 466; on "Identifier" goto 593; on "MemberExpression" goto 606; on "CallExpression" goto 624; on "BinaryExpression" goto 628; on "LiteralString" goto 680; on "LiteralNumber" goto 686; else goto 815
+empty
+UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF PREV_DFS LEFT WRITE_VALUE: on "require" goto 817; else goto 818
+UP PREV_DFS WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+UP PREV_DFS WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF DOWN_FIRST RIGHT WRITE_TYPE: on "ExpressionStatement" goto 821; on "VariableDeclaration" goto 822; else goto 823
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "Identifier" goto 819; on "MemberExpression" goto 820; else goto 824
+UP PREV_NODE_CONTEXT PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE RIGHT PREV_DFS WRITE_VALUE NEXT_LEAF NEXT_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "CallExpression" goto 829; else goto 830
+empty
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF PREV_DFS WRITE_TYPE DOWN_FIRST WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_DFS WRITE_TYPE: on "MemberExpression" goto 831; on "VariableDeclarator" goto 832; on "ExpressionStatement" goto 833; else goto 834
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1002" goto 827; on "-1001" goto 828; on "-1000" goto 835; else goto 836
+PREV_LEAF LEFT WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+WRITE_POS
+empty
+switch UP PREV_NODE_CONTEXT WRITE_POS: on "-1001" goto 839; else goto 840
+PREV_LEAF WRITE_VALUE
+switch UP PREV_DFS WRITE_TYPE: on "CallExpression|ReturnStatement" goto 841; else goto 842
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 844; on "Program" goto 845; else goto 846
+empty
+switch PREV_DFS PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ArrayAccess" goto 838; on "CallExpression" goto 843; on "FunctionExpression" goto 847; else goto 848
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 825; on "Identifier" goto 826; on "MemberExpression" goto 837; else goto 849
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+LEFT DOWN_LAST WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "define" goto 856; on "setLang" goto 857; on "add" goto 858; on "provide" goto 859; on "registerTest" goto 860; else goto 861
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch UP PREV_LEAF WRITE_TYPE: on "Identifier" goto 855; on "Program" goto 862; else goto 863
+switch PREV_DFS WRITE_VALUE: on "on" goto 853; on "push" goto 854; else goto 864
+empty
+empty
+switch UP PREV_LEAF WRITE_VALUE: on "args" goto 866; else goto 867
+empty
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "each" goto 868; on "replace" goto 869; on "call" goto 870; on "apply" goto 871; on "join" goto 872; else goto 873
+PREV_DFS PREV_DFS WRITE_VALUE
+empty
+LEFT DOWN_FIRST WRITE_VALUE
+PREV_DFS PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch UP PREV_LEAF WRITE_VALUE: on "-1" goto 880; on "context" goto 881; on "pushStack" goto 882; on "name|index" goto 883; on "undefined" goto 884; on "done" goto 885; on "parsed" goto 886; else goto 887
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "extend" goto 889; on "isFunction" goto 890; on "inArray" goto 891; on "proxy" goto 892; else goto 893
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "max|min" goto 895; on "pow" goto 896; on "floor" goto 897; else goto 898
+empty
+UP PREV_DFS WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "match" goto 900; on "slice" goto 901; on "concat" goto 902; on "split" goto 903; else goto 904
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "-1" goto 879; on "jQuery" goto 888; on "$" goto 894; on "Math" goto 899; else goto 905
+switch PREV_DFS WRITE_VALUE: on "test" goto 875; on "replace" goto 876; on "join" goto 877; on "indexOf" goto 878; else goto 906
+switch UP UP WRITE_TYPE: on "MemberExpression" goto 851; on "VariableDeclarator" goto 852; on "ExpressionStatement" goto 865; on "ReturnStatement" goto 874; else goto 907
+PREV_DFS PREV_DFS WRITE_VALUE
+PREV_DFS PREV_DFS WRITE_VALUE
+PREV_DFS PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+switch UP PREV_LEAF WRITE_VALUE: on "-1" goto 913; on "56320" goto 914; else goto 915
+empty
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "type" goto 912; on "push" goto 916; on "_default" goto 917; on "firingIndex" goto 918; else goto 919
+empty
+empty
+switch UP PREV_DFS WRITE_VALUE: on "-1" goto 921; else goto 922
+PREV_DFS PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE UP PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1002" goto 925; on "-1001|-1000" goto 926; else goto 927
+switch PREV_LEAF WRITE_VALUE: on "test" goto 909; on "replace" goto 910; on "call" goto 911; on "apply" goto 920; on "appendChild" goto 923; on "push" goto 924; else goto 928
+empty
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+switch LEFT DOWN_FIRST WRITE_VALUE: on "-1" goto 930; on "jQuery" goto 931; else goto 932
+empty
+empty
+empty
+empty
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+switch UP WRITE_POS: on "-1000" goto 937; else goto 938
+switch PREV_DFS PREV_NODE_TYPE WRITE_VALUE: on "fn" goto 934; on "type" goto 935; on "key" goto 936; else goto 939
+empty
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+switch LEFT DOWN_FIRST WRITE_VALUE: on "rfocusMorph" goto 941; on "rvalidchars" goto 942; else goto 943
+PREV_DFS PREV_DFS WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "forEach" goto 946; else goto 947
+switch PREV_LEAF WRITE_VALUE: on "each" goto 933; on "extend" goto 940; on "test" goto 944; on "push" goto 945; else goto 948
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_LEAF WRITE_VALUE: on "args" goto 952; on "stopPropagation" goto 953; on "display" goto 954; else goto 955
+empty
+switch LEFT DOWN_FIRST WRITE_VALUE: on "-1" goto 951; on "jQuery" goto 956; else goto 957
+empty
+empty
+empty
+empty
+switch UP PREV_DFS WRITE_VALUE: on "-1" goto 959; on "handleObj" goto 960; on "null" goto 961; else goto 962
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "each" goto 958; on "extend" goto 963; on "pipe" goto 964; else goto 965
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT WRITE_POS: on "-1001" goto 950; on "-1000" goto 966; else goto 967
+PREV_DFS WRITE_VALUE PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "each" goto 970; on "extend" goto 971; on "map" goto 972; on "call" goto 973; on "contains" goto 974; on "push" goto 975; else goto 976
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 969; else goto 977
+empty
+empty
+empty
+switch LEFT DOWN_FIRST WRITE_VALUE: on "-1" goto 979; on "jQuery" goto 980; else goto 981
+empty
+UP UP WRITE_POS
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 987; else goto 988
+switch PREV_DFS WRITE_VALUE: on "each" goto 982; on "extend" goto 983; on "pushStack" goto 984; on "equal|deepEqual" goto 985; on "push" goto 986; else goto 989
+PREV_DFS WRITE_VALUE
+UP PREV_NODE_TYPE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001|-1000" goto 991; else goto 992
+PREV_DFS PREV_DFS WRITE_VALUE
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "forEach|each" goto 994; on "pushStack" goto 995; on "push" goto 996; on "proxy" goto 997; on "then" goto 998; else goto 999
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "extend" goto 1001; on "apply" goto 1002; on "declare|create" goto 1003; on "push" goto 1004; else goto 1005
+empty
+UP PREV_LEAF WRITE_VALUE
+empty
+switch LEFT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 1008; else goto 1009
+LEFT DOWN_FIRST DOWN_FIRST WRITE_VALUE
+empty
+empty
+switch UP PREV_DFS WRITE_VALUE: on "-1" goto 1011; on "e|prototype" goto 1012; else goto 1013
+PREV_DFS PREV_DFS WRITE_VALUE
+empty
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+UP PREV_LEAF WRITE_VALUE
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "contains" goto 1023; on "promise" goto 1024; else goto 1025
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+switch UP PREV_LEAF PREV_NODE_TYPE WRITE_VALUE: on "i" goto 1028; on "assert" goto 1029; on "result" goto 1030; else goto 1031
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "merge" goto 1034; on "charAt" goto 1035; on "charCodeAt" goto 1036; else goto 1037
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ArrayExpression" goto 1022; on "LogicalExpression" goto 1026; on "NewExpression" goto 1027; on "UnaryExpression" goto 1032; on "ConditionalExpression" goto 1033; else goto 1038
+PREV_DFS WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 1021; on "-1000" goto 1039; else goto 1040
+switch PREV_DFS WRITE_VALUE: on "map" goto 1018; on "pushStack" goto 1019; on "ok" goto 1020; else goto 1041
+switch PREV_DFS WRITE_VALUE: on "forEach" goto 1007; on "each" goto 1010; on "extend" goto 1014; on "test" goto 1015; on "equal|deepEqual" goto 1016; on "push" goto 1017; else goto 1042
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Identifier" goto 949; on "MemberExpression" goto 968; on "ArrayAccess" goto 978; on "CallExpression" goto 990; on "BinaryExpression" goto 993; on "FunctionExpression" goto 1000; on "ObjectExpression" goto 1006; else goto 1043
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 929; else goto 1044
+LEFT DOWN_FIRST WRITE_VALUE
+UP UP WRITE_TYPE
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "each" goto 1046; on "merge" goto 1047; else goto 1048
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "appendChild|wrapSVGAnimatedLength" goto 1051; on "push" goto 1052; on "append" goto 1053; else goto 1054
+PREV_DFS PREV_DFS WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT WRITE_POS: on "-1000" goto 1058; else goto 1059
+switch PREV_DFS WRITE_VALUE: on "each" goto 1056; on "proxy" goto 1057; else goto 1060
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Identifier" goto 1049; on "MemberExpression" goto 1050; on "CallExpression" goto 1055; else goto 1061
+empty
+empty
+empty
+switch UP PREV_LEAF WRITE_POS: on "-1003" goto 1063; on "-1000" goto 1064; else goto 1065
+empty
+empty
+empty
+empty
+switch PREV_DFS PREV_DFS PREV_NODE_VALUE WRITE_TYPE: on "Identifier" goto 1068; on "Property" goto 1069; else goto 1070
+PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_TYPE WRITE_VALUE: on "slice" goto 1073; on "length" goto 1074; on "dispatch" goto 1075; on "domManip" goto 1076; else goto 1077
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "queue" goto 1079; on "map" goto 1080; on "select" goto 1081; else goto 1082
+empty
+empty
+empty
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "each" goto 1084; on "merge" goto 1085; on "contains" goto 1086; on "access|dequeue" goto 1087; on "nodeName" goto 1088; else goto 1089
+empty
+empty
+switch UP WRITE_POS: on "-1001" goto 1091; else goto 1092
+UP PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "-1" goto 1083; on "jQuery" goto 1090; on "hooks" goto 1093; on "data_priv" goto 1094; else goto 1095
+switch PREV_DFS WRITE_VALUE: on "extend" goto 1066; on "bind" goto 1067; on "add" goto 1071; on "call" goto 1072; on "apply" goto 1078; else goto 1096
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1000" goto 1062; else goto 1097
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+empty
+LEFT DOWN_FIRST WRITE_VALUE
+empty
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+PREV_DFS PREV_DFS WRITE_VALUE PREV_LEAF PREV_LEAF WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+LEFT DOWN_FIRST PREV_NODE_TYPE WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "each" goto 1109; on "assert" goto 1110; on "append" goto 1111; on "error" goto 1112; on "write" goto 1113; else goto 1114
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 1108; else goto 1115
+switch PREV_DFS WRITE_VALUE: on "require|provide" goto 1101; on "log" goto 1102; on "css|attr" goto 1103; on "setAttribute" goto 1104; on "on" goto 1105; on "push" goto 1106; on "addClass|removeClass" goto 1107; else goto 1116
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "each" goto 1118; on "join" goto 1119; on "getElementsByClassName" goto 1120; on "getElementsByTagName" goto 1121; else goto 1122
+empty
+empty
+empty
+switch UP UP WRITE_TYPE: on "MemberExpression" goto 1125; else goto 1126
+empty
+empty
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "find" goto 1124; on "attr" goto 1127; on "get" goto 1128; on "split" goto 1129; else goto 1130
+PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 1131; else goto 1132
+switch UP PREV_DFS WRITE_TYPE: on "Identifier" goto 1099; on "BinaryExpression" goto 1100; on "ExpressionStatement" goto 1117; on "ReturnStatement" goto 1123; else goto 1133
+empty
+UP PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "merge" goto 1135; on "apply" goto 1136; else goto 1137
+empty
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "replace" goto 1139; on "split" goto 1140; else goto 1141
+PREV_DFS WRITE_VALUE PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+PREV_DFS PREV_LEAF RIGHT WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "slice" goto 1144; on "eq" goto 1145; else goto 1146
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 1143; else goto 1147
+empty
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "$" goto 1149; on "_" goto 1150; on "Object" goto 1151; else goto 1152
+empty
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+switch LEFT DOWN_FIRST WRITE_VALUE: on "$" goto 1154; else goto 1155
+empty
+empty
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 1159; on "-1000" goto 1160; else goto 1161
+switch PREV_DFS WRITE_VALUE: on "extend" goto 1156; on "cloneNode" goto 1157; on "toEqual" goto 1158; else goto 1162
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "apply" goto 1164; else goto 1165
+PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "ArrayExpression" goto 1138; on "LiteralRegExp" goto 1142; on "LiteralNumber" goto 1148; on "ObjectExpression" goto 1153; on "LiteralBoolean" goto 1163; on "LiteralNull" goto 1166; else goto 1167
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 908; on "Identifier" goto 1045; on "ThisExpression" goto 1098; on "LiteralString" goto 1134; else goto 1168
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch LEFT DOWN_FIRST DOWN_LAST WRITE_TYPE: on "LiteralString" goto 1170; else goto 1171
+empty
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "length" goto 1173; on "type" goto 1174; else goto 1175
+PREV_DFS PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+LEFT DOWN_FIRST DOWN_LAST WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "length" goto 1179; on "handle" goto 1180; on "toLowerCase" goto 1181; else goto 1182
+switch LEFT WRITE_TYPE: on "MemberExpression" goto 1176; on "ArrayAccess" goto 1177; on "UnaryExpression" goto 1178; else goto 1183
+empty
+PREV_DFS WRITE_VALUE
+switch LEFT WRITE_TYPE: on "UnaryExpression" goto 1185; else goto 1186
+empty
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch LEFT DOWN_LAST WRITE_VALUE: on "-1" goto 1187; on "length" goto 1188; else goto 1189
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+switch LEFT WRITE_VALUE: on "-1" goto 1191; else goto 1192
+LEFT DOWN_LAST WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "length" goto 1195; else goto 1196
+switch UP WRITE_VALUE: on "\p" goto 1172; on "\e\e\e" goto 1184; on "\e\e" goto 1190; on "!\e" goto 1193; on "!\e\e" goto 1194; else goto 1197
+PREV_DFS PREV_DFS WRITE_VALUE
+UP PREV_LEAF PREV_LEAF WRITE_VALUE
+empty
+empty
+switch UP WRITE_VALUE: on "\e\e\e" goto 1200; on "!\e" goto 1201; else goto 1202
+empty
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "length" goto 1199; on "i" goto 1203; on "toLowerCase" goto 1204; else goto 1205
+UP PREV_NODE_VALUE DOWN_LAST WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_POS: on "-1001" goto 1209; else goto 1210
+PREV_DFS WRITE_VALUE
+LEFT DOWN_LAST WRITE_VALUE
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ArrayAccess" goto 1214; on "CallExpression" goto 1215; on "UnaryExpression" goto 1216; on "LiteralNull" goto 1217; else goto 1218
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1206; on "Identifier" goto 1207; on "MemberExpression" goto 1208; on "BinaryExpression" goto 1211; on "LiteralString" goto 1212; on "LiteralNumber" goto 1213; else goto 1219
+empty
+empty
+empty
+UP WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "MemberExpression" goto 1221; on "BinaryExpression" goto 1222; on "LiteralString" goto 1223; else goto 1224
+empty
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+LEFT WRITE_VALUE DOWN_LAST WRITE_VALUE
+UP WRITE_VALUE PREV_DFS WRITE_TYPE
+empty
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "LiteralBoolean" goto 1228; on "LiteralNull" goto 1229; else goto 1230
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 1198; on "Identifier" goto 1220; on "ThisExpression" goto 1225; on "LiteralString" goto 1226; on "LiteralNumber" goto 1227; else goto 1231
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch LEFT WRITE_VALUE: on "-1" goto 1233; else goto 1234
+empty
+empty
+empty
+empty
+switch LEFT DOWN_FIRST WRITE_TYPE: on "MemberExpression" goto 1237; on "LogicalExpression" goto 1238; else goto 1239
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "ownerDocument" goto 1236; on "type" goto 1240; on "indexOf" goto 1241; on "toLowerCase" goto 1242; else goto 1243
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "i|nodeName" goto 1245; on "once" goto 1246; on "compareDocumentPosition" goto 1247; else goto 1248
+switch UP WRITE_VALUE: on "\o\o" goto 1244; else goto 1249
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "selector|origType" goto 1254; else goto 1255
+UP PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch LEFT DOWN_LAST WRITE_TYPE: on "MemberExpression" goto 1252; on "CallExpression" goto 1253; on "BinaryExpression" goto 1256; on "UnaryExpression" goto 1257; else goto 1258
+PREV_DFS WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch LEFT DOWN_LAST WRITE_TYPE: on "MemberExpression" goto 1260; on "BinaryExpression" goto 1261; on "LogicalExpression" goto 1262; else goto 1263
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "dir" goto 1265; else goto 1266
+switch UP WRITE_VALUE: on "\a\a" goto 1264; else goto 1267
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "type" goto 1269; on "disabled" goto 1270; on "noCloneChecked|activeElement" goto 1271; on "hasFocus" goto 1272; else goto 1273
+switch LEFT WRITE_VALUE: on "-1" goto 1251; on "\o\o" goto 1259; on "\a\a" goto 1268; else goto 1274
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "guid" goto 1276; else goto 1277
+empty
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "guid" goto 1279; on "parentNode" goto 1280; on "ajaxSettings" goto 1281; else goto 1282
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "BinaryExpression" goto 1286; on "NewExpression" goto 1287; else goto 1288
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1278; on "Identifier" goto 1283; on "MemberExpression" goto 1284; on "LiteralString" goto 1285; on "NewExpression" goto 1289; on "LiteralNumber" goto 1290; on "ObjectExpression" goto 1291; else goto 1292
+empty
+empty
+empty
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "attrHooks" goto 1295; else goto 1296
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "name" goto 1298; else goto 1299
+empty
+empty
+empty
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+switch UP PREV_DFS WRITE_VALUE: on "elem|special" goto 1294; on "hooks" goto 1297; on "name" goto 1300; on "handle" goto 1301; on "propName" goto 1302; on "outerCache" goto 1303; on "wrap" goto 1304; else goto 1305
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "length" goto 1307; on "toLowerCase" goto 1308; on "t" goto 1309; on "pop" goto 1310; else goto 1311
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "parentNode" goto 1313; on "bindType" goto 1314; on "timeStamp|sortStable" goto 1315; on "oMatchesSelector" goto 1316; else goto 1317
+switch LEFT WRITE_TYPE: on "MemberExpression" goto 1293; on "ArrayAccess" goto 1306; on "CallExpression" goto 1312; else goto 1318
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "ownerDocument" goto 1321; on "handle" goto 1322; on "origType" goto 1323; on "parentNode" goto 1324; on "innerText" goto 1325; else goto 1326
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+UP PREV_DFS WRITE_VALUE
+switch LEFT DOWN_LAST WRITE_VALUE: on "-1" goto 1329; on "ownerDocument" goto 1330; on "\a\a" goto 1331; else goto 1332
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "nodeName" goto 1335; on "hasFocus|getElementsByName" goto 1336; on "prevObject" goto 1337; on "checked" goto 1338; else goto 1339
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "ownerDocument" goto 1341; on "compareDocumentPosition" goto 1342; on "bindType" goto 1343; else goto 1344
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "options" goto 1347; on "contentDocument" goto 1348; else goto 1349
+PREV_DFS WRITE_VALUE
+empty
+switch UP PREV_DFS WRITE_TYPE: on "Identifier" goto 1345; on "Property" goto 1346; on "LiteralString" goto 1350; on "ConditionalExpression" goto 1351; else goto 1352
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+LEFT DOWN_LAST WRITE_VALUE
+switch UP WRITE_VALUE: on "\a\a" goto 1358; else goto 1359
+switch PREV_DFS WRITE_VALUE: on "name" goto 1354; on "i" goto 1355; on "expando" goto 1356; on "href|checkClone" goto 1357; else goto 1360
+switch UP UP WRITE_TYPE: on "MemberExpression" goto 1327; on "Property" goto 1328; on "BinaryExpression" goto 1333; on "ExpressionStatement" goto 1334; on "ReturnStatement" goto 1340; on "ConditionalExpression" goto 1353; else goto 1361
+switch UP UP WRITE_TYPE: on "CallExpression" goto 1235; on "VariableDeclarator" goto 1250; on "LogicalExpression" goto 1275; on "AssignmentExpression" goto 1319; on "IfStatement" goto 1320; else goto 1362
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_VALUE WRITE_TYPE: on "Property" goto 1364; else goto 1365
+empty
+empty
+empty
+switch PREV_DFS PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE: on "-1" goto 1367; on "Identifier" goto 1368; else goto 1369
+empty
+empty
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "-1" goto 1366; on "event" goto 1370; on "prototype" goto 1371; on "lodash" goto 1372; else goto 1373
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "prototype" goto 1375; on "get$height|_wrap$ctor" goto 1376; else goto 1377
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS PREV_NODE_TYPE WRITE_VALUE: on "prototype" goto 1378; else goto 1379
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "CallExpression" goto 1381; on "FunctionExpression" goto 1382; else goto 1383
+PREV_DFS PREV_NODE_VALUE WRITE_TYPE WRITE_VALUE
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_VALUE: on "\o\o|i|<input>" goto 1388; on "1px|<textarea>x</textarea>" goto 1389; on "none" goto 1390; on "<input\stype\e\qradio\q\schecked\e\qchecked\q\sname\e\qt\q/>" goto 1391; else goto 1392
+PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "-1" goto 1385; on "style" goto 1386; on "Msg" goto 1387; on "support" goto 1393; else goto 1394
+empty
+empty
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "_wrap$ctor" goto 1396; else goto 1397
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "prototype" goto 1398; else goto 1399
+empty
+empty
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "LiteralString" goto 1401; on "LiteralBoolean" goto 1402; else goto 1403
+PREV_DFS WRITE_VALUE
+switch UP PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "Identifier" goto 1400; on "Program" goto 1404; else goto 1405
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "module" goto 1407; on "prototype" goto 1408; on "i18n|verbs" goto 1409; on "itemDef" goto 1410; else goto 1411
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "j" goto 1413; on "guid" goto 1414; on "expando" goto 1415; on "caption" goto 1416; else goto 1417
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP UP UP WRITE_TYPE: on "Program" goto 1412; on "AssignmentExpression" goto 1418; else goto 1419
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "prototype" goto 1424; else goto 1425
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 1421; on "LiteralString" goto 1422; on "LiteralBoolean" goto 1423; else goto 1426
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "propName" goto 1428; else goto 1429
+empty
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "sel" goto 1432; on "i" goto 1433; else goto 1434
+empty
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_LEAF WRITE_VALUE: on "elem" goto 1430; on "fn" goto 1431; on "matches" goto 1435; on "events" goto 1436; else goto 1437
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "constructor" goto 1442; on "__super__" goto 1443; else goto 1444
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_TYPE WRITE_VALUE: on "prototype|Element" goto 1445; on "inherits" goto 1446; else goto 1447
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "target" goto 1451; on "type" goto 1452; on "which" goto 1453; on "currentTarget" goto 1454; on "isTrigger" goto 1455; on "namespace" goto 1456; else goto 1457
+empty
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "style|attributes|sortDetached" goto 1460; on "optSelected" goto 1461; on "deleteExpando" goto 1462; on "checkOn|htmlSerialize" goto 1463; else goto 1464
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "event" goto 1458; on "prototype" goto 1459; on "support" goto 1465; else goto 1466
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ArrayAccess" goto 1438; on "BinaryExpression" goto 1439; on "ArrayExpression" goto 1440; on "LogicalExpression" goto 1441; on "NewExpression" goto 1448; on "LiteralNumber" goto 1449; on "LiteralNull" goto 1450; else goto 1467
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Identifier" goto 1374; on "MemberExpression" goto 1380; on "CallExpression" goto 1384; on "LiteralString" goto 1395; on "FunctionExpression" goto 1406; on "ObjectExpression|AssignmentExpression" goto 1420; on "LiteralBoolean" goto 1427; else goto 1468
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "cache" goto 1471; on "widget|Svidget" goto 1472; else goto 1473
+PREV_DFS WRITE_VALUE
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+LEFT LEFT PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1002" goto 1481; else goto 1482
+empty
+empty
+empty
+LEFT WRITE_TYPE PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "origType" goto 1484; on "t" goto 1485; on "delegateCount" goto 1486; else goto 1487
+switch LEFT WRITE_TYPE: on "MemberExpression" goto 1478; on "ArrayAccess" goto 1479; on "CallExpression" goto 1480; on "FunctionExpression" goto 1483; else goto 1488
+switch LEFT PREV_DFS WRITE_VALUE: on "each" goto 1470; on "extend" goto 1474; on "apply" goto 1475; on "equal" goto 1476; on "proxy" goto 1477; else goto 1489
+LEFT PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1000" goto 1491; else goto 1492
+empty
+empty
+empty
+switch UP UP WRITE_TYPE: on "AssignmentExpression" goto 1494; on "IfStatement" goto 1495; else goto 1496
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "type" goto 1501; on "i" goto 1502; else goto 1503
+PREV_DFS PREV_DFS WRITE_VALUE
+LEFT DOWN_FIRST WRITE_VALUE
+switch WRITE_POS: on "-1005" goto 1504; on "-1002" goto 1505; else goto 1506
+switch LEFT PREV_DFS PREV_LEAF WRITE_VALUE: on "jQuery" goto 1497; on "value" goto 1498; on "i" goto 1499; on "callback" goto 1500; else goto 1507
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+LEFT DOWN_FIRST WRITE_VALUE
+switch WRITE_POS: on "-1002" goto 1511; else goto 1512
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "Event" goto 1514; else goto 1515
+empty
+empty
+empty
+empty
+empty
+switch LEFT PREV_DFS WRITE_VALUE: on "apply" goto 1518; on "nodeName" goto 1519; on "translate" goto 1520; else goto 1521
+switch LEFT WRITE_TYPE: on "BinaryExpression" goto 1510; on "FunctionExpression" goto 1513; on "NewExpression" goto 1516; on "ObjectExpression" goto 1517; else goto 1522
+switch LEFT WRITE_TYPE: on "MemberExpression" goto 1493; on "ArrayAccess" goto 1508; on "CallExpression" goto 1509; else goto 1523
+LEFT PREV_DFS WRITE_VALUE
+empty
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "i|get" goto 1526; else goto 1527
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1000" goto 1525; else goto 1528
+LEFT LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "target" goto 1532; on "parentNode" goto 1533; else goto 1534
+switch WRITE_POS: on "-1002" goto 1531; else goto 1535
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1003" goto 1530; on "-1002" goto 1536; on "-1000" goto 1537; else goto 1538
+empty
+empty
+switch UP UP UP WRITE_POS: on "-1000" goto 1540; else goto 1541
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT DOWN_LAST PREV_LEAF WRITE_VALUE: on "deepEqual|m" goto 1542; else goto 1543
+empty
+empty
+empty
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS PREV_NODE_TYPE WRITE_VALUE: on "call" goto 1545; on "contains" goto 1546; on "equal" goto 1547; else goto 1548
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_TYPE WRITE_VALUE: on "deepEqual|asserts|getMatchingGroup_" goto 1550; else goto 1551
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 1490; on "Identifier" goto 1524; on "ThisExpression" goto 1529; on "LiteralString" goto 1539; on "LiteralNumber" goto 1544; on "LiteralBoolean" goto 1549; else goto 1552
+switch LEFT PREV_DFS WRITE_TYPE: on "CallExpression" goto 1169; on "BinaryExpression" goto 1232; on "LogicalExpression" goto 1363; on "AssignmentExpression" goto 1469; else goto 1553
+UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP UP WRITE_TYPE: on "ForStatement" goto 1557; else goto 1558
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+switch UP WRITE_VALUE: on "<\e" goto 1569; on "\o" goto 1570; on "<<" goto 1571; else goto 1572
+switch UP WRITE_VALUE: on "in" goto 1564; on "*" goto 1565; on "/" goto 1566; on ">\e" goto 1567; on "instanceof" goto 1568; else goto 1573
+switch UP WRITE_VALUE: on "\p" goto 1555; on "\e\e\e" goto 1556; on "<" goto 1559; on "\e\e" goto 1560; on "!\e|!\e\e" goto 1561; on "\m" goto 1562; on ">" goto 1563; else goto 1574
+UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "\p" goto 1576; on "\e\e\e" goto 1577; on "<" goto 1578; on "!\e\e" goto 1579; else goto 1580
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_DFS PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE PREV_LEAF PREV_DFS PREV_LEAF WRITE_VALUE NEXT_LEAF WRITE_VALUE
+switch UP WRITE_VALUE: on "\p" goto 1582; on "\e\e\e" goto 1583; else goto 1584
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+empty
+switch UP WRITE_VALUE: on "\p" goto 1586; on "\e\e\e" goto 1587; on "!\e\e" goto 1588; else goto 1589
+UP PREV_DFS WRITE_VALUE UP PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP WRITE_VALUE: on "\p" goto 1591; else goto 1592
+PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch UP UP PREV_DFS WRITE_VALUE: on "\p" goto 1594; else goto 1595
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch PREV_LEAF WRITE_VALUE: on "context" goto 1603; else goto 1604
+empty
+empty
+switch PREV_LEAF PREV_DFS WRITE_POS: on "-1001" goto 1606; else goto 1607
+empty
+UP WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "-1" goto 1608; on "hooks" goto 1609; on "0" goto 1610; on "\s" goto 1611; else goto 1612
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ThisExpression" goto 1598; on "LogicalExpression" goto 1599; on "LiteralNumber" goto 1600; on "UpdateExpression" goto 1601; on "LiteralNull" goto 1602; on "ConditionalExpression" goto 1605; on "AssignmentExpression" goto 1613; else goto 1614
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1|CallExpression" goto 1575; on "Identifier" goto 1581; on "MemberExpression" goto 1585; on "ArrayAccess" goto 1590; on "BinaryExpression" goto 1593; on "LiteralString" goto 1596; on "UnaryExpression" goto 1597; else goto 1615
+UP PREV_DFS WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE WRITE_TYPE
+UP PREV_DFS UP WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+PREV_LEAF PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "className" goto 1619; on "types" goto 1620; on "ret" goto 1621; on "parentNode" goto 1622; else goto 1623
+empty
+PREV_LEAF PREV_LEAF WRITE_TYPE
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_DFS WRITE_VALUE: on "-1" goto 1624; on "hooks" goto 1625; on "type" goto 1626; on "\o\o" goto 1627; on "types" goto 1628; on "ontype|notxml" goto 1629; on "bubbleType" goto 1630; else goto 1631
+UP WRITE_VALUE PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE UP WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE LEFT PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+PREV_LEAF WRITE_TYPE WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "classes|tmp" goto 1637; on "options" goto 1638; on "special" goto 1639; else goto 1640
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP PREV_DFS WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP UP WRITE_TYPE: on "LogicalExpression" goto 1636; on "AssignmentExpression" goto 1641; on "IfStatement" goto 1642; else goto 1643
+UP PREV_DFS WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP WRITE_VALUE: on "\o\o" goto 1644; else goto 1645
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 1617; on "MemberExpression" goto 1618; on "ArrayAccess" goto 1632; on "BinaryExpression" goto 1633; on "LogicalExpression" goto 1634; on "UnaryExpression" goto 1635; else goto 1646
+PREV_LEAF UP WRITE_TYPE PREV_DFS RIGHT WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 1649; on "Program" goto 1650; else goto 1651
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP UP WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF UP WRITE_TYPE: on "MemberExpression" goto 1655; else goto 1656
+PREV_LEAF UP WRITE_TYPE DOWN_LAST PREV_DFS WRITE_VALUE
+UP UP WRITE_TYPE PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+switch UP PREV_DFS WRITE_TYPE: on "VariableDeclarator" goto 1654; on "Property" goto 1657; on "ExpressionStatement" goto 1658; else goto 1659
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 1648; on "MemberExpression" goto 1652; on "ArrayAccess" goto 1653; else goto 1660
+PREV_DFS WRITE_VALUE
+WRITE_POS UP PREV_LEAF WRITE_VALUE
+switch UP WRITE_TYPE: on "AssignmentExpression" goto 1662; else goto 1663
+empty
+empty
+empty
+empty
+switch LEFT PREV_DFS WRITE_VALUE: on "each" goto 1665; on "getAll" goto 1666; on "equal" goto 1667; else goto 1668
+empty
+empty
+switch PREV_DFS LEFT WRITE_TYPE: on "CallExpression" goto 1670; else goto 1671
+switch WRITE_POS: on "-1002" goto 1669; else goto 1672
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch UP PREV_NODE_TYPE PREV_LEAF WRITE_VALUE: on "false|prefix" goto 1674; on "traditional" goto 1675; else goto 1676
+UP PREV_NODE_TYPE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_TYPE: on "ArrayAccess" goto 1664; on "CallExpression" goto 1673; on "BinaryExpression" goto 1677; else goto 1678
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 1680; else goto 1681
+LEFT PREV_DFS WRITE_VALUE
+empty
+PREV_DFS PREV_LEAF WRITE_VALUE
+switch LEFT DOWN_FIRST WRITE_VALUE: on "-1" goto 1683; on "Fay$$_|Pos" goto 1684; else goto 1685
+UP UP UP PREV_DFS WRITE_VALUE WRITE_POS
+switch LEFT WRITE_TYPE: on "CallExpression" goto 1686; else goto 1687
+empty
+empty
+switch LEFT LEFT WRITE_VALUE: on "equal" goto 1689; else goto 1690
+PREV_DFS PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS LEFT WRITE_VALUE: on "-1" goto 1692; on "tuple" goto 1693; on "default\m" goto 1694; else goto 1695
+empty
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch UP PREV_NODE_TYPE PREV_LEAF WRITE_POS: on "-1006" goto 1699; else goto 1700
+switch WRITE_POS: on "-1006" goto 1697; on "-1001" goto 1698; else goto 1701
+PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+empty
+switch WRITE_POS: on "-1003" goto 1703; on "-1002" goto 1704; else goto 1705
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1002" goto 1691; on "-1001" goto 1696; on "-1000" goto 1702; else goto 1706
+LEFT PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+LEFT LEFT PREV_LEAF WRITE_VALUE
+switch LEFT DOWN_FIRST WRITE_VALUE: on "args" goto 1709; on "elem" goto 1710; on "deferred" goto 1711; on "value" goto 1712; on "newDefer" goto 1713; on "x" goto 1714; on "cm" goto 1715; else goto 1716
+empty
+empty
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "setTimeout" goto 1719; on "add" goto 1720; on "$timeout" goto 1721; else goto 1722
+empty
+empty
+empty
+LEFT PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "0" goto 1724; on "event" goto 1725; on "TAG" goto 1726; else goto 1727
+switch LEFT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 1717; on "LiteralString" goto 1718; on "BlockStatement" goto 1723; else goto 1728
+empty
+empty
+empty
+switch WRITE_POS: on "-1002" goto 1730; on "-1001" goto 1731; else goto 1732
+empty
+empty
+empty
+switch LEFT LEFT WRITE_VALUE: on "parseInt" goto 1734; on "session" goto 1735; else goto 1736
+empty
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "queue" goto 1738; on "apply" goto 1739; on "parseHTML" goto 1740; else goto 1741
+PREV_DFS PREV_DFS WRITE_VALUE
+PREV_DFS PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_TYPE: on "LiteralString" goto 1743; else goto 1744
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "ID" goto 1746; else goto 1747
+switch LEFT PREV_DFS WRITE_TYPE: on "Identifier" goto 1737; on "Property" goto 1742; on "AssignmentExpression" goto 1745; else goto 1748
+empty
+LEFT LEFT DOWN_LAST WRITE_VALUE
+switch LEFT PREV_LEAF WRITE_VALUE: on "parseInt" goto 1750; else goto 1751
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch UP PREV_LEAF WRITE_VALUE: on "-1" goto 1754; on "amd" goto 1755; else goto 1756
+empty
+empty
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "setTimeout" goto 1758; on "addCombinator" goto 1759; on "reduce" goto 1760; on "setInterval" goto 1761; else goto 1762
+LEFT DOWN_FIRST WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch LEFT DOWN_FIRST WRITE_VALUE: on "t" goto 1767; else goto 1768
+LEFT DOWN_FIRST WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "global" goto 1766; on "s|p5" goto 1769; else goto 1770
+switch LEFT DOWN_FIRST RIGHT WRITE_VALUE: on "-1" goto 1764; on "undefined" goto 1765; else goto 1771
+empty
+LEFT LEFT PREV_DFS WRITE_VALUE
+switch LEFT DOWN_FIRST WRITE_VALUE: on "Y" goto 1773; else goto 1774
+switch WRITE_POS: on "-1002" goto 1763; on "-1001" goto 1772; else goto 1775
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+switch WRITE_POS: on "-1003" goto 1778; else goto 1779
+empty
+empty
+empty
+switch UP WRITE_POS: on "-1002" goto 1781; on "-1000" goto 1782; else goto 1783
+LEFT PREV_LEAF WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "selector" goto 1780; on "context" goto 1784; else goto 1785
+switch LEFT WRITE_TYPE: on "ArrayAccess" goto 1749; on "CallExpression" goto 1752; on "BinaryExpression" goto 1753; on "ArrayExpression" goto 1757; on "FunctionExpression" goto 1776; on "ObjectExpression" goto 1777; else goto 1786
+LEFT PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+empty
+empty
+switch PREV_NODE_VALUE NEXT_LEAF DOWN_FIRST WRITE_TYPE: on "VariableDeclaration" goto 1792; else goto 1793
+LEFT PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_TYPE: on "LiteralString" goto 1791; on "LiteralNumber" goto 1794; else goto 1795
+empty
+empty
+switch WRITE_POS: on "-1002" goto 1797; else goto 1798
+empty
+empty
+empty
+switch WRITE_POS: on "-1004" goto 1800; on "-1003" goto 1801; else goto 1802
+switch LEFT WRITE_TYPE: on "ArrayAccess" goto 1789; on "CallExpression" goto 1790; on "ArrayExpression" goto 1796; on "ObjectExpression" goto 1799; else goto 1803
+PREV_DFS PREV_LEAF WRITE_VALUE
+empty
+empty
+LEFT DOWN_FIRST WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "each" goto 1806; on "extend" goto 1807; else goto 1808
+empty
+switch LEFT WRITE_TYPE: on "ArrayAccess" goto 1805; on "ObjectExpression" goto 1809; else goto 1810
+WRITE_POS
+empty
+empty
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch LEFT PREV_LEAF WRITE_VALUE: on "match" goto 1813; on "each" goto 1814; on "queue" goto 1815; on "types" goto 1816; on "j" goto 1817; on "matchers" goto 1818; else goto 1819
+empty
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "0" goto 1821; on "ID" goto 1822; on "2" goto 1823; else goto 1824
+empty
+PREV_DFS WRITE_VALUE
+empty
+switch WRITE_POS: on "-1002" goto 1826; on "-1001" goto 1827; else goto 1828
+PREV_DFS LEFT WRITE_VALUE
+empty
+empty
+empty
+LEFT PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "-1" goto 1830; on "elem" goto 1831; on "With" goto 1832; on "CLASS" goto 1833; else goto 1834
+empty
+empty
+empty
+switch LEFT PREV_DFS RIGHT WRITE_TYPE: on "CallExpression" goto 1836; on "Property" goto 1837; else goto 1838
+empty
+empty
+switch WRITE_POS: on "-1002" goto 1839; on "-1001" goto 1840; else goto 1841
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ThisExpression" goto 1812; on "LogicalExpression" goto 1820; on "UnaryExpression" goto 1825; on "LiteralNull" goto 1829; on "ConditionalExpression" goto 1835; else goto 1842
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1787; on "MemberExpression" goto 1788; on "ArrayExpression" goto 1804; on "ObjectExpression" goto 1811; else goto 1843
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Identifier" goto 1679; on "ArrayAccess" goto 1682; on "CallExpression" goto 1688; on "BinaryExpression|LiteralBoolean" goto 1707; on "LiteralString" goto 1708; on "FunctionExpression" goto 1729; on "LiteralNumber" goto 1733; else goto 1844
+PREV_DFS WRITE_VALUE
+empty
+empty
+UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT DOWN_FIRST WRITE_VALUE: on "match" goto 1846; on "tuple|escapeExpression" goto 1847; on "encodeURIComponent" goto 1848; else goto 1849
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+LEFT DOWN_FIRST WRITE_VALUE
+switch PREV_DFS WRITE_TYPE: on "LiteralString" goto 1851; else goto 1852
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Identifier" goto 1854; on "BinaryExpression" goto 1855; on "LiteralString" goto 1856; on "LiteralNumber" goto 1857; else goto 1858
+switch LEFT WRITE_VALUE: on "-1" goto 1850; on "\p" goto 1853; else goto 1859
+PREV_DFS WRITE_VALUE
+PREV_DFS PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_TYPE PREV_DFS WRITE_VALUE
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT WRITE_VALUE: on "-1" goto 1862; on "\p" goto 1863; else goto 1864
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch LEFT DOWN_FIRST DOWN_LAST WRITE_TYPE: on "CallExpression" goto 1867; on "ConditionalExpression" goto 1868; else goto 1869
+switch LEFT DOWN_FIRST DOWN_LAST WRITE_TYPE: on "Identifier" goto 1860; on "MemberExpression" goto 1861; on "Property" goto 1865; on "LiteralString" goto 1866; else goto 1870
+PREV_DFS PREV_LEAF WRITE_VALUE
+empty
+empty
+switch PREV_DFS WRITE_POS: on "-1001" goto 1873; else goto 1874
+empty
+empty
+PREV_DFS WRITE_VALUE
+empty
+PREV_DFS PREV_NODE_VALUE WRITE_TYPE
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "value" goto 1880; on "disabled" goto 1881; on "href" goto 1882; else goto 1883
+empty
+UP PREV_DFS WRITE_VALUE
+empty
+switch UP WRITE_POS: on "-1001" goto 1886; else goto 1887
+empty
+empty
+switch UP PREV_NODE_TYPE WRITE_POS: on "-1000" goto 1889; else goto 1890
+PREV_DFS PREV_LEAF WRITE_VALUE
+switch LEFT DOWN_FIRST DOWN_LAST WRITE_VALUE: on "css" goto 1885; on "slice" goto 1888; on "Fay$$_|inArray" goto 1891; else goto 1892
+switch LEFT DOWN_FIRST DOWN_LAST WRITE_VALUE: on "call" goto 1875; on "apply" goto 1876; on "type" goto 1877; on "indexOf" goto 1878; on "charAt" goto 1879; on "getAttribute" goto 1884; else goto 1893
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "-1" goto 1896; on "\p" goto 1897; on "%" goto 1898; else goto 1899
+switch LEFT WRITE_TYPE: on "ArrayAccess" goto 1872; on "CallExpression" goto 1894; on "UnaryExpression" goto 1895; else goto 1900
+UP PREV_LEAF WRITE_VALUE
+empty
+switch PREV_DFS WRITE_POS: on "-1002" goto 1902; else goto 1903
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "context" goto 1905; on "events" goto 1906; else goto 1907
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "copy" goto 1909; else goto 1910
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "selectors" goto 1913; on "name" goto 1914; on "__className__" goto 1915; else goto 1916
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch UP LEFT NEXT_LEAF WRITE_VALUE: on "value" goto 1918; on "types" goto 1919; on "parseFloat" goto 1920; else goto 1921
+PREV_DFS WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "10" goto 1924; on "rnotwhite|core_rnotwhite" goto 1925; else goto 1926
+switch UP UP WRITE_TYPE: on "MemberExpression" goto 1904; on "ArrayAccess" goto 1908; on "LogicalExpression" goto 1911; on "ReturnStatement" goto 1912; on "ConditionalExpression" goto 1917; on "AssignmentExpression" goto 1922; on "IfStatement" goto 1923; else goto 1927
+LEFT WRITE_VALUE DOWN_FIRST WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "getSetAttribute" goto 1930; else goto 1931
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "1" goto 1933; on "0" goto 1934; on "5" goto 1935; else goto 1936
+PREV_DFS WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "outermostContext" goto 1940; on "class" goto 1941; else goto 1942
+PREV_DFS WRITE_VALUE
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "0" goto 1945; else goto 1946
+switch LEFT DOWN_LAST WRITE_TYPE: on "Identifier" goto 1932; on "ArrayAccess" goto 1937; on "CallExpression" goto 1938; on "BinaryExpression" goto 1939; on "LogicalExpression" goto 1943; on "UnaryExpression" goto 1944; else goto 1947
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+switch LEFT WRITE_VALUE: on "!" goto 1949; else goto 1950
+empty
+UP PREV_DFS WRITE_VALUE
+UP UP WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "2" goto 1955; on "3" goto 1956; else goto 1957
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "1" goto 1959; else goto 1960
+UP PREV_DFS WRITE_VALUE
+UP PREV_LEAF WRITE_VALUE
+switch UP UP WRITE_TYPE: on "MemberExpression" goto 1952; on "CallExpression" goto 1953; on "VariableDeclarator" goto 1954; on "BinaryExpression" goto 1958; on "LogicalExpression" goto 1961; on "AssignmentExpression" goto 1962; else goto 1963
+switch LEFT WRITE_TYPE: on "CallExpression" goto 1928; on "BinaryExpression" goto 1929; on "LogicalExpression" goto 1948; on "UnaryExpression" goto 1951; else goto 1964
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+PREV_DFS PREV_LEAF WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "-1" goto 1968; on "tmp" goto 1969; else goto 1970
+PREV_DFS WRITE_VALUE
+UP UP WRITE_TYPE
+empty
+PREV_DFS PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "documentIsHTML" goto 1973; on "node" goto 1974; else goto 1975
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "1" goto 1978; on "i" goto 1979; on "3" goto 1980; on "nodeIndex" goto 1981; else goto 1982
+switch LEFT WRITE_TYPE: on "ArrayAccess" goto 1971; on "BinaryExpression" goto 1972; on "LogicalExpression" goto 1976; on "UnaryExpression" goto 1977; else goto 1983
+switch PREV_DFS UP WRITE_TYPE: on "CallExpression" goto 1966; on "BinaryExpression" goto 1967; else goto 1984
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "indexOf" goto 1986; on "getAttribute" goto 1987; else goto 1988
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "-1" goto 1989; on "typeof" goto 1990; else goto 1991
+empty
+empty
+LEFT DOWN_FIRST DOWN_LAST WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "indexOf" goto 1993; on "typeof" goto 1994; else goto 1995
+PREV_DFS PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+switch LEFT DOWN_FIRST DOWN_LAST WRITE_VALUE: on "slice|type" goto 1998; on "inArray" goto 1999; on "indexOf" goto 2000; on "charAt" goto 2001; on "getAttribute" goto 2002; else goto 2003
+empty
+empty
+LEFT WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Identifier" goto 2005; on "LiteralNumber" goto 2006; else goto 2007
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE WRITE_POS
+PREV_DFS WRITE_VALUE
+switch LEFT WRITE_TYPE: on "ArrayAccess" goto 1997; on "CallExpression" goto 2004; on "BinaryExpression" goto 2008; on "UnaryExpression" goto 2009; on "AssignmentExpression" goto 2010; else goto 2011
+LEFT WRITE_VALUE
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE WRITE_POS
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS PREV_LEAF WRITE_VALUE
+switch PREV_DFS UP WRITE_TYPE: on "ArrayAccess" goto 2014; on "CallExpression" goto 2015; on "BinaryExpression" goto 2016; else goto 2017
+empty
+PREV_DFS PREV_LEAF WRITE_VALUE
+switch PREV_DFS UP WRITE_TYPE: on "CallExpression" goto 2019; else goto 2020
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+empty
+LEFT WRITE_VALUE DOWN_LAST WRITE_VALUE
+empty
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "MemberExpression" goto 2026; on "ArrayAccess" goto 2027; on "CallExpression" goto 2028; else goto 2029
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 2022; on "Identifier" goto 2023; on "BinaryExpression" goto 2024; on "LiteralNumber" goto 2025; else goto 2030
+switch UP WRITE_VALUE: on "\e\e" goto 1992; on "!\e" goto 1996; on "!\e\e" goto 2012; on ">\e" goto 2013; on "\m" goto 2018; on ">" goto 2021; else goto 2031
+switch UP WRITE_VALUE: on "-1" goto 1845; on "\p" goto 1871; on "\e\e\e" goto 1901; on "\o\o" goto 1965; on "\a\a" goto 1985; else goto 2032
+switch PREV_DFS RIGHT WRITE_TYPE: on "-1" goto 816; on "CallExpression" goto 850; on "Property" goto 1554; on "BinaryExpression" goto 1616; on "LogicalExpression" goto 1647; on "AssignmentExpression" goto 1661; else goto 2033
+PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP WRITE_VALUE: on "i" goto 2035; else goto 2036
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "CallExpression" goto 2039; on "BinaryExpression" goto 2040; on "FunctionExpression" goto 2041; on "NewExpression" goto 2042; else goto 2043
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_LEAF PREV_DFS PREV_DFS WRITE_TYPE: on "CallExpression" goto 2046; on "VariableDeclaration" goto 2047; else goto 2048
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE
+switch PREV_LEAF UP WRITE_TYPE: on "ArrayAccess" goto 2051; on "VariableDeclarator" goto 2052; else goto 2053
+UP WRITE_VALUE
+empty
+empty
+empty
+empty
+switch UP WRITE_VALUE: on "cached" goto 2056; on "eventPath" goto 2057; on "l" goto 2058; else goto 2059
+empty
+empty
+empty
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "target|proceed" goto 2061; on "i" goto 2062; on "dir" goto 2063; else goto 2064
+empty
+empty
+empty
+empty
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "elem" goto 2066; on "button" goto 2067; on "preMap|setMatched" goto 2068; on "dirkey" goto 2069; else goto 2070
+empty
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "i|count" goto 2072; else goto 2073
+UP WRITE_VALUE
+switch UP WRITE_POS: on "-1007" goto 2060; on "-1006" goto 2065; on "-1003" goto 2071; on "-1001" goto 2074; else goto 2075
+empty
+empty
+switch UP UP PREV_DFS WRITE_TYPE: on "LiteralNumber" goto 2054; on "Program" goto 2055; on "BlockStatement" goto 2076; on "ForStatement" goto 2077; else goto 2078
+switch PREV_DFS PREV_DFS PREV_DFS WRITE_TYPE: on "Identifier" goto 2044; on "Property" goto 2045; on "LiteralString" goto 2049; on "BlockStatement" goto 2050; else goto 2079
+UP WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+empty
+UP WRITE_VALUE
+empty
+UP WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "elem" goto 2090; on "ret" goto 2091; else goto 2092
+UP WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 2088; on "LiteralString" goto 2089; on "LogicalExpression" goto 2093; on "FunctionExpression" goto 2094; on "LiteralBoolean" goto 2095; on "UnaryExpression" goto 2096; on "ConditionalExpression" goto 2097; else goto 2098
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ThisExpression" goto 2081; on "ArrayAccess" goto 2082; on "BinaryExpression" goto 2083; on "ArrayExpression" goto 2084; on "NewExpression" goto 2085; on "LiteralNumber" goto 2086; on "ObjectExpression" goto 2087; else goto 2099
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "MemberExpression" goto 2037; on "CallExpression" goto 2038; on "VariableDeclarator" goto 2080; else goto 2100
+UP WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE UP WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+UP WRITE_VALUE
+empty
+empty
+switch PREV_LEAF WRITE_TYPE: on "Property" goto 2105; else goto 2106
+empty
+empty
+switch UP WRITE_VALUE: on "isDefaultPrevented" goto 2108; else goto 2109
+UP WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "extend" goto 2104; on "push" goto 2107; on "prototype" goto 2110; else goto 2111
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "CallExpression" goto 2116; on "BinaryExpression" goto 2117; on "LiteralString" goto 2118; on "ArrayExpression" goto 2119; on "LiteralNumber" goto 2120; on "ObjectExpression" goto 2121; on "LiteralBoolean" goto 2122; else goto 2123
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 2112; on "Identifier" goto 2113; on "MemberExpression" goto 2114; on "FunctionExpression" goto 2115; else goto 2124
+PREV_LEAF WRITE_VALUE
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_VALUE WRITE_TYPE: on "Property" goto 2126; else goto 2127
+UP PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF PREV_DFS WRITE_POS: on "-1006" goto 2131; else goto 2132
+switch UP WRITE_VALUE: on "requires" goto 2130; else goto 2133
+empty
+empty
+empty
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "hash" goto 2137; else goto 2138
+empty
+empty
+PREV_LEAF WRITE_VALUE
+empty
+UP WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE PREV_DFS RIGHT WRITE_POS WRITE_TYPE
+UP WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "VariableDeclarator" goto 2147; on "NewExpression" goto 2148; on "UnaryExpression" goto 2149; on "ConditionalExpression" goto 2150; else goto 2151
+switch UP PREV_NODE_VALUE DOWN_LAST WRITE_TYPE: on "ArrayAccess" goto 2141; on "CallExpression" goto 2142; on "BinaryExpression" goto 2143; on "LogicalExpression" goto 2144; on "LiteralRegExp" goto 2145; on "LiteralNull" goto 2146; else goto 2152
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "MemberExpression" goto 2129; on "ArrayExpression" goto 2134; on "FunctionExpression" goto 2135; on "LiteralNumber" goto 2136; on "ObjectExpression" goto 2139; on "LiteralBoolean" goto 2140; else goto 2153
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "-1" goto 2102; on "Identifier" goto 2103; on "Property" goto 2125; on "LiteralString" goto 2128; else goto 2154
+UP WRITE_VALUE
+UP WRITE_VALUE
+switch PREV_LEAF PREV_LEAF WRITE_TYPE: on "LiteralString" goto 2156; else goto 2157
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+empty
+empty
+switch UP WRITE_VALUE: on "unmatched" goto 2161; else goto 2162
+empty
+empty
+empty
+UP WRITE_POS
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "MemberExpression" goto 2166; on "VariableDeclarator" goto 2167; on "LiteralNumber" goto 2168; on "ObjectExpression" goto 2169; on "LiteralBoolean" goto 2170; else goto 2171
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Identifier" goto 2160; on "CallExpression" goto 2163; on "Property" goto 2164; on "LiteralString" goto 2165; else goto 2172
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE UP WRITE_VALUE
+UP WRITE_VALUE
+empty
+empty
+empty
+UP WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+PREV_LEAF WRITE_VALUE
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_VALUE DOWN_LAST WRITE_TYPE: on "ThisExpression" goto 2180; on "MemberExpression" goto 2181; on "ArrayAccess" goto 2182; on "CallExpression" goto 2183; on "BinaryExpression" goto 2184; on "LiteralRegExp" goto 2185; on "LiteralNull" goto 2186; else goto 2187
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "Identifier" goto 2173; on "Property" goto 2174; on "ArrayExpression" goto 2175; on "FunctionExpression" goto 2176; on "LiteralNumber" goto 2177; on "ObjectExpression" goto 2178; on "LiteralBoolean" goto 2179; else goto 2188
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "-1" goto 2158; on "LiteralString" goto 2159; else goto 2189
+UP WRITE_VALUE
+empty
+UP WRITE_VALUE
+UP WRITE_VALUE
+switch UP LEFT WRITE_VALUE: on "i" goto 2193; else goto 2194
+UP WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE
+switch PREV_LEAF PREV_LEAF WRITE_TYPE: on "LiteralString" goto 2196; on "LiteralNumber" goto 2197; else goto 2198
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE
+empty
+switch UP WRITE_VALUE: on "-1" goto 2200; else goto 2201
+empty
+UP WRITE_VALUE
+UP WRITE_VALUE
+empty
+empty
+empty
+switch PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "ArrayExpression" goto 2207; else goto 2208
+empty
+empty
+switch UP WRITE_TYPE: on "Property" goto 2210; else goto 2211
+empty
+empty
+UP WRITE_VALUE
+empty
+UP WRITE_VALUE
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "LogicalExpression" goto 2214; on "FunctionExpression" goto 2215; on "LiteralNull" goto 2216; on "ConditionalExpression" goto 2217; else goto 2218
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 2203; on "CallExpression" goto 2204; on "BinaryExpression|UnaryExpression" goto 2205; on "LiteralString" goto 2206; on "ArrayExpression" goto 2209; on "ObjectExpression" goto 2212; on "LiteralBoolean" goto 2213; else goto 2219
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "MemberExpression" goto 2192; on "VariableDeclarator" goto 2195; on "Property" goto 2199; on "LiteralNumber" goto 2202; else goto 2220
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE WRITE_VALUE PREV_DFS WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "classNames" goto 2225; on "fixHook" goto 2226; on "elems" goto 2227; else goto 2228
+switch UP WRITE_TYPE: on "Property" goto 2224; else goto 2229
+switch UP PREV_NODE_VALUE WRITE_TYPE: on "Property" goto 2223; else goto 2230
+switch UP WRITE_VALUE: on "-1" goto 2222; else goto 2231
+empty
+empty
+empty
+switch UP WRITE_VALUE: on "set" goto 2233; on "proceed" goto 2234; else goto 2235
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "leadingRelative" goto 2238; on "mapped" goto 2239; on "callbackExpect" goto 2240; else goto 2241
+empty
+empty
+empty
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "result" goto 2243; on "isArray" goto 2244; on "remaining" goto 2245; else goto 2246
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP WRITE_VALUE: on "selector" goto 2248; on "fn" goto 2249; on "bulk" goto 2250; on "j" goto 2251; on "result" goto 2252; on "setHandle" goto 2253; else goto 2254
+empty
+empty
+PREV_LEAF LEFT WRITE_VALUE
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "type" goto 2256; on "j" goto 2257; on "i" goto 2258; else goto 2259
+empty
+empty
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "deep" goto 2261; on "proceed" goto 2262; else goto 2263
+switch UP WRITE_POS: on "-1008" goto 2236; on "-1005" goto 2237; on "-1004" goto 2242; on "-1003" goto 2247; on "-1002" goto 2255; on "-1001" goto 2260; else goto 2264
+UP WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "length" goto 2265; else goto 2266
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE UP WRITE_VALUE
+switch UP WRITE_TYPE: on "VariableDeclarator" goto 2267; else goto 2268
+UP WRITE_VALUE LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "handlers|scripts" goto 2274; on "events" goto 2275; on "i" goto 2276; else goto 2277
+empty
+empty
+switch UP WRITE_VALUE: on "state" goto 2279; else goto 2280
+empty
+UP WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ThisExpression" goto 2286; on "BinaryExpression" goto 2287; on "ObjectExpression" goto 2288; on "LiteralNull" goto 2289; else goto 2290
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ArrayAccess" goto 2273; on "VariableDeclarator" goto 2278; on "LiteralString" goto 2281; on "ArrayExpression" goto 2282; on "LogicalExpression" goto 2283; on "LiteralNumber" goto 2284; on "ConditionalExpression" goto 2285; else goto 2291
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 2270; on "MemberExpression" goto 2271; on "CallExpression" goto 2272; else goto 2292
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE WRITE_VALUE
+switch UP WRITE_TYPE: on "VariableDeclarator" goto 2293; else goto 2294
+UP WRITE_VALUE
+empty
+UP WRITE_VALUE
+empty
+empty
+empty
+switch UP WRITE_VALUE: on "results" goto 2299; on "self" goto 2300; else goto 2301
+empty
+empty
+empty
+switch UP WRITE_VALUE: on "args" goto 2303; on "cur" goto 2304; else goto 2305
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ThisExpression" goto 2309; on "ArrayAccess" goto 2310; on "FunctionExpression" goto 2311; on "ObjectExpression" goto 2312; on "UnaryExpression" goto 2313; else goto 2314
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 2296; on "Identifier" goto 2297; on "MemberExpression" goto 2298; on "CallExpression" goto 2302; on "VariableDeclarator" goto 2306; on "ArrayExpression" goto 2307; on "LiteralNumber" goto 2308; else goto 2315
+empty
+UP WRITE_VALUE
+switch UP WRITE_VALUE: on "state" goto 2317; else goto 2318
+empty
+empty
+empty
+empty
+switch UP WRITE_VALUE: on "self" goto 2321; on "insert" goto 2322; else goto 2323
+UP WRITE_VALUE
+UP WRITE_VALUE
+switch UP LEFT WRITE_VALUE: on "list" goto 2320; on "ret" goto 2324; on "matched" goto 2325; else goto 2326
+UP WRITE_VALUE
+switch PREV_LEAF WRITE_TYPE: on "LiteralString" goto 2319; on "ArrayExpression" goto 2327; else goto 2328
+UP WRITE_VALUE
+empty
+empty
+UP WRITE_VALUE WRITE_TYPE
+switch UP WRITE_VALUE: on "i" goto 2331; on "delegateCount" goto 2332; else goto 2333
+UP WRITE_VALUE
+empty
+empty
+empty
+switch PREV_LEAF WRITE_VALUE: on "-1" goto 2336; on "document" goto 2337; else goto 2338
+switch PREV_LEAF WRITE_TYPE: on "LiteralString" goto 2330; on "ArrayExpression" goto 2334; on "LiteralNumber" goto 2335; else goto 2339
+UP WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_VALUE WRITE_TYPE: on "LiteralString" goto 2341; else goto 2342
+empty
+empty
+empty
+UP WRITE_POS
+empty
+switch UP WRITE_VALUE: on "_default" goto 2347; else goto 2348
+empty
+UP WRITE_VALUE
+PREV_LEAF PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "BinaryExpression" goto 2346; on "FunctionExpression" goto 2349; on "LiteralNumber" goto 2350; on "ObjectExpression" goto 2351; else goto 2352
+switch UP PREV_NODE_VALUE DOWN_LAST WRITE_TYPE: on "Identifier" goto 2316; on "VariableDeclarator" goto 2329; on "Property" goto 2340; on "LiteralString" goto 2343; on "ArrayExpression" goto 2344; on "LiteralBoolean" goto 2345; else goto 2353
+empty
+empty
+switch UP WRITE_VALUE: on "data" goto 2355; else goto 2356
+UP WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_POS
+empty
+empty
+empty
+UP WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "MemberExpression" goto 2360; on "CallExpression" goto 2361; on "ArrayExpression" goto 2362; on "ObjectExpression" goto 2363; else goto 2364
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Identifier" goto 2357; on "VariableDeclarator" goto 2358; on "Property" goto 2359; else goto 2365
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE DOWN_LAST WRITE_VALUE
+empty
+empty
+UP WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "i" goto 2368; on "promise" goto 2369; else goto 2370
+switch UP WRITE_TYPE: on "Property" goto 2367; else goto 2371
+switch PREV_LEAF WRITE_VALUE: on "-1" goto 2366; else goto 2372
+UP WRITE_VALUE
+empty
+UP WRITE_VALUE
+switch UP PREV_NODE_VALUE WRITE_TYPE: on "Property" goto 2375; else goto 2376
+empty
+UP WRITE_VALUE
+empty
+empty
+switch PREV_LEAF PREV_LEAF WRITE_VALUE: on "-1" goto 2380; else goto 2381
+empty
+UP WRITE_VALUE
+UP WRITE_VALUE
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "Identifier" goto 2379; on "ArrayExpression" goto 2382; on "FunctionExpression" goto 2383; on "LiteralNumber" goto 2384; else goto 2385
+switch UP PREV_NODE_VALUE DOWN_LAST WRITE_TYPE: on "Property" goto 2374; on "LiteralString" goto 2377; on "LiteralBoolean" goto 2378; else goto 2386
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE WRITE_VALUE
+UP WRITE_VALUE
+empty
+UP WRITE_VALUE
+UP WRITE_VALUE
+empty
+empty
+UP WRITE_VALUE
+empty
+empty
+PREV_LEAF WRITE_VALUE
+UP WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 2395; on "ArrayAccess" goto 2396; on "CallExpression" goto 2397; on "ArrayExpression" goto 2398; on "LiteralNumber" goto 2399; on "LiteralBoolean" goto 2400; else goto 2401
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "MemberExpression" goto 2390; on "VariableDeclarator" goto 2391; on "Property" goto 2392; on "BinaryExpression" goto 2393; on "LiteralString" goto 2394; else goto 2402
+empty
+empty
+switch PREV_LEAF WRITE_VALUE: on "-1|value" goto 2404; else goto 2405
+UP WRITE_TYPE WRITE_VALUE PREV_DFS WRITE_VALUE
+switch UP WRITE_VALUE: on "i" goto 2406; else goto 2407
+UP WRITE_VALUE
+UP WRITE_VALUE
+switch UP WRITE_TYPE: on "VariableDeclarator" goto 2409; else goto 2410
+UP WRITE_VALUE
+UP WRITE_VALUE
+switch UP WRITE_TYPE: on "Property" goto 2412; else goto 2413
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE PREV_NODE_VALUE DOWN_LAST WRITE_VALUE
+UP WRITE_VALUE
+switch UP LEFT DOWN_LAST WRITE_TYPE: on "ThisExpression" goto 2388; on "ArrayAccess" goto 2389; on "BinaryExpression" goto 2403; on "LogicalExpression|ConditionalExpression" goto 2408; on "LiteralRegExp" goto 2411; on "UnaryExpression" goto 2414; on "LiteralNull" goto 2415; else goto 2416
+switch UP LEFT DOWN_LAST WRITE_TYPE: on "Identifier" goto 2232; on "MemberExpression" goto 2269; on "CallExpression" goto 2295; on "ArrayExpression" goto 2354; on "ObjectExpression" goto 2373; on "LiteralBoolean" goto 2387; else goto 2417
+switch UP LEFT DOWN_LAST WRITE_TYPE: on "VariableDeclarator" goto 2101; on "Property" goto 2155; on "LiteralString" goto 2190; on "FunctionExpression" goto 2191; on "LiteralNumber" goto 2221; else goto 2418
+LEFT WRITE_VALUE UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE UP PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE UP PREV_LEAF WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 2420; on "BlockStatement" goto 2421; else goto 2422
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP WRITE_TYPE: on "FunctionExpression" goto 2423; else goto 2424
+PREV_DFS WRITE_POS WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 2426; on "BlockStatement" goto 2427; else goto 2428
+LEFT PREV_DFS WRITE_VALUE NEXT_LEAF WRITE_VALUE
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "BlockStatement" goto 2430; else goto 2431
+switch WRITE_POS: on "-1001" goto 2429; else goto 2432
+UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+UP WRITE_POS PREV_LEAF WRITE_TYPE WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 2434; on "Identifier" goto 2435; else goto 2436
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_LEAF PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 2438; on "MemberExpression" goto 2439; on "CallExpression" goto 2440; on "BinaryExpression" goto 2441; on "UnaryExpression" goto 2442; else goto 2443
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_DFS PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP LEFT WRITE_TYPE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP PREV_NODE_CONTEXT DOWN_LAST DOWN_FIRST WRITE_TYPE NEXT_LEAF NEXT_LEAF WRITE_VALUE
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "ExpressionStatement" goto 2445; on "BlockStatement" goto 2446; on "IfStatement" goto 2447; else goto 2448
+LEFT PREV_DFS WRITE_VALUE NEXT_LEAF WRITE_VALUE
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "BlockStatement" goto 2450; else goto 2451
+switch WRITE_POS: on "-1001" goto 2449; else goto 2452
+switch PREV_DFS RIGHT WRITE_TYPE: on "-1" goto 2425; on "Identifier" goto 2433; on "FunctionExpression" goto 2437; on "IfStatement" goto 2444; else goto 2453
+PREV_LEAF WRITE_VALUE
+empty
+empty
+switch PREV_DFS UP DOWN_LAST WRITE_TYPE: on "ExpressionStatement" goto 2456; else goto 2457
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF UP WRITE_TYPE: on "FunctionExpression" goto 2455; on "Program" goto 2458; else goto 2459
+PREV_LEAF WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+PREV_LEAF PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "MemberExpression" goto 2463; on "LiteralString" goto 2464; on "LogicalExpression" goto 2465; on "UpdateExpression" goto 2466; on "UnaryExpression" goto 2467; else goto 2468
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 2460; on "CallExpression" goto 2461; on "AssignmentExpression" goto 2462; else goto 2469
+PREV_LEAF WRITE_TYPE WRITE_VALUE UP PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_POS PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1000" goto 2471; else goto 2472
+UP WRITE_POS UP PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_POS PREV_LEAF WRITE_VALUE UP PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_POS UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP WRITE_POS UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP UP PREV_DFS WRITE_TYPE WRITE_VALUE
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "ExpressionStatement" goto 2477; on "ReturnStatement" goto 2478; else goto 2479
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ExpressionStatement" goto 2473; on "ReturnStatement" goto 2474; on "IfStatement" goto 2475; on "VariableDeclaration" goto 2476; else goto 2480
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF RIGHT WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_TYPE UP WRITE_TYPE: on "FunctionExpression" goto 2485; on "IfStatement" goto 2486; on "FunctionDeclaration" goto 2487; else goto 2488
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "ExpressionStatement" goto 2482; on "ReturnStatement" goto 2483; on "IfStatement" goto 2484; else goto 2489
+empty
+UP PREV_NODE_TYPE PREV_LEAF WRITE_VALUE NEXT_LEAF WRITE_VALUE
+switch PREV_DFS UP DOWN_FIRST WRITE_TYPE: on "VariableDeclaration" goto 2491; else goto 2492
+PREV_DFS WRITE_POS UP DOWN_FIRST WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_POS: on "-1001" goto 2496; else goto 2497
+empty
+empty
+empty
+switch PREV_LEAF PREV_LEAF WRITE_VALUE: on "-1" goto 2499; on "raw" goto 2500; else goto 2501
+PREV_LEAF WRITE_VALUE
+PREV_LEAF PREV_LEAF WRITE_POS WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ExpressionStatement" goto 2495; on "BlockStatement" goto 2498; on "ReturnStatement" goto 2502; on "IfStatement" goto 2503; else goto 2504
+PREV_LEAF WRITE_VALUE
+PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP LEFT WRITE_TYPE: on "Identifier" goto 2506; on "UpdateExpression" goto 2507; on "AssignmentExpression" goto 2508; else goto 2509
+PREV_LEAF WRITE_VALUE PREV_NODE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF PREV_NODE_TYPE PREV_NODE_TYPE WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP UP WRITE_TYPE: on "WhileStatement" goto 2510; on "ForInStatement" goto 2511; on "CatchClause" goto 2512; else goto 2513
+switch UP UP WRITE_TYPE: on "FunctionExpression" goto 2481; on "IfStatement" goto 2490; on "ForStatement" goto 2493; on "FunctionDeclaration" goto 2494; on "SwitchCase" goto 2505; else goto 2514
+UP UP PREV_DFS WRITE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP UP PREV_DFS WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP UP PREV_DFS WRITE_TYPE WRITE_VALUE PREV_DFS PREV_LEAF WRITE_VALUE
+empty
+UP WRITE_POS UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "use\sstrict" goto 2520; else goto 2521
+LEFT LEFT WRITE_TYPE NEXT_LEAF WRITE_VALUE NEXT_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+switch WRITE_POS: on "-1005" goto 2516; on "-1004" goto 2517; on "-1003" goto 2518; on "-1002" goto 2519; on "-1001" goto 2522; else goto 2523
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_LEAF PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 2526; else goto 2527
+switch LEFT DOWN_FIRST WRITE_TYPE: on "AssignmentExpression" goto 2525; else goto 2528
+WRITE_POS UP UP PREV_NODE_VALUE DOWN_FIRST WRITE_VALUE
+WRITE_POS PREV_DFS PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS WRITE_TYPE: on "LiteralString" goto 2533; else goto 2534
+empty
+empty
+switch WRITE_POS: on "-1009" goto 2532; on "-1008" goto 2535; on "-1003" goto 2536; else goto 2537
+empty
+empty
+switch PREV_LEAF WRITE_VALUE: on "0" goto 2539; else goto 2540
+empty
+empty
+switch WRITE_POS: on "-1002" goto 2541; on "-1001" goto 2542; else goto 2543
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_DFS WRITE_VALUE: on "t" goto 2538; on "isPropagationStopped" goto 2544; else goto 2545
+empty
+LEFT DOWN_FIRST DOWN_FIRST WRITE_VALUE
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+switch PREV_DFS PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE: on "Property" goto 2552; on "BreakStatement" goto 2553; else goto 2554
+switch UP UP WRITE_TYPE: on "ForInStatement" goto 2548; on "CatchClause" goto 2549; on "TryStatement" goto 2550; on "DoWhileStatement" goto 2551; else goto 2555
+switch UP UP WRITE_TYPE: on "ForStatement" goto 2531; on "WhileStatement" goto 2546; on "SwitchCase" goto 2547; else goto 2556
+switch UP UP WRITE_TYPE: on "FunctionExpression" goto 2524; on "IfStatement" goto 2529; on "FunctionDeclaration" goto 2530; else goto 2557
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_LEAF PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 2559; else goto 2560
+WRITE_POS PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch UP UP UP WRITE_TYPE: on "BlockStatement" goto 2564; else goto 2565
+switch UP UP WRITE_TYPE: on "FunctionExpression" goto 2561; on "IfStatement" goto 2562; on "FunctionDeclaration" goto 2563; else goto 2566
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+LEFT DOWN_FIRST WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_TYPE PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_TYPE: on "Identifier" goto 2568; on "ThisExpression" goto 2569; else goto 2570
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE UP PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_DFS PREV_DFS WRITE_TYPE: on "VariableDeclarator" goto 2571; on "VariableDeclaration" goto 2572; else goto 2573
+LEFT DOWN_FIRST WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT DOWN_FIRST WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT LEFT WRITE_TYPE: on "ExpressionStatement" goto 2575; on "VariableDeclaration" goto 2576; else goto 2577
+switch WRITE_POS: on "-1001" goto 2574; else goto 2578
+empty
+empty
+switch PREV_DFS WRITE_POS: on "-1000" goto 2580; else goto 2581
+empty
+empty
+empty
+LEFT PREV_LEAF WRITE_VALUE
+switch LEFT PREV_LEAF WRITE_VALUE: on "els" goto 2583; on "length|results" goto 2584; on "elems|refElements" goto 2585; else goto 2586
+UP PREV_LEAF WRITE_VALUE
+switch LEFT DOWN_LAST WRITE_VALUE: on "j" goto 2582; on "i" goto 2587; else goto 2588
+LEFT DOWN_LAST WRITE_POS
+empty
+empty
+empty
+switch UP WRITE_POS: on "-1001" goto 2592; else goto 2593
+empty
+LEFT PREV_LEAF WRITE_VALUE
+switch LEFT PREV_LEAF WRITE_VALUE: on "selector" goto 2590; on "target" goto 2591; on "value" goto 2594; on "matches" goto 2595; else goto 2596
+LEFT DOWN_FIRST WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "0" goto 2589; on "length" goto 2597; else goto 2598
+switch LEFT DOWN_LAST WRITE_POS: on "-1000" goto 2579; else goto 2599
+UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT LEFT WRITE_TYPE NEXT_LEAF WRITE_VALUE
+LEFT PREV_LEAF PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP PREV_LEAF WRITE_VALUE
+empty
+PREV_DFS PREV_LEAF WRITE_VALUE
+empty
+switch PREV_DFS WRITE_POS: on "-1005" goto 2605; on "-1001" goto 2606; else goto 2607
+LEFT PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1002" goto 2604; on "-1001" goto 2608; else goto 2609
+LEFT WRITE_TYPE PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP LEFT NEXT_LEAF WRITE_VALUE
+empty
+empty
+switch UP UP WRITE_TYPE: on "FunctionExpression|FunctionDeclaration" goto 2611; on "IfStatement" goto 2612; on "SwitchCase" goto 2613; else goto 2614
+switch LEFT WRITE_TYPE: on "ForStatement" goto 2601; on "FunctionDeclaration" goto 2602; on "WhileStatement" goto 2603; on "ForInStatement" goto 2610; else goto 2615
+switch LEFT WRITE_TYPE: on "-1" goto 2515; on "ExpressionStatement" goto 2558; on "IfStatement" goto 2567; on "VariableDeclaration" goto 2600; else goto 2616
+LEFT WRITE_VALUE PREV_DFS WRITE_VALUE
+LEFT WRITE_VALUE
+switch UP WRITE_TYPE: on "ObjectExpression" goto 2618; else goto 2619
+LEFT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+WRITE_POS LEFT WRITE_VALUE
+empty
+switch UP WRITE_TYPE: on "ObjectExpression" goto 2622; else goto 2623
+switch WRITE_POS: on "-1003|-1002" goto 2620; on "-1001" goto 2621; else goto 2624
+UP PREV_DFS WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+switch WRITE_POS: on "-1000" goto 2626; else goto 2627
+UP WRITE_POS PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_DFS PREV_NODE_TYPE DOWN_LAST WRITE_POS: on "-1000" goto 2628; else goto 2629
+PREV_LEAF WRITE_TYPE
+UP PREV_DFS UP WRITE_TYPE PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1000" goto 2632; else goto 2633
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS
+UP WRITE_POS
+switch PREV_DFS UP WRITE_TYPE: on "Program" goto 2631; on "BlockStatement" goto 2634; on "VariableDeclaration" goto 2635; on "ForStatement" goto 2636; else goto 2637
+WRITE_POS PREV_DFS WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+WRITE_POS LEFT WRITE_VALUE LEFT WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 2640; else goto 2641
+switch PREV_LEAF WRITE_TYPE: on "VariableDeclarator" goto 2639; else goto 2642
+switch LEFT DOWN_FIRST PREV_DFS WRITE_TYPE: on "Property" goto 2625; on "ObjectExpression" goto 2630; on "VariableDeclaration" goto 2638; else goto 2643
+empty
+empty
+UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF PREV_DFS WRITE_VALUE: on "define" goto 2645; on "makeTestYear" goto 2646; else goto 2647
+UP PREV_DFS WRITE_VALUE
+UP PREV_DFS WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_TYPE: on "LiteralString" goto 2651; else goto 2652
+empty
+PREV_DFS PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF PREV_DFS LEFT WRITE_TYPE: on "Identifier" goto 2648; on "Property" goto 2649; on "LiteralString" goto 2650; on "ArrayExpression" goto 2653; on "LiteralNumber" goto 2654; else goto 2655
+PREV_LEAF PREV_DFS WRITE_VALUE
+empty
+LEFT WRITE_TYPE =eq= 
+switch WRITE_POS: on "-1002" goto 2658; else goto 2659
+switch WRITE_POS: on "-1000" goto 2657; else goto 2660
+WRITE_POS PREV_DFS WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+LEFT WRITE_TYPE
+switch PREV_DFS WRITE_TYPE: on "Identifier" goto 2665; on "Property" goto 2666; on "LiteralRegExp" goto 2667; else goto 2668
+empty
+empty
+switch UP LEFT PREV_DFS WRITE_TYPE: on "LiteralString" goto 2670; else goto 2671
+empty
+switch LEFT WRITE_TYPE: on "LiteralNumber" goto 2672; else goto 2673
+switch UP PREV_DFS WRITE_POS: on "-1006|-1005" goto 2664; on "-1001" goto 2669; else goto 2674
+switch PREV_DFS PREV_DFS NEXT_LEAF WRITE_TYPE: on "-1" goto 2661; on "LiteralString" goto 2662; on "Program" goto 2663; else goto 2675
+LEFT WRITE_VALUE UP PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "LiteralString" goto 2677; else goto 2678
+PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE
+LEFT PREV_NODE_CONTEXT PREV_DFS DOWN_LAST WRITE_VALUE
+switch LEFT PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE: on "ArrayExpression" goto 2680; else goto 2681
+empty
+empty
+empty
+empty
+WRITE_POS
+switch LEFT WRITE_TYPE: on "ObjectExpression" goto 2686; else goto 2687
+empty
+UP PREV_DFS WRITE_TYPE =eq= 
+empty
+switch LEFT WRITE_VALUE: on "-1" goto 2688; on "\p" goto 2689; on "\m" goto 2690; else goto 2691
+switch UP UP UP WRITE_TYPE: on "CallExpression" goto 2684; on "VariableDeclarator" goto 2685; else goto 2692
+empty
+empty
+empty
+empty
+switch WRITE_POS: on "-1003" goto 2694; on "-1002" goto 2695; on "-1001" goto 2696; else goto 2697
+UP WRITE_POS
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE =eq= 
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Identifier" goto 2700; on "BinaryExpression" goto 2701; on "ArrayExpression" goto 2702; on "ObjectExpression" goto 2703; else goto 2704
+switch PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ArrayExpression" goto 2682; on "FunctionExpression" goto 2683; on "LiteralNumber" goto 2693; on "ObjectExpression" goto 2698; on "UnaryExpression" goto 2699; else goto 2705
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 2676; on "LiteralString" goto 2679; else goto 2706
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "matchers" goto 2710; on "code" goto 2711; else goto 2712
+PREV_LEAF WRITE_VALUE
+switch UP UP WRITE_TYPE: on "ReturnStatement" goto 2708; on "ConditionalExpression" goto 2709; on "AssignmentExpression" goto 2713; else goto 2714
+empty
+empty
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "args" goto 2716; on "elem" goto 2717; on "start" goto 2718; else goto 2719
+empty
+empty
+empty
+switch UP UP WRITE_TYPE: on "ArrayExpression" goto 2721; on "LogicalExpression" goto 2722; else goto 2723
+empty
+empty
+empty
+empty
+empty
+switch UP UP WRITE_TYPE: on "ArrayExpression" goto 2726; on "LogicalExpression" goto 2727; on "AssignmentExpression" goto 2728; else goto 2729
+switch PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 2715; on "Identifier" goto 2720; on "LiteralString" goto 2724; on "LiteralNumber" goto 2725; else goto 2730
+LEFT WRITE_VALUE
+empty
+empty
+empty
+switch UP UP LEFT WRITE_TYPE: on "CallExpression" goto 2732; on "LiteralString" goto 2733; on "AssignmentExpression" goto 2734; else goto 2735
+WRITE_POS UP WRITE_POS PREV_DFS WRITE_VALUE WRITE_TYPE
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT PREV_LEAF WRITE_VALUE: on "options" goto 2738; on "list" goto 2739; on "fx" goto 2740; else goto 2741
+empty
+empty
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2745; else goto 2746
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "ArrayAccess" goto 2751; on "NewExpression" goto 2752; on "UnaryExpression" goto 2753; on "LiteralNull" goto 2754; else goto 2755
+switch LEFT WRITE_TYPE: on "Identifier" goto 2742; on "MemberExpression" goto 2743; on "CallExpression" goto 2744; on "BinaryExpression" goto 2747; on "LiteralRegExp" goto 2748; on "LiteralNumber" goto 2749; on "ObjectExpression" goto 2750; else goto 2756
+switch LEFT WRITE_TYPE: on "-1" goto 2731; on "LiteralString" goto 2736; on "ArrayExpression" goto 2737; else goto 2757
+PREV_LEAF WRITE_TYPE PREV_DFS WRITE_VALUE
+empty
+empty
+switch LEFT PREV_LEAF WRITE_POS: on "-1002" goto 2760; else goto 2761
+empty
+UP PREV_LEAF WRITE_VALUE
+switch UP PREV_LEAF WRITE_TYPE: on "LiteralNumber" goto 2763; else goto 2764
+empty
+empty
+empty
+switch LEFT PREV_NODE_VALUE WRITE_POS: on "-1003" goto 2767; else goto 2768
+PREV_DFS WRITE_VALUE
+switch UP PREV_LEAF WRITE_TYPE: on "Identifier|Property" goto 2766; on "LiteralNumber" goto 2769; else goto 2770
+switch PREV_DFS PREV_NODE_TYPE RIGHT WRITE_POS: on "-1002" goto 2762; on "-1001" goto 2765; else goto 2771
+UP PREV_LEAF WRITE_POS
+LEFT WRITE_VALUE
+PREV_DFS PREV_DFS PREV_DFS UP WRITE_TYPE WRITE_POS
+switch UP WRITE_POS: on "-1000" goto 2774; else goto 2775
+switch WRITE_POS: on "-1003" goto 2773; else goto 2776
+empty
+switch PREV_LEAF LEFT PREV_NODE_TYPE WRITE_POS: on "-1002|-1001" goto 2772; on "-1000" goto 2777; else goto 2778
+empty
+empty
+switch WRITE_POS: on "-1002" goto 2780; else goto 2781
+UP WRITE_POS
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+switch WRITE_POS: on "-1003" goto 2785; else goto 2786
+empty
+empty
+empty
+switch LEFT PREV_NODE_TYPE NEXT_LEAF WRITE_TYPE: on "Identifier" goto 2787; on "LiteralString" goto 2788; on "LiteralNumber" goto 2789; else goto 2790
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_POS: on "-1002" goto 2784; on "-1001" goto 2791; on "-1000" goto 2792; else goto 2793
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "Identifier" goto 2796; on "MemberExpression" goto 2797; on "CallExpression" goto 2798; on "BinaryExpression" goto 2799; on "ObjectExpression" goto 2800; else goto 2801
+switch LEFT WRITE_TYPE: on "LiteralString" goto 2782; on "ArrayExpression" goto 2783; on "LiteralNumber" goto 2794; on "UnaryExpression" goto 2795; else goto 2802
+switch LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE: on "-1" goto 2759; on "LiteralNumber" goto 2779; else goto 2803
+empty
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2809; else goto 2810
+empty
+switch LEFT WRITE_TYPE: on "CallExpression" goto 2807; on "LiteralString" goto 2808; on "ObjectExpression" goto 2811; else goto 2812
+switch LEFT DOWN_FIRST WRITE_TYPE: on "-1" goto 2805; on "Property" goto 2806; else goto 2813
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1000" goto 2815; else goto 2816
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+WRITE_POS
+switch WRITE_POS: on "-1001" goto 2822; else goto 2823
+empty
+empty
+switch UP WRITE_POS: on "-1001" goto 2825; else goto 2826
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "ArrayAccess" goto 2830; on "ArrayExpression" goto 2831; on "LogicalExpression" goto 2832; on "LiteralNull" goto 2833; else goto 2834
+switch LEFT WRITE_TYPE: on "MemberExpression" goto 2820; on "CallExpression" goto 2821; on "BinaryExpression" goto 2824; on "LiteralRegExp" goto 2827; on "LiteralNumber" goto 2828; on "ObjectExpression" goto 2829; else goto 2835
+switch LEFT WRITE_TYPE: on "-1" goto 2817; on "Identifier" goto 2818; on "LiteralString" goto 2819; else goto 2836
+empty
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "Identifier" goto 2841; on "ArrayAccess" goto 2842; on "LogicalExpression" goto 2843; on "LiteralRegExp" goto 2844; else goto 2845
+switch LEFT WRITE_TYPE: on "-1" goto 2838; on "MemberExpression" goto 2839; on "LiteralString" goto 2840; else goto 2846
+PREV_LEAF WRITE_VALUE
+empty
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "NewExpression" goto 2856; on "LiteralNull" goto 2857; else goto 2858
+switch LEFT WRITE_TYPE: on "Identifier" goto 2851; on "MemberExpression" goto 2852; on "FunctionExpression" goto 2853; on "LiteralNumber" goto 2854; on "ObjectExpression" goto 2855; else goto 2859
+switch LEFT WRITE_TYPE: on "-1" goto 2848; on "CallExpression" goto 2849; on "LiteralString" goto 2850; else goto 2860
+empty
+empty
+empty
+switch PREV_LEAF WRITE_VALUE: on "elements" goto 2862; on "argument" goto 2863; else goto 2864
+LEFT WRITE_TYPE
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_TYPE: on "Identifier" goto 2865; on "LiteralNumber" goto 2866; else goto 2867
+empty
+LEFT DOWN_FIRST WRITE_VALUE
+LEFT WRITE_TYPE
+switch UP LEFT DOWN_FIRST WRITE_TYPE: on "-1" goto 2869; on "FunctionExpression" goto 2870; else goto 2871
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_TYPE: on "LiteralString" goto 2873; else goto 2874
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch UP PREV_NODE_TYPE NEXT_LEAF WRITE_TYPE: on "-1" goto 2875; on "Identifier" goto 2876; on "LiteralRegExp" goto 2877; on "LiteralNumber" goto 2878; else goto 2879
+empty
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "selector" goto 2882; on "dirruns" goto 2883; else goto 2884
+empty
+empty
+empty
+empty
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch PREV_LEAF WRITE_VALUE: on "elem" goto 2894; on "type" goto 2895; on "parsed" goto 2896; else goto 2897
+LEFT WRITE_TYPE
+switch PREV_DFS PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ThisExpression" goto 2889; on "ArrayAccess" goto 2890; on "Property" goto 2891; on "LiteralBoolean" goto 2892; on "LiteralNull" goto 2893; on "ConditionalExpression" goto 2898; else goto 2899
+switch LEFT WRITE_TYPE: on "Identifier" goto 2885; on "ArrayAccess" goto 2886; on "LiteralString" goto 2887; on "NewExpression" goto 2888; else goto 2900
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 2837; on "MemberExpression" goto 2847; on "CallExpression" goto 2861; on "BinaryExpression" goto 2868; on "FunctionExpression" goto 2872; on "LiteralRegExp" goto 2880; on "UnaryExpression" goto 2881; else goto 2901
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 2656; on "LiteralString" goto 2707; on "ArrayExpression" goto 2758; on "LiteralNumber" goto 2804; on "ObjectExpression" goto 2814; else goto 2902
+UP PREV_DFS WRITE_VALUE
+empty
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 2906; else goto 2907
+PREV_DFS WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+switch LEFT LEFT WRITE_VALUE: on "RegExp" goto 2910; else goto 2911
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_TYPE RIGHT WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+switch PREV_DFS UP DOWN_FIRST WRITE_VALUE: on "Element" goto 2913; on "RegExp" goto 2914; on "Array" goto 2915; on "Function" goto 2916; on "TestCase|FCKToolbarButton" goto 2917; else goto 2918
+empty
+LEFT WRITE_TYPE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_TYPE: on "Identifier" goto 2908; on "MemberExpression" goto 2909; on "BinaryExpression" goto 2912; on "LiteralString" goto 2919; on "LiteralNumber" goto 2920; else goto 2921
+switch PREV_DFS WRITE_VALUE: on "RegExp" goto 2904; on "Error" goto 2905; else goto 2922
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "_wrap$ctor" goto 2924; else goto 2925
+PREV_DFS WRITE_VALUE
+LEFT WRITE_TYPE PREV_LEAF PREV_LEAF RIGHT WRITE_VALUE WRITE_TYPE
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+empty
+PREV_DFS WRITE_TYPE
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "LiteralNumber" goto 2935; on "LiteralBoolean" goto 2936; else goto 2937
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ArrayAccess" goto 2931; on "BinaryExpression" goto 2932; on "ArrayExpression" goto 2933; on "NewExpression" goto 2934; else goto 2938
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Identifier" goto 2926; on "MemberExpression" goto 2927; on "CallExpression" goto 2928; on "FunctionExpression" goto 2929; on "ObjectExpression" goto 2930; else goto 2939
+PREV_DFS WRITE_VALUE
+PREV_DFS PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_TYPE WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 2942; else goto 2943
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "BinaryExpression" goto 2941; on "LiteralString" goto 2944; on "ObjectExpression" goto 2945; else goto 2946
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 2948; on "-1000" goto 2949; else goto 2950
+empty
+empty
+PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 2952; on "-1000" goto 2953; else goto 2954
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+UP PREV_DFS WRITE_TYPE WRITE_VALUE
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "-1" goto 2956; on "Identifier" goto 2957; else goto 2958
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 2951; on "MemberExpression" goto 2955; else goto 2959
+LEFT WRITE_TYPE
+PREV_DFS WRITE_VALUE
+WRITE_POS
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS PREV_NODE_CONTEXT WRITE_POS: on "-1005|-1004" goto 2966; else goto 2967
+empty
+empty
+switch UP PREV_DFS UP WRITE_TYPE: on "AssignmentExpression" goto 2969; else goto 2970
+empty
+empty
+PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_DFS WRITE_VALUE: on "1" goto 2972; on "Date" goto 2973; else goto 2974
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ThisExpression" goto 2961; on "MemberExpression" goto 2962; on "ArrayExpression" goto 2963; on "LiteralNumber" goto 2964; on "ObjectExpression" goto 2965; on "LiteralBoolean" goto 2968; on "LiteralNull" goto 2971; else goto 2975
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 2923; on "Identifier" goto 2940; on "LiteralString" goto 2947; on "Program" goto 2960; else goto 2976
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "use\sstrict" goto 2979; else goto 2980
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "prototype" goto 2982; else goto 2983
+LEFT LEFT WRITE_TYPE NEXT_LEAF WRITE_VALUE
+switch PREV_DFS PREV_NODE_TYPE WRITE_VALUE: on "prototype" goto 2984; else goto 2985
+switch WRITE_POS: on "-1001" goto 2981; else goto 2986
+LEFT DOWN_LAST WRITE_VALUE
+LEFT DOWN_FIRST WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 2989; on "ExpressionStatement" goto 2990; on "FunctionDeclaration" goto 2991; else goto 2992
+LEFT DOWN_FIRST DOWN_FIRST WRITE_VALUE WRITE_TYPE
+PREV_DFS LEFT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "IfStatement" goto 2994; else goto 2995
+switch LEFT WRITE_TYPE: on "-1" goto 2978; on "ExpressionStatement" goto 2987; on "VariableDeclaration" goto 2988; on "FunctionDeclaration" goto 2993; else goto 2996
+PREV_LEAF UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF UP WRITE_TYPE: on "FunctionExpression" goto 2998; on "FunctionDeclaration" goto 2999; else goto 3000
+PREV_LEAF PREV_DFS WRITE_VALUE
+PREV_LEAF WRITE_TYPE PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP LEFT WRITE_TYPE: on "ReturnStatement" goto 3001; on "VariableDeclaration" goto 3002; else goto 3003
+empty
+empty
+switch PREV_LEAF PREV_NODE_TYPE NEXT_LEAF WRITE_VALUE: on "arguments|list" goto 3005; else goto 3006
+empty
+empty
+empty
+switch PREV_LEAF PREV_LEAF WRITE_VALUE: on "-1" goto 3008; on "returnFalse" goto 3009; else goto 3010
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "-1" goto 3007; on "fn" goto 3011; else goto 3012
+PREV_LEAF WRITE_VALUE PREV_DFS WRITE_VALUE
+switch UP WRITE_POS: on "-1000" goto 3013; else goto 3014
+PREV_LEAF PREV_LEAF PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF UP PREV_DFS WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF UP WRITE_TYPE: on "BinaryExpression" goto 3016; on "FunctionExpression" goto 3017; else goto 3018
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP WRITE_POS PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP LEFT WRITE_TYPE: on "ReturnStatement" goto 3019; on "VariableDeclaration" goto 3020; else goto 3021
+PREV_LEAF WRITE_VALUE
+PREV_LEAF PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_DFS WRITE_VALUE
+switch UP WRITE_POS: on "-1001" goto 3023; on "-1000" goto 3024; else goto 3025
+UP LEFT WRITE_TYPE PREV_DFS LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_DFS WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "type|toLowerCase" goto 3031; on "base" goto 3032; else goto 3033
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP LEFT WRITE_TYPE: on "ExpressionStatement" goto 3029; on "ReturnStatement" goto 3030; on "VariableDeclaration" goto 3034; else goto 3035
+UP LEFT WRITE_TYPE PREV_LEAF PREV_LEAF UP DOWN_LAST WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF PREV_DFS WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "val" goto 3041; on "funescape" goto 3042; else goto 3043
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP LEFT WRITE_TYPE: on "ReturnStatement" goto 3040; on "VariableDeclaration" goto 3044; else goto 3045
+UP LEFT WRITE_TYPE PREV_LEAF WRITE_VALUE
+empty
+empty
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "elem" goto 3049; else goto 3050
+switch PREV_LEAF PREV_NODE_TYPE PREV_LEAF WRITE_VALUE: on "raw|$p1" goto 3048; else goto 3051
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_POS: on "-1001" goto 3047; on "-1000" goto 3052; else goto 3053
+UP LEFT WRITE_TYPE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "args|disable" goto 3057; on "elem" goto 3058; on "fired" goto 3059; else goto 3060
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_POS PREV_LEAF WRITE_VALUE NEXT_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_VALUE: on "-1" goto 3056; on "!" goto 3061; on "null" goto 3062; else goto 3063
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "MemberExpression" goto 3037; on "LiteralString" goto 3038; on "ArrayExpression" goto 3039; on "LogicalExpression" goto 3046; on "FunctionExpression|NewExpression" goto 3054; on "ObjectExpression" goto 3055; else goto 3064
+switch PREV_DFS PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Identifier" goto 3004; on "ThisExpression" goto 3015; on "CallExpression" goto 3022; on "BinaryExpression" goto 3026; on "ReturnStatement" goto 3027; on "LiteralBoolean" goto 3028; on "ConditionalExpression" goto 3036; else goto 3065
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_POS WRITE_TYPE WRITE_VALUE PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+empty
+switch PREV_LEAF UP WRITE_TYPE: on "MemberExpression" goto 3071; on "AssignmentExpression" goto 3072; else goto 3073
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP UP WRITE_TYPE: on "LogicalExpression" goto 3069; on "UnaryExpression" goto 3070; on "AssignmentExpression" goto 3074; else goto 3075
+switch UP PREV_DFS WRITE_TYPE: on "LogicalExpression" goto 3067; on "IfStatement" goto 3068; else goto 3076
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Identifier" goto 3080; on "MemberExpression" goto 3081; else goto 3082
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 3078; on "LiteralNumber" goto 3079; else goto 3083
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+UP PREV_DFS WRITE_VALUE
+switch UP UP WRITE_VALUE: on "\o\o" goto 3088; on "!" goto 3089; on "~" goto 3090; on "\a" goto 3091; else goto 3092
+empty
+switch UP WRITE_VALUE: on "\p" goto 3087; on "~" goto 3093; else goto 3094
+switch UP WRITE_VALUE: on "!" goto 3077; on "\m" goto 3084; on "typeof" goto 3085; on "delete" goto 3086; else goto 3095
+LEFT WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch UP PREV_DFS PREV_DFS WRITE_VALUE: on "-1" goto 3098; on "match" goto 3099; on "context" goto 3100; else goto 3101
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "nodeType" goto 3102; else goto 3103
+empty
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+switch PREV_DFS PREV_DFS PREV_DFS WRITE_VALUE: on "arguments" goto 3105; on ">\e" goto 3106; on "matchers" goto 3107; else goto 3108
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_LEAF WRITE_VALUE: on "undefined" goto 3110; on "nodeName" goto 3111; on "parentNode" goto 3112; on "b" goto 3113; on ")" goto 3114; else goto 3115
+UP WRITE_POS UP WRITE_TYPE
+empty
+empty
+switch PREV_DFS UP WRITE_VALUE: on "-1" goto 3117; on "\e\e\e" goto 3118; else goto 3119
+empty
+empty
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "button" goto 3121; else goto 3122
+UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_VALUE: on "\a\a" goto 3120; on "\a" goto 3123; else goto 3124
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "length" goto 3109; on "nodeType" goto 3116; else goto 3125
+PREV_DFS PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "!\e|\e|~\e" goto 3128; else goto 3129
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+empty
+switch PREV_DFS WRITE_TYPE: on "LiteralNull" goto 3133; else goto 3134
+empty
+empty
+empty
+empty
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "data" goto 3136; on "name" goto 3137; on "wait" goto 3138; else goto 3139
+empty
+empty
+empty
+switch UP UP WRITE_TYPE: on "ReturnStatement" goto 3142; else goto 3143
+UP PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "" goto 3141; on "*|automatic" goto 3144; else goto 3145
+switch PREV_DFS WRITE_VALUE: on "" goto 3131; on "false" goto 3132; on "null" goto 3135; on "true" goto 3140; else goto 3146
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_LEAF WRITE_VALUE: on "obj|ret" goto 3149; on "which" goto 3150; on "body" goto 3151; on "num" goto 3152; else goto 3153
+UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "type|button" goto 3156; on "namespace" goto 3157; on "tr|iframe" goto 3158; else goto 3159
+switch PREV_DFS WRITE_POS: on "-1001" goto 3155; else goto 3160
+switch LEFT WRITE_VALUE: on "\e\e\e" goto 3147; on "\e\e" goto 3148; on "!\e" goto 3154; else goto 3161
+switch PREV_DFS LEFT WRITE_VALUE: on "typeof" goto 3127; on "operator" goto 3130; else goto 3162
+switch PREV_DFS WRITE_TYPE: on "Identifier" goto 3097; on "Property" goto 3104; on "LiteralNumber" goto 3126; else goto 3163
+LEFT PREV_NODE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "i" goto 3166; on "promise" goto 3167; on "subordinate" goto 3168; on "$set" goto 3169; else goto 3170
+empty
+UP PREV_LEAF WRITE_VALUE
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "tmp" goto 3172; on "ret" goto 3173; on "src" goto 3174; on "parent" goto 3175; else goto 3176
+LEFT WRITE_VALUE PREV_DFS WRITE_VALUE
+switch LEFT LEFT WRITE_VALUE: on "-1" goto 3165; on "\e\e\e" goto 3171; on "\a\a" goto 3177; else goto 3178
+PREV_DFS PREV_DFS WRITE_VALUE
+UP PREV_NODE_CONTEXT PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "length" goto 3180; on "value" goto 3181; else goto 3182
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch LEFT PREV_DFS WRITE_VALUE: on "one" goto 3186; on "4" goto 3187; else goto 3188
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "1" goto 3189; on "length" goto 3190; on "namespace" goto 3191; else goto 3192
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "name" goto 3194; on "check" goto 3195; else goto 3196
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "check" goto 3198; on "HTML" goto 3199; else goto 3200
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch LEFT PREV_NODE_TYPE WRITE_VALUE: on "<" goto 3203; on "<\e" goto 3204; else goto 3205
+LEFT WRITE_VALUE PREV_DFS WRITE_VALUE
+switch LEFT WRITE_VALUE: on "\p" goto 3193; on "\e\e\e" goto 3197; on "!\e\e" goto 3201; on "\m" goto 3202; on ">" goto 3206; else goto 3207
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_LEAF WRITE_VALUE: on "cache" goto 3209; on "fn|nodeType|string" goto 3210; on "null" goto 3211; else goto 3212
+empty
+empty
+empty
+switch UP WRITE_POS: on "-1001" goto 3215; else goto 3216
+empty
+empty
+switch LEFT WRITE_VALUE: on "\a\a" goto 3218; else goto 3219
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch LEFT DOWN_LAST WRITE_TYPE: on "Identifier" goto 3214; on "CallExpression" goto 3217; on "BinaryExpression" goto 3220; on "LiteralString" goto 3221; else goto 3222
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "data" goto 3225; on "disabled" goto 3226; on "thisCache" goto 3227; else goto 3228
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "-1|num" goto 3230; on "results" goto 3231; on "i" goto 3232; else goto 3233
+PREV_DFS WRITE_VALUE
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "readyWait" goto 3236; else goto 3237
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT WRITE_TYPE: on "NewExpression" goto 3235; on "UpdateExpression" goto 3238; on "ObjectExpression" goto 3239; else goto 3240
+switch LEFT WRITE_TYPE: on "ArrayExpression" goto 3213; on "LogicalExpression" goto 3223; on "FunctionExpression" goto 3224; on "UnaryExpression" goto 3229; on "ConditionalExpression" goto 3234; else goto 3241
+switch LEFT WRITE_TYPE: on "Identifier" goto 3179; on "MemberExpression" goto 3183; on "ArrayAccess" goto 3184; on "CallExpression" goto 3185; on "BinaryExpression" goto 3208; else goto 3242
+empty
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "CallExpression" goto 3245; on "ArrayExpression" goto 3246; else goto 3247
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "" goto 3261; else goto 3262
+switch LEFT WRITE_VALUE: on "" goto 3260; else goto 3263
+switch LEFT WRITE_VALUE: on "" goto 3259; else goto 3264
+switch LEFT WRITE_VALUE: on "" goto 3258; else goto 3265
+switch LEFT WRITE_VALUE: on "" goto 3257; else goto 3266
+switch LEFT WRITE_VALUE: on "" goto 3256; else goto 3267
+switch LEFT WRITE_VALUE: on "" goto 3255; else goto 3268
+switch LEFT WRITE_VALUE: on "" goto 3254; else goto 3269
+switch LEFT WRITE_VALUE: on "" goto 3253; else goto 3270
+switch LEFT WRITE_VALUE: on "" goto 3252; else goto 3271
+switch LEFT WRITE_VALUE: on "" goto 3251; else goto 3272
+switch LEFT WRITE_VALUE: on "" goto 3250; else goto 3273
+switch LEFT WRITE_VALUE: on "" goto 3244; on "-1" goto 3248; on "\p" goto 3249; else goto 3274
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_NODE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "Identifier" goto 3276; on "MemberExpression" goto 3277; on "CallExpression" goto 3278; on "BinaryExpression" goto 3279; else goto 3280
+empty
+empty
+empty
+empty
+empty
+switch PREV_LEAF WRITE_VALUE: on "length" goto 3282; on "prevObject" goto 3283; on "keyHooks" goto 3284; on "mouseHooks" goto 3285; else goto 3286
+empty
+empty
+UP PREV_LEAF WRITE_VALUE WRITE_POS
+switch PREV_DFS WRITE_VALUE: on "props" goto 3288; on "toArray" goto 3289; else goto 3290
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT WRITE_VALUE: on "1" goto 3292; on "0" goto 3293; else goto 3294
+empty
+empty
+empty
+UP PREV_DFS WRITE_VALUE
+switch UP LEFT WRITE_VALUE: on "-1" goto 3296; on "data" goto 3297; on "true" goto 3298; else goto 3299
+PREV_LEAF PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+switch UP PREV_LEAF WRITE_VALUE: on "0" goto 3302; on "false" goto 3303; on "val" goto 3304; else goto 3305
+empty
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "-1" goto 3310; on "j" goto 3311; else goto 3312
+empty
+PREV_DFS PREV_DFS WRITE_VALUE
+empty
+empty
+switch LEFT WRITE_TYPE: on "LiteralRegExp" goto 3316; else goto 3317
+switch LEFT WRITE_TYPE: on "ThisExpression" goto 3307; on "ArrayAccess" goto 3308; on "BinaryExpression" goto 3309; on "ArrayExpression" goto 3313; on "FunctionExpression" goto 3314; on "ObjectExpression" goto 3315; else goto 3318
+switch LEFT WRITE_TYPE: on "MemberExpression" goto 3287; on "CallExpression" goto 3291; on "LiteralNumber" goto 3295; on "LiteralBoolean" goto 3300; on "UnaryExpression" goto 3301; on "LiteralNull" goto 3306; else goto 3319
+switch LEFT LEFT NEXT_LEAF WRITE_TYPE: on "-1" goto 3164; on "Identifier" goto 3243; on "LiteralString" goto 3275; on "Program" goto 3281; else goto 3320
+LEFT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+PREV_DFS PREV_NODE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+switch WRITE_POS: on "-1003" goto 3324; else goto 3325
+PREV_LEAF WRITE_TYPE
+empty
+PREV_LEAF WRITE_POS PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+UP PREV_DFS PREV_DFS WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 3331; else goto 3332
+PREV_LEAF UP WRITE_TYPE PREV_LEAF WRITE_VALUE
+switch PREV_DFS PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "-1" goto 3328; on "AssignmentExpression" goto 3329; on "VariableDeclaration" goto 3330; on "EmptyStatement" goto 3333; else goto 3334
+empty
+LEFT WRITE_VALUE
+switch UP PREV_DFS WRITE_VALUE: on "prototype" goto 3336; else goto 3337
+LEFT WRITE_VALUE
+switch LEFT PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE: on "Property" goto 3338; else goto 3339
+empty
+switch WRITE_POS: on "-1001" goto 3340; else goto 3341
+empty
+PREV_DFS WRITE_VALUE PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT WRITE_TYPE: on "Identifier" goto 3345; on "LogicalExpression" goto 3346; on "AssignmentExpression" goto 3347; else goto 3348
+switch WRITE_POS: on "-1003" goto 3343; on "-1001" goto 3344; else goto 3349
+switch LEFT DOWN_FIRST PREV_DFS WRITE_TYPE: on "Identifier" goto 3322; on "BinaryExpression" goto 3323; on "UpdateExpression" goto 3326; on "VariableDeclaration" goto 3327; on "ForStatement" goto 3335; on "FunctionDeclaration" goto 3342; else goto 3350
+empty
+empty
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 3354; on "Identifier" goto 3355; else goto 3356
+switch UP WRITE_POS: on "-1002" goto 3353; else goto 3357
+empty
+PREV_LEAF LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+switch UP WRITE_POS: on "-1005" goto 3360; on "-1004" goto 3361; on "-1001" goto 3362; on "-1000" goto 3363; else goto 3364
+PREV_LEAF PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "0" goto 3365; on "length" goto 3366; else goto 3367
+switch WRITE_POS: on "-1001" goto 3359; else goto 3368
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "Identifier" goto 3370; else goto 3371
+empty
+empty
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch WRITE_POS: on "-1002" goto 3374; else goto 3375
+UP PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+switch WRITE_POS: on "-1002" goto 3379; else goto 3380
+switch PREV_DFS UP WRITE_TYPE: on "BlockStatement" goto 3372; on "VariableDeclaration" goto 3373; on "ForInStatement" goto 3376; on "CatchClause" goto 3377; on "TryStatement" goto 3378; else goto 3381
+empty
+empty
+empty
+switch PREV_DFS UP DOWN_LAST WRITE_TYPE: on "SwitchStatement" goto 3384; else goto 3385
+empty
+PREV_LEAF WRITE_VALUE
+UP LEFT DOWN_FIRST WRITE_TYPE
+switch UP WRITE_POS: on "-1001" goto 3388; else goto 3389
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "MemberExpression" goto 3383; on "LiteralString" goto 3386; on "LiteralNumber" goto 3387; else goto 3390
+UP PREV_DFS WRITE_TYPE
+switch WRITE_POS: on "-1000" goto 3391; else goto 3392
+empty
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "CatchClause" goto 3396; else goto 3397
+switch WRITE_POS: on "-1001" goto 3394; on "-1000" goto 3395; else goto 3398
+PREV_LEAF WRITE_VALUE
+WRITE_POS
+switch WRITE_POS: on "-1000" goto 3400; else goto 3401
+empty
+empty
+empty
+switch UP UP WRITE_TYPE: on "BlockStatement" goto 3403; on "ForStatement" goto 3404; else goto 3405
+empty
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP UP UP WRITE_TYPE: on "IfStatement" goto 3417; else goto 3418
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "MemberExpression" goto 3414; on "BinaryExpression" goto 3415; on "ObjectExpression" goto 3416; else goto 3419
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 3409; on "Identifier" goto 3410; on "CallExpression" goto 3411; on "LiteralString" goto 3412; on "NewExpression" goto 3413; else goto 3420
+LEFT DOWN_LAST PREV_DFS WRITE_VALUE
+empty
+empty
+switch UP WRITE_TYPE: on "SequenceExpression" goto 3422; on "DoWhileStatement" goto 3423; else goto 3424
+switch PREV_DFS WRITE_TYPE: on "LiteralNumber" goto 3406; on "SequenceExpression" goto 3407; on "DoWhileStatement" goto 3408; on "ThrowStatement" goto 3421; else goto 3425
+switch UP WRITE_TYPE: on "-1" goto 3352; on "UpdateExpression" goto 3358; on "WhileStatement" goto 3369; on "ForInStatement|CatchClause" goto 3382; on "SwitchCase" goto 3393; on "TryStatement" goto 3399; on "SwitchStatement" goto 3402; else goto 3426
+switch UP WRITE_TYPE: on "ArrayExpression" goto 2903; on "NewExpression" goto 2977; on "Program" goto 2997; on "ReturnStatement" goto 3066; on "UnaryExpression" goto 3096; on "ConditionalExpression" goto 3321; on "ForStatement|FunctionDeclaration" goto 3351; else goto 3427
+switch UP WRITE_TYPE: on "MemberExpression|ArrayAccess" goto 133; on "CallExpression|BinaryExpression|LogicalExpression|AssignmentExpression" goto 2034; on "VariableDeclarator|Property" goto 2419; on "FunctionExpression|IfStatement" goto 2454; on "ExpressionStatement" goto 2470; on "BlockStatement" goto 2617; on "ObjectExpression|VariableDeclaration" goto 2644; else goto 3428

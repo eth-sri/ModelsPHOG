@@ -1,0 +1,44 @@
+empty
+empty
+empty
+empty
+PREV_NODE_TYPE WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_DFS =eq= PREV_DFS PREV_NODE_CONTEXT DOWN_FIRST DOWN_LAST DOWN_LAST WRITE_VALUE PREV_DFS DOWN_FIRST PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE LEFT PREV_LEAF WRITE_VALUE
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE =eq= LEFT LEFT DOWN_LAST PREV_NODE_CONTEXT NEXT_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_VALUE PREV_DFS PREV_NODE_VALUE DOWN_LAST WRITE_VALUE NEXT_LEAF WRITE_VALUE =eq= PREV_NODE_TYPE WRITE_VALUE PREV_LEAF PREV_NODE_TYPE PREV_NODE_TYPE WRITE_VALUE DOWN_FIRST PREV_LEAF PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST RIGHT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE =eq= PREV_NODE_TYPE WRITE_VALUE PREV_LEAF PREV_LEAF WRITE_VALUE PREV_NODE_TYPE PREV_LEAF WRITE_VALUE
+PREV_DFS PREV_NODE_CONTEXT DOWN_LAST RIGHT WRITE_VALUE PREV_DFS WRITE_VALUE PREV_LEAF WRITE_VALUE LEFT PREV_LEAF WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT UP WRITE_TYPE DOWN_LAST WRITE_VALUE DOWN_FIRST RIGHT PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+LEFT WRITE_TYPE PREV_DFS WRITE_TYPE WRITE_VALUE DOWN_FIRST RIGHT PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+PREV_DFS WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+PREV_NODE_TYPE WRITE_VALUE =eq= PREV_DFS WRITE_VALUE PREV_LEAF PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+LEFT PREV_DFS WRITE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+UP PREV_DFS WRITE_VALUE
+switch WRITE_TYPE: on "Program" goto 0; on "ExpressionStatement" goto 1; on "CallExpression" goto 2; on "MemberExpression" goto 3; on "Identifier" goto 4; on "Property" goto 5; on "LiteralString" goto 6; on "ObjectExpression" goto 7; on "VariableDeclaration" goto 8; on "VariableDeclarator" goto 9; on "LiteralNumber" goto 10; on "FunctionDeclaration" goto 11; on "BlockStatement" goto 12; on "LiteralBoolean" goto 13; on "AssignmentExpression" goto 14; on "ArrayExpression" goto 15; on "ReturnStatement" goto 16; on "ArrayAccess" goto 17; on "FunctionExpression" goto 18; on "ThisExpression" goto 19; on "IfStatement" goto 20; on "BinaryExpression" goto 21; on "UnaryExpression" goto 22; on "ThrowStatement" goto 23; on "NewExpression" goto 24; on "ConditionalExpression" goto 25; on "LogicalExpression" goto 26; on "LiteralNull" goto 27; on "WhileStatement" goto 28; on "DoWhileStatement" goto 29; on "LiteralRegExp" goto 30; on "ForStatement" goto 31; on "UpdateExpression" goto 32; on "TryStatement" goto 33; on "CatchClause" goto 34; on "EmptyStatement" goto 35; on "SequenceExpression" goto 36; on "ForInStatement" goto 37; on "ContinueStatement" goto 38; on "BreakStatement" goto 39; on "SwitchStatement" goto 40; on "SwitchCase" goto 41; else goto 42

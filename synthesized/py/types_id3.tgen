@@ -1,0 +1,2131 @@
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+empty
+empty
+switch LEFT PREV_DFS WRITE_TYPE: on "alias" goto 3; on "decorator_list" goto 4; else goto 5
+switch WRITE_POS: on "-1001" goto 2; else goto 6
+PREV_DFS WRITE_VALUE
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "swgpy.object" goto 9; else goto 10
+LEFT WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "*" goto 11; else goto 12
+LEFT DOWN_FIRST WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS PREV_LEAF WRITE_VALUE
+switch WRITE_POS: on "-1003" goto 14; on "-1002" goto 15; else goto 16
+LEFT DOWN_FIRST WRITE_VALUE
+LEFT DOWN_FIRST WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT LEFT WRITE_TYPE: on "Expr" goto 17; on "Assign" goto 18; else goto 19
+LEFT LEFT WRITE_TYPE NEXT_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+empty
+empty
+LEFT WRITE_TYPE =eq= 
+switch LEFT WRITE_TYPE: on "If" goto 23; on "TryExcept" goto 24; on "Print" goto 25; else goto 26
+switch LEFT WRITE_TYPE: on "-1" goto 1; on "Expr" goto 7; on "Import" goto 8; on "ImportFrom" goto 13; on "Assign" goto 20; on "ClassDef" goto 21; on "FunctionDef" goto 22; else goto 27
+PREV_LEAF UP WRITE_TYPE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Yield" goto 31; on "Str" goto 32; else goto 33
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 29; on "Call" goto 30; else goto 34
+empty
+empty
+PREV_LEAF UP UP WRITE_VALUE
+PREV_LEAF UP UP WRITE_VALUE
+switch PREV_LEAF PREV_NODE_TYPE NEXT_LEAF WRITE_TYPE: on "Str" goto 37; on "NameLoad" goto 38; else goto 39
+empty
+switch UP UP UP WRITE_TYPE: on "ClassDef" goto 36; on "FunctionDef" goto 40; else goto 41
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+empty
+empty
+empty
+switch PREV_LEAF WRITE_TYPE: on "Module" goto 45; else goto 46
+switch UP PREV_DFS DOWN_LAST WRITE_TYPE: on "Expr" goto 35; on "body" goto 42; on "Str|NameLoad|Num" goto 43; on "attr" goto 44; else goto 47
+PREV_LEAF WRITE_VALUE
+empty
+switch WRITE_POS: on "-1000" goto 49; else goto 50
+empty
+LEFT WRITE_TYPE
+LEFT WRITE_TYPE
+switch UP PREV_DFS DOWN_LAST WRITE_TYPE: on "If" goto 53; else goto 54
+empty
+empty
+switch PREV_LEAF WRITE_TYPE: on "decorator_list" goto 56; else goto 57
+empty
+empty
+switch UP PREV_DFS WRITE_TYPE: on "orelse" goto 59; else goto 60
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch PREV_DFS PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "BoolOpAnd" goto 66; on "CompareIs" goto 67; on "UnaryOpNot" goto 68; on "CompareIsNot" goto 69; on "CompareNotEq" goto 70; else goto 71
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "-1" goto 58; on "CompareEq" goto 61; on "Call" goto 62; on "AttributeLoad" goto 63; on "CompareIn" goto 64; on "NameLoad" goto 65; else goto 72
+empty
+switch WRITE_POS: on "-1001" goto 55; on "-1000" goto 73; else goto 74
+empty
+empty
+LEFT WRITE_TYPE DOWN_LAST DOWN_LAST WRITE_VALUE
+switch LEFT DOWN_FIRST WRITE_VALUE: on "__name__" goto 76; on "len" goto 77; else goto 78
+empty
+empty
+switch PREV_LEAF WRITE_TYPE: on "decorator_list" goto 80; else goto 81
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "TupleLoad" goto 87; on "BinOpMod" goto 88; on "Str" goto 89; on "Num" goto 90; else goto 91
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 82; on "Call" goto 83; on "AttributeLoad" goto 84; on "SubscriptLoad" goto 85; on "NameLoad" goto 86; else goto 92
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "Str" goto 94; else goto 95
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ListLoad" goto 100; on "TupleLoad" goto 101; on "SubscriptLoad" goto 102; else goto 103
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 97; on "AttributeLoad" goto 98; on "NameLoad" goto 99; else goto 104
+PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "TupleLoad" goto 110; on "SubscriptLoad" goto 111; on "NameLoad" goto 112; else goto 113
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 107; on "AttributeLoad" goto 108; on "ListLoad" goto 109; else goto 114
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 79; on "Module" goto 93; on "Str" goto 96; on "NameLoad" goto 105; on "Num" goto 106; else goto 115
+UP LEFT PREV_NODE_CONTEXT RIGHT DOWN_FIRST WRITE_TYPE
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "-1" goto 117; on "Expr" goto 118; on "Assign" goto 119; else goto 120
+UP PREV_NODE_TYPE UP WRITE_TYPE WRITE_VALUE
+LEFT WRITE_TYPE
+switch WRITE_POS: on "-1000" goto 122; else goto 123
+PREV_LEAF WRITE_VALUE
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE PREV_DFS LEFT WRITE_TYPE
+empty
+switch PREV_DFS UP DOWN_LAST WRITE_TYPE: on "body" goto 126; else goto 127
+empty
+PREV_LEAF WRITE_VALUE
+WRITE_POS
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "ImportFrom" goto 134; on "Print" goto 135; on "AugAssignAdd" goto 136; else goto 137
+switch LEFT WRITE_TYPE: on "-1" goto 130; on "Expr" goto 131; on "If" goto 132; on "Assign" goto 133; else goto 138
+switch PREV_DFS PREV_NODE_TYPE UP WRITE_TYPE: on "If" goto 125; on "FunctionDef" goto 128; on "For" goto 129; else goto 139
+LEFT WRITE_TYPE
+UP PREV_NODE_TYPE DOWN_FIRST DOWN_LAST PREV_DFS WRITE_TYPE
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "Expr" goto 143; on "Assign" goto 144; else goto 145
+switch WRITE_POS: on "-1000" goto 142; else goto 146
+empty
+empty
+switch WRITE_POS: on "-1000" goto 148; else goto 149
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+PREV_DFS PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "Raise" goto 150; on "Print" goto 151; on "AugAssignAdd" goto 152; on "Continue" goto 153; on "Break" goto 154; else goto 155
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "Expr" goto 121; on "If" goto 124; on "body" goto 140; on "Assign" goto 141; on "Return" goto 147; else goto 156
+empty
+empty
+empty
+PREV_LEAF PREV_DFS DOWN_LAST WRITE_VALUE
+switch PREV_LEAF PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE: on "Str" goto 158; on "NameStore" goto 159; on "NameParam" goto 160; else goto 161
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE UP PREV_DFS PREV_DFS DOWN_LAST WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT WRITE_TYPE PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_TYPE: on "-1" goto 162; on "Assign" goto 163; on "FunctionDef" goto 164; else goto 165
+empty
+empty
+empty
+UP UP WRITE_VALUE
+switch UP UP WRITE_VALUE: on "__init__" goto 167; on "create" goto 168; on "setUp" goto 169; else goto 170
+UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE PREV_DFS UP WRITE_TYPE
+PREV_LEAF UP UP WRITE_VALUE
+PREV_LEAF UP UP WRITE_VALUE
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Expr" goto 175; on "Assign" goto 176; on "Return" goto 177; else goto 178
+UP UP WRITE_VALUE
+PREV_LEAF UP PREV_LEAF LEFT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "Expr" goto 173; on "Assign" goto 174; on "FunctionDef" goto 179; on "Return" goto 180; else goto 181
+UP UP WRITE_VALUE
+empty
+UP UP WRITE_VALUE
+empty
+UP UP WRITE_VALUE
+empty
+empty
+switch PREV_LEAF WRITE_TYPE: on "kwarg" goto 188; else goto 189
+switch PREV_LEAF LEFT WRITE_POS: on "-1000" goto 187; else goto 190
+empty
+switch PREV_DFS PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "Expr" goto 184; on "FunctionDef" goto 185; on "Return" goto 186; on "Pass" goto 191; else goto 192
+switch PREV_LEAF PREV_NODE_TYPE NEXT_LEAF WRITE_TYPE: on "-1" goto 171; on "Str" goto 172; on "NameLoad" goto 182; on "NameStore" goto 183; else goto 193
+PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF PREV_DFS WRITE_TYPE
+PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF PREV_DFS WRITE_TYPE
+empty
+empty
+UP UP WRITE_VALUE
+empty
+empty
+switch LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE: on "Return" goto 199; on "Assert" goto 200; else goto 201
+switch UP UP WRITE_VALUE: on "__init__" goto 197; on "create" goto 198; else goto 202
+UP UP WRITE_VALUE WRITE_POS
+empty
+empty
+switch LEFT WRITE_TYPE: on "Expr" goto 203; on "If" goto 204; on "With" goto 205; else goto 206
+switch LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE: on "Expr" goto 195; on "Assign" goto 196; else goto 207
+empty
+empty
+LEFT DOWN_FIRST DOWN_LAST WRITE_VALUE
+switch UP UP WRITE_VALUE: on "__init__" goto 209; on "setUp" goto 210; else goto 211
+LEFT PREV_NODE_TYPE PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+empty
+switch WRITE_POS: on "-1001" goto 213; else goto 214
+WRITE_POS
+empty
+LEFT PREV_NODE_TYPE PREV_NODE_TYPE RIGHT WRITE_TYPE
+empty
+LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "NameLoad" goto 218; on "NameStore" goto 219; else goto 220
+UP UP WRITE_VALUE
+switch UP PREV_DFS PREV_LEAF WRITE_VALUE: on "-1" goto 217; on "self" goto 221; else goto 222
+UP UP WRITE_VALUE
+empty
+switch PREV_DFS WRITE_TYPE: on "ListLoad" goto 224; else goto 225
+empty
+LEFT DOWN_FIRST PREV_NODE_CONTEXT UP RIGHT WRITE_TYPE
+switch PREV_DFS WRITE_VALUE: on "" goto 227; else goto 228
+empty
+empty
+switch PREV_DFS WRITE_TYPE: on "Str" goto 229; on "Num" goto 230; else goto 231
+LEFT DOWN_FIRST PREV_NODE_CONTEXT UP RIGHT WRITE_TYPE
+switch PREV_DFS UP WRITE_TYPE: on "Assign" goto 232; else goto 233
+switch LEFT DOWN_LAST WRITE_TYPE: on "body" goto 216; on "Call" goto 223; on "ListLoad" goto 226; else goto 234
+UP UP WRITE_VALUE
+empty
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+UP UP WRITE_VALUE
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "Expr" goto 246; on "Global" goto 247; else goto 248
+switch LEFT WRITE_TYPE: on "Import|ImportFrom" goto 240; on "ClassDef" goto 241; on "TryExcept" goto 242; on "For" goto 243; on "Print" goto 244; on "While" goto 245; else goto 249
+switch LEFT WRITE_TYPE: on "If" goto 236; on "Assign" goto 237; on "FunctionDef" goto 238; on "Assert" goto 239; else goto 250
+switch LEFT DOWN_FIRST WRITE_TYPE: on "-1" goto 194; on "Call" goto 208; on "AttributeStore" goto 212; on "Str" goto 215; on "NameStore" goto 235; else goto 251
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_TYPE =eq= 
+switch LEFT WRITE_TYPE: on "TryExcept" goto 257; on "For" goto 258; on "Print" goto 259; on "Assert" goto 260; on "AugAssignAdd" goto 261; else goto 262
+switch LEFT WRITE_TYPE: on "-1" goto 253; on "Expr" goto 254; on "If" goto 255; on "Assign" goto 256; else goto 263
+empty
+PREV_DFS PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+empty
+empty
+LEFT WRITE_TYPE
+switch PREV_DFS PREV_DFS UP WRITE_TYPE: on "Module" goto 265; on "body" goto 266; on "Call" goto 267; on "AttributeLoad" goto 268; else goto 269
+PREV_DFS PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+UP LEFT PREV_NODE_TYPE RIGHT DOWN_FIRST WRITE_TYPE
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+PREV_LEAF PREV_LEAF WRITE_VALUE
+empty
+switch PREV_LEAF WRITE_VALUE: on "ImportError" goto 277; else goto 278
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "Expr" goto 273; on "ImportFrom" goto 274; on "Assign" goto 275; on "Return" goto 276; else goto 279
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch PREV_DFS LEFT WRITE_TYPE: on "body" goto 271; on "name" goto 272; on "type" goto 280; else goto 281
+UP LEFT DOWN_FIRST LEFT DOWN_LAST WRITE_VALUE
+LEFT WRITE_TYPE
+switch WRITE_POS: on "-1000" goto 283; else goto 284
+LEFT WRITE_TYPE
+empty
+empty
+switch WRITE_POS: on "-1000" goto 287; else goto 288
+switch UP UP WRITE_TYPE: on "TryExcept" goto 270; on "ExceptHandler" goto 282; on "With" goto 285; on "While" goto 286; else goto 289
+switch UP UP WRITE_TYPE: on "If" goto 157; on "ClassDef" goto 166; on "FunctionDef" goto 252; on "For" goto 264; else goto 290
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "assertEqual" goto 292; else goto 293
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "os" goto 298; on "path" goto 299; else goto 300
+switch PREV_DFS WRITE_VALUE: on "dirname" goto 295; on "join" goto 296; on "abspath" goto 297; else goto 301
+PREV_DFS WRITE_VALUE PREV_DFS WRITE_VALUE
+switch PREV_DFS LEFT DOWN_FIRST WRITE_VALUE: on "self" goto 294; on "os" goto 302; else goto 303
+WRITE_POS LEFT LEFT LEFT DOWN_LAST WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 304; else goto 305
+WRITE_POS LEFT WRITE_VALUE
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+WRITE_POS PREV_DFS UP DOWN_FIRST DOWN_LAST WRITE_VALUE
+switch UP PREV_NODE_TYPE WRITE_POS: on "-1002" goto 310; else goto 311
+switch LEFT PREV_DFS WRITE_VALUE: on "get" goto 308; on "stfName" goto 309; else goto 312
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+switch UP PREV_NODE_TYPE RIGHT WRITE_TYPE: on "keyword" goto 315; else goto 316
+LEFT PREV_DFS WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+switch UP PREV_LEAF UP WRITE_VALUE: on "default|help" goto 319; else goto 320
+LEFT PREV_NODE_TYPE PREV_DFS WRITE_VALUE LEFT WRITE_TYPE
+switch UP PREV_NODE_TYPE WRITE_POS: on "-1002" goto 317; on "-1001" goto 318; on "-1000" goto 321; else goto 322
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch LEFT PREV_DFS WRITE_VALUE: on "get" goto 326; on "create_table" goto 327; else goto 328
+empty
+empty
+empty
+switch LEFT PREV_DFS WRITE_VALUE: on "execute" goto 330; on "send_create_signal" goto 331; else goto 332
+empty
+LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE NEXT_LEAF WRITE_POS
+PREV_LEAF PREV_LEAF WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "ListLoad" goto 329; on "TupleLoad" goto 333; on "SubscriptLoad" goto 334; on "Num" goto 335; else goto 336
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Call" goto 313; on "AttributeLoad" goto 314; on "keyword" goto 323; on "Str" goto 324; on "NameLoad" goto 325; else goto 337
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "print" goto 343; on "setattr" goto 344; else goto 345
+empty
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "int" goto 347; on "list" goto 348; on "dict" goto 349; on "getattr" goto 350; else goto 351
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "xrange|range" goto 353; on "zip" goto 354; on "enumerate" goto 355; else goto 356
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "type" goto 363; on "list" goto 364; else goto 365
+switch LEFT WRITE_VALUE: on "int" goto 359; on "getattr" goto 360; on "open" goto 361; on "hasattr" goto 362; else goto 366
+switch UP UP WRITE_TYPE: on "Expr" goto 346; on "Assign" goto 352; on "For" goto 357; on "Raise" goto 358; else goto 367
+switch LEFT WRITE_VALUE: on "len" goto 339; on "super" goto 340; on "isinstance" goto 341; on "str" goto 342; else goto 368
+LEFT LEFT NEXT_LEAF WRITE_VALUE
+LEFT PREV_LEAF WRITE_VALUE
+LEFT LEFT PREV_DFS WRITE_VALUE
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "__file__" goto 373; else goto 374
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "Call" goto 377; on "TupleLoad" goto 378; else goto 379
+switch WRITE_POS: on "-1003" goto 372; on "-1002" goto 375; on "-1001" goto 376; else goto 380
+switch LEFT DOWN_LAST WRITE_TYPE: on "keyword" goto 370; on "Num" goto 371; else goto 381
+LEFT WRITE_TYPE PREV_LEAF WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+LEFT PREV_NODE_TYPE PREV_NODE_TYPE RIGHT WRITE_TYPE
+LEFT PREV_DFS WRITE_VALUE
+WRITE_POS
+LEFT PREV_DFS WRITE_VALUE
+empty
+switch LEFT WRITE_TYPE: on "Call" goto 386; on "SubscriptLoad" goto 387; on "Num" goto 388; else goto 389
+LEFT WRITE_TYPE
+empty
+LEFT WRITE_TYPE
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "ListLoad" goto 392; on "TupleLoad" goto 393; on "Dict" goto 394; on "SubscriptLoad" goto 395; else goto 396
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Call" goto 382; on "AttributeLoad" goto 383; on "keyword" goto 384; on "Str" goto 385; on "NameLoad" goto 390; on "Num" goto 391; else goto 397
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 306; on "keyword" goto 307; on "Str" goto 338; on "NameLoad" goto 369; else goto 398
+PREV_LEAF WRITE_VALUE
+PREV_LEAF PREV_LEAF WRITE_TYPE
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "result" goto 401; else goto 402
+UP PREV_DFS WRITE_TYPE WRITE_VALUE
+switch UP UP WRITE_TYPE: on "Expr" goto 400; on "Assign" goto 403; else goto 404
+empty
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF RIGHT PREV_DFS PREV_DFS WRITE_TYPE NEXT_LEAF WRITE_TYPE
+switch UP WRITE_POS: on "-1000" goto 406; else goto 407
+empty
+PREV_LEAF PREV_NODE_CONTEXT RIGHT WRITE_TYPE DOWN_FIRST WRITE_TYPE RIGHT WRITE_POS
+UP PREV_NODE_CONTEXT PREV_NODE_CONTEXT DOWN_LAST WRITE_POS LEFT WRITE_TYPE
+switch UP UP WRITE_TYPE: on "Expr" goto 409; on "Assign" goto 410; else goto 411
+empty
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF PREV_DFS WRITE_TYPE RIGHT WRITE_POS DOWN_FIRST WRITE_TYPE
+switch UP WRITE_POS: on "-1000" goto 413; else goto 414
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 408; on "-1000" goto 412; else goto 415
+empty
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF RIGHT WRITE_POS WRITE_TYPE
+empty
+switch WRITE_POS: on "-1002" goto 417; on "-1000" goto 418; else goto 419
+UP PREV_NODE_CONTEXT PREV_NODE_CONTEXT DOWN_FIRST WRITE_VALUE
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF RIGHT WRITE_TYPE PREV_DFS WRITE_TYPE
+UP UP WRITE_TYPE
+switch UP UP WRITE_TYPE: on "Expr" goto 421; on "Assign" goto 422; else goto 423
+empty
+empty
+switch WRITE_POS: on "-1002" goto 425; else goto 426
+switch WRITE_POS: on "-1000" goto 424; else goto 427
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1000" goto 420; else goto 428
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch PREV_LEAF PREV_NODE_TYPE WRITE_POS: on "-1001" goto 432; else goto 433
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 431; else goto 434
+empty
+empty
+switch PREV_DFS UP DOWN_FIRST WRITE_TYPE: on "AttributeLoad" goto 435; on "Str" goto 436; else goto 437
+LEFT WRITE_TYPE PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 430; on "-1000" goto 438; else goto 439
+switch PREV_DFS PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 405; on "AttributeLoad" goto 416; on "NameLoad" goto 429; else goto 440
+PREV_DFS WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+empty
+LEFT WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 446; else goto 447
+switch PREV_DFS WRITE_VALUE: on "_" goto 444; on "PhoneNumberDesc" goto 445; else goto 448
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 442; on "keyword" goto 443; on "NameLoad" goto 449; else goto 450
+empty
+LEFT PREV_LEAF WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "assertEqual" goto 452; else goto 453
+empty
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "Str" goto 454; else goto 455
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "assertEqual" goto 457; else goto 458
+PREV_DFS PREV_NODE_CONTEXT UP RIGHT WRITE_TYPE
+empty
+switch PREV_DFS WRITE_TYPE: on "attr" goto 460; else goto 461
+PREV_DFS WRITE_VALUE
+empty
+switch WRITE_POS: on "-1002" goto 462; on "-1001" goto 463; else goto 464
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1002" goto 456; on "-1001" goto 459; else goto 465
+PREV_DFS WRITE_VALUE
+empty
+switch WRITE_POS: on "-1001" goto 467; else goto 468
+LEFT WRITE_TYPE LEFT DOWN_LAST WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 469; else goto 470
+PREV_DFS WRITE_VALUE
+empty
+switch LEFT PREV_NODE_CONTEXT WRITE_POS: on "-1000" goto 472; else goto 473
+PREV_DFS WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+switch UP UP WRITE_TYPE: on "Expr" goto 475; on "Raise" goto 476; else goto 477
+PREV_DFS WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE PREV_DFS WRITE_TYPE
+switch WRITE_POS: on "-1002" goto 480; on "-1001" goto 481; else goto 482
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1002" goto 474; on "-1001" goto 478; on "-1000" goto 479; else goto 483
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+switch WRITE_POS: on "-1001" goto 486; else goto 487
+LEFT WRITE_TYPE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 485; on "-1000" goto 488; else goto 489
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS UP WRITE_TYPE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 491; on "-1000" goto 492; else goto 493
+LEFT DOWN_LAST WRITE_VALUE
+LEFT WRITE_TYPE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1000" goto 495; else goto 496
+empty
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+switch WRITE_POS: on "-1001" goto 500; else goto 501
+LEFT LEFT DOWN_LAST WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 504; else goto 505
+empty
+empty
+empty
+PREV_LEAF WRITE_VALUE
+empty
+empty
+switch PREV_DFS PREV_NODE_VALUE RIGHT WRITE_POS: on "-1001" goto 511; else goto 512
+switch PREV_DFS WRITE_TYPE: on "NameLoad" goto 509; on "attr" goto 510; else goto 513
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "TupleLoad" goto 503; on "SubscriptLoad" goto 506; on "BinOpAdd" goto 507; on "CompareIn" goto 508; else goto 514
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 494; on "ListLoad" goto 497; on "Dict" goto 498; on "BinOpMod" goto 499; on "Num" goto 502; else goto 515
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 451; on "AttributeLoad" goto 466; on "keyword" goto 471; on "Str" goto 484; on "NameLoad" goto 490; else goto 516
+PREV_DFS WRITE_VALUE
+empty
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch WRITE_POS: on "-1002" goto 522; else goto 523
+empty
+empty
+empty
+LEFT LEFT WRITE_VALUE
+switch LEFT LEFT WRITE_VALUE: on "getattr" goto 525; on "open" goto 526; on "hasattr" goto 527; else goto 528
+LEFT WRITE_VALUE
+LEFT PREV_DFS WRITE_TYPE PREV_LEAF WRITE_VALUE
+switch WRITE_POS: on "-1002" goto 529; on "-1001" goto 530; else goto 531
+switch LEFT LEFT WRITE_VALUE: on "-1" goto 520; on "len" goto 521; on "isinstance" goto 524; else goto 532
+UP PREV_NODE_VALUE DOWN_FIRST DOWN_LAST WRITE_VALUE
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 518; on "keyword" goto 519; on "NameLoad" goto 533; else goto 534
+LEFT WRITE_VALUE
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "assert_equal" goto 537; else goto 538
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Call" goto 536; else goto 539
+empty
+PREV_DFS WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "append" goto 543; on "assertTrue" goto 544; else goto 545
+LEFT LEFT PREV_DFS WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+empty
+switch WRITE_POS: on "-1003" goto 547; on "-1002" goto 548; on "-1001" goto 549; else goto 550
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 546; else goto 551
+LEFT PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 542; on "-1000" goto 552; else goto 553
+switch PREV_DFS RIGHT WRITE_VALUE: on "-1" goto 540; on "assertEqual" goto 541; else goto 554
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "assertEqual" goto 556; else goto 557
+empty
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 561; else goto 562
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 560; else goto 563
+switch LEFT WRITE_VALUE: on "len" goto 559; else goto 564
+empty
+PREV_DFS WRITE_VALUE
+empty
+switch WRITE_POS: on "-1001" goto 567; else goto 568
+WRITE_POS LEFT LEFT DOWN_LAST WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+switch WRITE_POS: on "-1001" goto 571; else goto 572
+switch LEFT PREV_NODE_CONTEXT WRITE_POS: on "-1001" goto 569; on "-1000" goto 570; else goto 573
+switch PREV_DFS RIGHT WRITE_VALUE: on "-1" goto 565; on "assertEqual" goto 566; else goto 574
+LEFT PREV_DFS WRITE_VALUE
+empty
+PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 576; on "NameLoad" goto 577; else goto 578
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 558; on "-1000" goto 575; else goto 579
+PREV_DFS PREV_NODE_CONTEXT UP RIGHT WRITE_TYPE RIGHT WRITE_POS
+PREV_DFS WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 581; else goto 582
+WRITE_POS PREV_DFS WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT WRITE_POS: on "-1000" goto 583; else goto 584
+PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1000" goto 585; else goto 586
+LEFT PREV_NODE_CONTEXT WRITE_POS UP DOWN_LAST WRITE_POS
+LEFT WRITE_TYPE UP DOWN_FIRST DOWN_LAST WRITE_VALUE
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 587; on "keyword" goto 588; else goto 589
+PREV_DFS PREV_NODE_VALUE NEXT_LEAF RIGHT WRITE_POS
+empty
+switch PREV_DFS PREV_NODE_VALUE WRITE_TYPE: on "attr" goto 591; else goto 592
+LEFT PREV_LEAF WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT WRITE_POS: on "-1000" goto 596; else goto 597
+switch LEFT DOWN_FIRST RIGHT WRITE_VALUE: on "-1" goto 594; on "assertEqual" goto 595; else goto 598
+empty
+empty
+switch PREV_DFS PREV_DFS WRITE_VALUE: on "TType" goto 600; else goto 601
+LEFT PREV_LEAF WRITE_VALUE
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 602; on "NameLoad" goto 603; else goto 604
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 593; on "-1000" goto 599; else goto 605
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1002" goto 607; on "-1001" goto 608; on "-1000" goto 609; else goto 610
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "assertEqual" goto 612; on "super" goto 613; on "isinstance" goto 614; else goto 615
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "len" goto 617; on "append" goto 618; else goto 619
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "len" goto 621; on "isinstance" goto 622; else goto 623
+PREV_DFS WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1002" goto 616; on "-1001" goto 620; on "-1000" goto 624; else goto 625
+UP PREV_NODE_VALUE DOWN_FIRST DOWN_LAST WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS RIGHT WRITE_VALUE: on "-1" goto 627; on "assertEqual" goto 628; else goto 629
+LEFT PREV_NODE_CONTEXT WRITE_POS UP DOWN_LAST WRITE_POS
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1002" goto 611; on "-1001" goto 626; on "-1000" goto 630; else goto 631
+PREV_DFS WRITE_VALUE
+empty
+switch LEFT PREV_NODE_CONTEXT WRITE_POS: on "-1000" goto 633; else goto 634
+empty
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1000" goto 635; else goto 636
+LEFT PREV_NODE_CONTEXT PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 637; else goto 638
+empty
+empty
+WRITE_POS LEFT LEFT DOWN_LAST WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "assertEqual" goto 640; on "append" goto 641; else goto 642
+empty
+LEFT DOWN_LAST WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "assertEqual" goto 644; else goto 645
+PREV_DFS WRITE_VALUE
+empty
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_VALUE NEXT_LEAF WRITE_POS: on "-1000" goto 649; else goto 650
+switch PREV_DFS WRITE_VALUE: on "assertEqual" goto 648; else goto 651
+empty
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 652; else goto 653
+empty
+PREV_DFS WRITE_VALUE
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 656; else goto 657
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "BinOpDiv" goto 662; else goto 663
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "CompareIs" goto 667; on "CompareIn" goto 668; else goto 669
+empty
+empty
+PREV_DFS WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Lambda" goto 671; on "BinOpBitAnd" goto 672; on "CompareIn" goto 673; on "BoolOpOr" goto 674; on "IfExp" goto 675; on "BinOpBitOr" goto 676; on "UnaryOpUSub" goto 677; else goto 678
+switch PREV_DFS WRITE_VALUE: on "assertEqual" goto 666; on "assertTrue" goto 670; else goto 679
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "CompareEq" goto 655; on "Dict" goto 658; on "BinOpMod" goto 659; on "ListComp" goto 660; on "BinOpSub" goto 661; on "BinOpDiv|BinOpMult" goto 664; on "GeneratorExp" goto 665; else goto 680
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ListLoad" goto 639; on "TupleLoad" goto 643; on "SubscriptLoad" goto 646; on "BinOpAdd" goto 647; on "Num" goto 654; else goto 681
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 535; on "Call" goto 555; on "AttributeLoad" goto 580; on "keyword" goto 590; on "Str" goto 606; on "NameLoad" goto 632; else goto 682
+PREV_DFS PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT PREV_DFS WRITE_VALUE: on "get" goto 686; on "replace" goto 687; on "add_query_param" goto 688; else goto 689
+empty
+empty
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT LEFT WRITE_VALUE: on "getattr" goto 691; on "hasattr" goto 692; else goto 693
+LEFT PREV_DFS WRITE_VALUE
+switch LEFT WRITE_TYPE: on "Str" goto 690; on "NameLoad" goto 694; else goto 695
+switch LEFT PREV_NODE_TYPE WRITE_VALUE: on "self" goto 684; on "isinstance" goto 685; else goto 696
+LEFT WRITE_VALUE
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "_" goto 700; else goto 701
+LEFT WRITE_TYPE LEFT DOWN_LAST WRITE_VALUE
+LEFT WRITE_TYPE LEFT DOWN_LAST WRITE_VALUE
+switch PREV_DFS PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE: on "alias" goto 702; on "Num" goto 703; else goto 704
+switch PREV_DFS PREV_NODE_VALUE WRITE_TYPE: on "alias" goto 698; on "FunctionDef" goto 699; else goto 705
+empty
+LEFT PREV_LEAF WRITE_VALUE
+switch LEFT WRITE_TYPE: on "keyword" goto 707; else goto 708
+empty
+LEFT PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE NEXT_LEAF WRITE_POS
+empty
+switch LEFT WRITE_TYPE: on "Str" goto 710; on "NameLoad" goto 711; else goto 712
+switch LEFT DOWN_FIRST RIGHT WRITE_POS: on "-1002" goto 697; on "-1001" goto 706; on "-1000" goto 709; else goto 713
+WRITE_POS LEFT LEFT DOWN_LAST WRITE_VALUE
+LEFT WRITE_TYPE PREV_LEAF WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "assertEqual" goto 718; else goto 719
+PREV_DFS WRITE_VALUE
+empty
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1002" goto 717; on "-1001" goto 720; on "-1000" goto 721; else goto 722
+LEFT PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 715; on "NameLoad" goto 716; on "Num" goto 723; else goto 724
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_POS RIGHT WRITE_POS
+LEFT LEFT DOWN_LAST WRITE_VALUE
+switch LEFT WRITE_TYPE: on "keyword" goto 726; else goto 727
+PREV_DFS PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 730; on "-1000" goto 731; else goto 732
+PREV_DFS PREV_DFS WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "NameLoad" goto 729; on "Num" goto 733; else goto 734
+WRITE_POS UP PREV_NODE_VALUE DOWN_FIRST DOWN_LAST WRITE_VALUE
+empty
+empty
+PREV_DFS WRITE_VALUE
+empty
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "-1" goto 737; on "NameLoad" goto 738; on "Num" goto 739; else goto 740
+LEFT WRITE_TYPE LEFT DOWN_LAST WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+empty
+empty
+switch PREV_DFS WRITE_VALUE: on "assertEqual" goto 746; else goto 747
+empty
+PREV_DFS WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "String" goto 749; else goto 750
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS: on "-1001" goto 748; on "-1000" goto 751; else goto 752
+PREV_DFS WRITE_VALUE
+LEFT PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1001" goto 754; else goto 755
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "Str" goto 745; on "Num" goto 753; else goto 756
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Dict" goto 758; on "BinOpMod" goto 759; on "Lambda" goto 760; on "BinOpSub" goto 761; on "BinOpAdd" goto 762; on "BinOpMult" goto 763; else goto 764
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 741; on "ListLoad" goto 742; on "TupleLoad" goto 743; on "SubscriptLoad" goto 744; on "Str" goto 757; else goto 765
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 714; on "AttributeLoad" goto 725; on "keyword" goto 728; on "NameLoad" goto 735; on "Num" goto 736; else goto 766
+switch PREV_DFS PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE: on "-1" goto 399; on "Module" goto 441; on "Str" goto 517; on "NameLoad" goto 683; else goto 767
+empty
+UP PREV_DFS DOWN_LAST PREV_DFS WRITE_TYPE RIGHT PREV_LEAF WRITE_VALUE
+empty
+switch UP PREV_DFS WRITE_TYPE: on "Call" goto 770; else goto 771
+UP PREV_NODE_CONTEXT PREV_NODE_CONTEXT LEFT DOWN_FIRST WRITE_TYPE
+empty
+empty
+switch UP PREV_NODE_CONTEXT PREV_DFS WRITE_TYPE: on "Call" goto 774; else goto 775
+switch UP WRITE_POS: on "-1000" goto 773; else goto 776
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE PREV_DFS WRITE_TYPE PREV_DFS WRITE_TYPE
+empty
+switch UP UP WRITE_TYPE: on "Call" goto 778; else goto 779
+empty
+empty
+empty
+empty
+switch PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "Str" goto 783; else goto 784
+empty
+switch UP WRITE_POS: on "-1000" goto 785; else goto 786
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 781; on "SubscriptLoad" goto 782; on "Str" goto 787; else goto 788
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 772; on "AttributeLoad" goto 777; on "NameLoad" goto 780; else goto 789
+switch WRITE_POS: on "-1001" goto 769; else goto 790
+UP WRITE_VALUE
+PREV_DFS WRITE_POS WRITE_VALUE
+switch WRITE_POS: on "-1000" goto 792; else goto 793
+PREV_DFS UP DOWN_LAST PREV_NODE_VALUE UP WRITE_TYPE WRITE_VALUE UP WRITE_TYPE
+empty
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE PREV_DFS PREV_DFS WRITE_TYPE
+switch UP UP UP WRITE_VALUE: on "__init__|setUp" goto 796; else goto 797
+UP UP UP WRITE_TYPE WRITE_VALUE
+empty
+UP PREV_DFS DOWN_LAST WRITE_TYPE
+empty
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "TupleStore" goto 800; on "SubscriptStore" goto 801; else goto 802
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 795; on "AttributeStore" goto 798; on "NameStore" goto 799; else goto 803
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "ListLoad" goto 808; else goto 809
+LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS
+empty
+empty
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "AttributeStore" goto 826; on "Lambda" goto 827; on "Yield" goto 828; else goto 829
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "BinOpDiv" goto 822; on "BoolOpOr" goto 823; on "IfExp" goto 824; on "NameStore" goto 825; else goto 830
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "TupleLoad" goto 816; on "BinOpMod" goto 817; on "ListComp" goto 818; on "BinOpSub" goto 819; on "BinOpAdd" goto 820; on "BinOpMult" goto 821; else goto 831
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "AttributeLoad" goto 807; on "ListLoad" goto 810; on "Dict" goto 811; on "SubscriptLoad" goto 812; on "Str" goto 813; on "NameLoad" goto 814; on "Num" goto 815; else goto 832
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 805; on "Call" goto 806; else goto 833
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ListLoad" goto 838; on "Dict" goto 839; on "SubscriptLoad" goto 840; on "Str" goto 841; on "NameLoad" goto 842; on "Num" goto 843; else goto 844
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 835; on "Call" goto 836; on "AttributeLoad" goto 837; else goto 845
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+switch UP UP UP WRITE_TYPE: on "Module" goto 847; on "ClassDef" goto 848; on "FunctionDef" goto 849; else goto 850
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "AttributeLoad" goto 854; on "ListLoad" goto 855; on "TupleLoad" goto 856; on "Dict" goto 857; on "BinOpMod" goto 858; on "NameLoad" goto 859; on "Num" goto 860; else goto 861
+switch PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 851; on "Call" goto 852; on "Str" goto 853; else goto 862
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_VALUE RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ListLoad" goto 868; on "TupleLoad" goto 869; on "Str" goto 870; else goto 871
+switch PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 865; on "Call" goto 866; on "NameLoad" goto 867; else goto 872
+PREV_DFS PREV_NODE_CONTEXT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE WRITE_VALUE
+switch UP UP LEFT WRITE_TYPE: on "Module" goto 864; on "bases" goto 873; on "arguments" goto 874; on "NameLoad" goto 875; else goto 876
+LEFT WRITE_VALUE
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch UP UP UP WRITE_TYPE: on "Module" goto 878; on "ClassDef" goto 879; else goto 880
+empty
+empty
+switch WRITE_POS: on "-1001" goto 882; else goto 883
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 886; on "Call" goto 887; on "TupleLoad" goto 888; else goto 889
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "TupleLoad" goto 898; on "BinOpMod" goto 899; on "ListComp" goto 900; on "BinOpAdd" goto 901; else goto 902
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "AttributeLoad" goto 891; on "ListLoad" goto 892; on "Dict" goto 893; on "SubscriptLoad" goto 894; on "Str" goto 895; on "NameLoad" goto 896; on "Num" goto 897; else goto 903
+switch PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 884; on "Call" goto 885; on "NameStore" goto 890; else goto 904
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "__all__" goto 906; on "__author__" goto 907; else goto 908
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "models" goto 910; on "dependencies" goto 911; else goto 912
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+switch UP UP LEFT WRITE_TYPE: on "Module" goto 909; on "bases" goto 913; on "arguments" goto 914; else goto 915
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+switch UP PREV_DFS UP WRITE_TYPE: on "Assign" goto 917; on "ListLoad" goto 918; on "TupleLoad" goto 919; else goto 920
+empty
+LEFT WRITE_VALUE
+empty
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_VALUE: on "-1" goto 923; else goto 924
+empty
+UP PREV_DFS WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE =eq= 
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "TupleLoad" goto 931; on "BinOpMod" goto 932; on "ListComp" goto 933; on "BinOpAdd" goto 934; on "Num" goto 935; else goto 936
+switch PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "AttributeLoad" goto 926; on "Dict" goto 927; on "SubscriptLoad" goto 928; on "Str" goto 929; on "NameLoad" goto 930; else goto 937
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 921; on "Call" goto 922; on "ListLoad" goto 925; else goto 938
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ListLoad" goto 943; on "Dict" goto 944; on "Str" goto 945; on "NameLoad" goto 946; else goto 947
+switch PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 940; on "Call" goto 941; on "TupleLoad" goto 942; else goto 948
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT PREV_NODE_CONTEXT RIGHT WRITE_TYPE =eq= 
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "AttributeLoad" goto 953; on "ListLoad" goto 954; on "TupleLoad" goto 955; on "Str" goto 956; on "NameLoad" goto 957; else goto 958
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 950; on "Call" goto 951; on "Dict" goto 952; else goto 959
+PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "AttributeLoad" goto 965; on "ListLoad" goto 966; on "Dict" goto 967; on "Str" goto 968; on "NameLoad" goto 969; else goto 970
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 962; on "Call" goto 963; on "SubscriptLoad" goto 964; else goto 971
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE
+switch PREV_DFS PREV_NODE_TYPE RIGHT WRITE_TYPE: on "Lambda" goto 980; on "Yield" goto 981; else goto 982
+switch PREV_DFS PREV_NODE_TYPE RIGHT WRITE_TYPE: on "body" goto 974; on "BinOpSub" goto 975; on "BinOpDiv" goto 976; on "BinOpMult" goto 977; on "BoolOpOr" goto 978; on "IfExp" goto 979; else goto 983
+switch PREV_LEAF PREV_NODE_TYPE RIGHT WRITE_TYPE: on "-1" goto 916; on "ListLoad" goto 939; on "TupleLoad" goto 949; on "Dict" goto 960; on "BinOpMod" goto 961; on "SubscriptLoad" goto 972; on "BinOpAdd" goto 973; else goto 984
+switch PREV_DFS PREV_NODE_TYPE RIGHT WRITE_TYPE: on "Call" goto 834; on "AttributeLoad" goto 846; on "Str" goto 863; on "NameLoad" goto 877; on "Num" goto 881; on "NameStore" goto 905; else goto 985
+empty
+empty
+PREV_DFS PREV_NODE_VALUE WRITE_TYPE WRITE_VALUE
+switch PREV_DFS PREV_NODE_VALUE PREV_NODE_TYPE WRITE_VALUE: on "self" goto 987; on "template" goto 988; else goto 989
+LEFT DOWN_LAST PREV_NODE_CONTEXT PREV_NODE_CONTEXT UP RIGHT WRITE_TYPE
+PREV_DFS PREV_NODE_CONTEXT UP RIGHT WRITE_TYPE
+empty
+PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS WRITE_TYPE
+switch PREV_DFS WRITE_VALUE: on "attribute_template_id" goto 993; else goto 994
+PREV_DFS WRITE_VALUE
+empty
+empty
+switch PREV_DFS PREV_NODE_VALUE WRITE_TYPE: on "attr" goto 996; on "NameParam" goto 997; else goto 998
+empty
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE: on "ListLoad" goto 1001; on "TupleLoad" goto 1002; on "Dict" goto 1003; on "SubscriptLoad" goto 1004; else goto 1005
+switch LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE: on "-1" goto 990; on "Call" goto 991; on "AttributeLoad" goto 992; on "Str" goto 995; on "NameLoad" goto 999; on "Num" goto 1000; else goto 1006
+switch PREV_DFS WRITE_TYPE: on "Assign" goto 804; on "NameStore" goto 986; else goto 1007
+UP PREV_DFS WRITE_TYPE WRITE_VALUE
+UP PREV_NODE_CONTEXT PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE
+PREV_LEAF WRITE_VALUE
+empty
+switch PREV_DFS PREV_NODE_CONTEXT DOWN_FIRST WRITE_POS: on "-1001" goto 1010; on "-1000" goto 1011; else goto 1012
+empty
+PREV_LEAF WRITE_VALUE
+switch PREV_LEAF WRITE_VALUE: on "operations" goto 1014; else goto 1015
+PREV_LEAF WRITE_VALUE
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1000" goto 1017; else goto 1018
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1000" goto 1020; else goto 1021
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1000" goto 1023; else goto 1024
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 1026; on "AttributeLoad" goto 1027; on "Dict" goto 1028; on "SubscriptLoad" goto 1029; else goto 1030
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 1009; on "ListLoad" goto 1013; on "TupleLoad" goto 1016; on "Str" goto 1019; on "NameLoad" goto 1022; on "Num" goto 1025; else goto 1031
+WRITE_POS
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE RIGHT WRITE_POS
+WRITE_POS
+switch WRITE_POS: on "-1004|-1002" goto 1034; on "-1003" goto 1035; on "-1001" goto 1036; else goto 1037
+empty
+empty
+empty
+switch WRITE_POS: on "-1002" goto 1039; on "-1001" goto 1040; else goto 1041
+empty
+empty
+WRITE_POS
+switch PREV_DFS PREV_DFS PREV_LEAF WRITE_POS: on "-1002" goto 1042; on "-1001" goto 1043; on "-1000" goto 1044; else goto 1045
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE RIGHT WRITE_POS
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch WRITE_POS: on "-1003" goto 1058; else goto 1059
+empty
+LEFT LEFT WRITE_TYPE =eq= 
+switch LEFT WRITE_TYPE: on "Lambda" goto 1057; on "BinOpDiv" goto 1060; on "BinOpPow" goto 1061; else goto 1062
+switch LEFT WRITE_TYPE: on "BinOpMod" goto 1052; on "SubscriptLoad" goto 1053; on "BinOpSub" goto 1054; on "BinOpAdd" goto 1055; on "BinOpMult" goto 1056; else goto 1063
+switch LEFT WRITE_TYPE: on "Call" goto 1047; on "AttributeLoad" goto 1048; on "ListLoad" goto 1049; on "Dict" goto 1050; on "NameLoad" goto 1051; else goto 1064
+switch LEFT WRITE_TYPE: on "-1" goto 1032; on "TupleLoad" goto 1033; on "Str" goto 1038; on "Num" goto 1046; else goto 1065
+PREV_LEAF WRITE_VALUE
+empty
+PREV_LEAF WRITE_VALUE
+UP PREV_DFS WRITE_TYPE WRITE_VALUE
+switch UP UP WRITE_TYPE: on "ListLoad" goto 1067; on "Return" goto 1068; on "BinOpMod" goto 1069; else goto 1070
+PREV_DFS UP WRITE_TYPE DOWN_FIRST WRITE_VALUE
+UP LEFT WRITE_VALUE
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS
+empty
+empty
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ListLoad" goto 1079; on "Dict" goto 1080; on "BinOpMod" goto 1081; on "BinOpAdd" goto 1082; on "BinOpMult" goto 1083; else goto 1084
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 1075; on "AttributeLoad" goto 1076; on "TupleLoad" goto 1077; on "SubscriptLoad" goto 1078; else goto 1085
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 1071; on "Str" goto 1072; on "NameLoad" goto 1073; on "Num" goto 1074; else goto 1086
+PREV_DFS LEFT WRITE_VALUE
+empty
+empty
+empty
+switch PREV_DFS PREV_DFS PREV_DFS WRITE_POS: on "-1001" goto 1089; on "-1000" goto 1090; else goto 1091
+empty
+empty
+switch UP PREV_LEAF LEFT WRITE_VALUE: on "-1" goto 1092; on "man_pages" goto 1093; else goto 1094
+switch WRITE_POS: on "-1002" goto 1088; else goto 1095
+UP PREV_LEAF PREV_DFS WRITE_VALUE
+empty
+switch WRITE_POS: on "-1001" goto 1097; else goto 1098
+UP PREV_DFS WRITE_VALUE
+empty
+empty
+UP PREV_LEAF WRITE_VALUE
+switch PREV_DFS WRITE_VALUE: on "id" goto 1101; on "index" goto 1102; else goto 1103
+LEFT WRITE_VALUE
+empty
+empty
+empty
+switch UP LEFT WRITE_TYPE: on "TupleLoad" goto 1105; on "Dict" goto 1106; on "Str" goto 1107; else goto 1108
+switch UP WRITE_POS: on "-1001" goto 1100; on "-1000" goto 1104; else goto 1109
+WRITE_POS
+switch WRITE_POS: on "-1001" goto 1110; else goto 1111
+empty
+empty
+empty
+WRITE_POS
+switch LEFT PREV_DFS WRITE_POS: on "-1005" goto 1114; on "-1000" goto 1115; else goto 1116
+empty
+empty
+switch UP WRITE_POS: on "-1000" goto 1118; else goto 1119
+switch UP UP LEFT WRITE_VALUE: on "_input_ports" goto 1117; else goto 1120
+empty
+empty
+switch UP UP PREV_DFS WRITE_POS: on "-1001" goto 1122; else goto 1123
+LEFT PREV_DFS RIGHT PREV_NODE_CONTEXT DOWN_FIRST RIGHT WRITE_TYPE DOWN_LAST WRITE_TYPE
+empty
+empty
+switch UP PREV_DFS UP WRITE_TYPE: on "AttributeLoad" goto 1124; on "TupleLoad" goto 1125; on "Dict" goto 1126; else goto 1127
+switch LEFT PREV_LEAF UP WRITE_POS: on "-1002" goto 1121; else goto 1128
+switch UP UP WRITE_TYPE: on "Dict" goto 1113; else goto 1129
+empty
+UP PREV_LEAF LEFT WRITE_TYPE
+empty
+switch WRITE_POS: on "-1005" goto 1131; on "-1001" goto 1132; else goto 1133
+WRITE_POS
+empty
+switch LEFT PREV_DFS WRITE_TYPE: on "Str" goto 1135; else goto 1136
+empty
+WRITE_POS
+switch LEFT PREV_DFS PREV_LEAF WRITE_POS: on "-1002" goto 1134; on "-1001" goto 1137; on "-1000" goto 1138; else goto 1139
+LEFT PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+switch LEFT LEFT WRITE_TYPE: on "Str" goto 1143; on "Num" goto 1144; else goto 1145
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1004" goto 1141; on "-1001" goto 1142; else goto 1146
+empty
+empty
+LEFT PREV_LEAF WRITE_POS
+empty
+empty
+empty
+switch WRITE_POS: on "-1006" goto 1152; else goto 1153
+empty
+switch UP PREV_LEAF LEFT WRITE_TYPE: on "Str" goto 1150; on "NameLoad" goto 1151; on "NameStore" goto 1154; else goto 1155
+empty
+empty
+UP PREV_DFS UP WRITE_TYPE
+empty
+switch WRITE_POS: on "-1001" goto 1159; else goto 1160
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "SubscriptLoad" goto 1157; on "Lambda" goto 1158; else goto 1161
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "AttributeLoad" goto 1148; on "ListLoad" goto 1149; on "Num" goto 1156; else goto 1162
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Call" goto 1099; on "TupleLoad" goto 1112; on "Dict" goto 1130; on "Str" goto 1140; on "NameLoad" goto 1147; else goto 1163
+UP PREV_DFS WRITE_TYPE WRITE_VALUE
+UP LEFT WRITE_TYPE DOWN_LAST WRITE_POS
+empty
+empty
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "body" goto 1170; else goto 1171
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Call" goto 1168; on "AttributeLoad" goto 1169; on "SubscriptLoad" goto 1172; on "Num" goto 1173; else goto 1174
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "TupleLoad" goto 1165; on "Str" goto 1166; on "NameLoad" goto 1167; else goto 1175
+empty
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE WRITE_POS
+switch UP PREV_LEAF PREV_DFS WRITE_TYPE: on "Str" goto 1177; else goto 1178
+empty
+empty
+WRITE_POS
+empty
+switch WRITE_POS: on "-1002" goto 1182; else goto 1183
+switch UP PREV_LEAF WRITE_POS: on "-1002|-1001|-1000" goto 1181; else goto 1184
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS
+empty
+empty
+empty
+switch LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE: on "Str" goto 1187; on "Num" goto 1188; else goto 1189
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "TupleLoad" goto 1180; on "Str" goto 1185; on "Num" goto 1186; else goto 1190
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "TupleLoad" goto 1192; on "Num" goto 1193; else goto 1194
+empty
+LEFT WRITE_VALUE
+empty
+empty
+switch LEFT PREV_NODE_TYPE RIGHT WRITE_TYPE: on "AttributeLoad" goto 1196; on "TupleLoad" goto 1197; on "Num" goto 1198; else goto 1199
+UP UP LEFT NEXT_LEAF NEXT_LEAF WRITE_VALUE
+switch LEFT PREV_NODE_TYPE WRITE_POS: on "-1001" goto 1195; on "-1000" goto 1200; else goto 1201
+empty
+switch LEFT PREV_NODE_TYPE NEXT_LEAF WRITE_POS: on "-1002" goto 1179; on "-1001" goto 1191; on "-1000" goto 1202; else goto 1203
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "AttributeLoad" goto 1208; on "ListLoad" goto 1209; on "Str" goto 1210; on "Num" goto 1211; else goto 1212
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1205; on "Call" goto 1206; on "NameLoad" goto 1207; else goto 1213
+empty
+empty
+PREV_DFS WRITE_VALUE
+empty
+UP PREV_NODE_CONTEXT DOWN_LAST LEFT WRITE_POS WRITE_TYPE
+empty
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 1218; on "Str" goto 1219; else goto 1220
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1215; on "AttributeLoad" goto 1216; on "NameLoad" goto 1217; else goto 1221
+WRITE_POS
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1224; on "Call" goto 1225; on "TupleLoad" goto 1226; on "Dict" goto 1227; else goto 1228
+empty
+empty
+empty
+switch PREV_DFS WRITE_POS: on "-1002" goto 1231; else goto 1232
+LEFT PREV_DFS LEFT WRITE_VALUE WRITE_TYPE
+switch LEFT LEFT WRITE_TYPE: on "TupleLoad" goto 1230; on "Num" goto 1233; else goto 1234
+switch WRITE_POS: on "-1001" goto 1229; else goto 1235
+switch UP LEFT WRITE_TYPE: on "Str|NameStore" goto 1223; else goto 1236
+empty
+WRITE_POS
+empty
+empty
+switch WRITE_POS: on "-1003" goto 1240; else goto 1241
+empty
+empty
+empty
+switch PREV_DFS WRITE_TYPE: on "Num" goto 1244; else goto 1245
+switch UP PREV_DFS WRITE_TYPE: on "Return" goto 1239; on "Str" goto 1242; on "NameStore" goto 1243; else goto 1246
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+empty
+LEFT WRITE_TYPE =eq= LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "Dict" goto 1247; on "BinOpMod" goto 1248; on "BinOpMult" goto 1249; else goto 1250
+switch LEFT WRITE_TYPE: on "Call" goto 1214; on "AttributeLoad" goto 1222; on "TupleLoad" goto 1237; on "SubscriptLoad" goto 1238; else goto 1251
+switch LEFT WRITE_TYPE: on "-1" goto 1087; on "ListLoad" goto 1096; on "Str" goto 1164; on "NameLoad" goto 1176; on "Num" goto 1204; else goto 1252
+empty
+empty
+empty
+empty
+empty
+PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 1260; on "TupleLoad" goto 1261; on "SubscriptLoad" goto 1262; on "BinOpSub" goto 1263; on "BinOpAdd" goto 1264; else goto 1265
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 1255; on "AttributeLoad" goto 1256; on "Str" goto 1257; on "NameLoad" goto 1258; on "Num" goto 1259; else goto 1266
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+PREV_LEAF WRITE_VALUE
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "-1" goto 1269; on "Str" goto 1270; on "NameLoad" goto 1271; on "Num" goto 1272; else goto 1273
+switch PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "Str" goto 1254; on "NameLoad" goto 1267; on "Num" goto 1268; else goto 1274
+empty
+empty
+empty
+empty
+switch UP WRITE_VALUE: on "Meta" goto 1278; else goto 1279
+switch UP UP PREV_DFS WRITE_VALUE: on "-1" goto 1277; else goto 1280
+empty
+switch WRITE_POS: on "-1002" goto 1276; on "-1000" goto 1281; else goto 1282
+WRITE_POS
+empty
+PREV_LEAF WRITE_TYPE WRITE_VALUE
+switch PREV_LEAF LEFT PREV_DFS WRITE_TYPE: on "NameLoad" goto 1284; on "attr" goto 1285; else goto 1286
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_POS: on "-1000" goto 1288; else goto 1289
+PREV_DFS UP PREV_DFS WRITE_VALUE
+WRITE_POS UP PREV_NODE_CONTEXT PREV_NODE_TYPE DOWN_LAST WRITE_POS WRITE_TYPE
+UP UP WRITE_VALUE
+empty
+switch WRITE_POS: on "-1000" goto 1293; else goto 1294
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "Call" goto 1290; on "AttributeLoad" goto 1291; on "NameLoad" goto 1292; else goto 1295
+UP WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE PREV_DFS WRITE_VALUE
+UP WRITE_VALUE
+UP WRITE_VALUE
+empty
+UP WRITE_VALUE
+switch PREV_LEAF UP WRITE_TYPE: on "ListLoad" goto 1302; on "Index" goto 1303; else goto 1304
+switch PREV_DFS LEFT DOWN_FIRST WRITE_TYPE: on "Call" goto 1297; on "AttributeLoad" goto 1298; on "Str" goto 1299; on "NameLoad" goto 1300; on "Num" goto 1301; else goto 1305
+UP LEFT DOWN_LAST WRITE_TYPE
+empty
+switch UP PREV_NODE_VALUE WRITE_TYPE: on "Str" goto 1307; else goto 1308
+UP WRITE_VALUE
+empty
+empty
+empty
+UP WRITE_VALUE
+UP WRITE_VALUE
+empty
+empty
+empty
+UP WRITE_VALUE
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "alias|arguments" goto 1315; on "Call" goto 1316; on "ListLoad" goto 1317; on "Dict" goto 1318; else goto 1319
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "AttributeLoad" goto 1312; on "Num" goto 1313; on "attr" goto 1314; else goto 1320
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_TYPE: on "-1" goto 1306; on "Str" goto 1309; on "NameLoad" goto 1310; on "NameStore|NameParam" goto 1311; else goto 1321
+empty
+empty
+UP WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "CompareEq" goto 1339; on "ListComp" goto 1340; on "UnaryOpUAdd" goto 1341; else goto 1342
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "BinOpSub" goto 1335; on "BinOpDiv" goto 1336; on "BinOpMult" goto 1337; on "BinOpBitOr" goto 1338; else goto 1343
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "TupleLoad" goto 1330; on "BinOpMod" goto 1331; on "SubscriptLoad" goto 1332; on "Lambda" goto 1333; on "BinOpAdd" goto 1334; else goto 1344
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 1326; on "AttributeLoad" goto 1327; on "ListLoad" goto 1328; on "Dict" goto 1329; else goto 1345
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 1322; on "Str" goto 1323; on "NameLoad" goto 1324; on "Num" goto 1325; else goto 1346
+empty
+empty
+empty
+empty
+switch WRITE_POS: on "-1001" goto 1349; on "-1000" goto 1350; else goto 1351
+empty
+PREV_DFS WRITE_VALUE
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+empty
+switch WRITE_POS: on "-1001" goto 1354; on "-1000" goto 1355; else goto 1356
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+LEFT LEFT LEFT WRITE_TYPE WRITE_POS PREV_LEAF WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+empty
+switch PREV_DFS LEFT WRITE_VALUE: on "blank" goto 1363; else goto 1364
+LEFT LEFT WRITE_VALUE
+switch UP PREV_NODE_VALUE DOWN_FIRST WRITE_VALUE: on "Meta" goto 1361; on "max_length" goto 1362; on "to" goto 1365; else goto 1366
+LEFT WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+PREV_LEAF PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 1370; on "AttributeLoad" goto 1371; on "ListLoad" goto 1372; on "Dict" goto 1373; on "NameLoad" goto 1374; on "Num" goto 1375; else goto 1376
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1368; on "Str" goto 1369; else goto 1377
+empty
+empty
+empty
+LEFT WRITE_VALUE
+switch LEFT WRITE_VALUE: on "to|db_index|on_delete" goto 1381; else goto 1382
+switch LEFT WRITE_VALUE: on "blank" goto 1380; else goto 1383
+empty
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "db_index" goto 1387; else goto 1388
+switch LEFT WRITE_VALUE: on "blank|null" goto 1385; on "True" goto 1386; else goto 1389
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "db_table" goto 1394; else goto 1395
+LEFT WRITE_VALUE
+switch LEFT LEFT WRITE_VALUE: on "to|db_index" goto 1392; on "related_name" goto 1393; on "object_name" goto 1396; else goto 1397
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE RIGHT WRITE_POS LEFT WRITE_VALUE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "TupleLoad" goto 1391; on "Str" goto 1398; else goto 1399
+switch LEFT LEFT WRITE_VALUE: on "blank" goto 1379; on "null" goto 1384; on "max_length" goto 1390; else goto 1400
+LEFT WRITE_VALUE
+empty
+empty
+LEFT PREV_NODE_TYPE WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE PREV_LEAF WRITE_VALUE
+switch LEFT PREV_NODE_TYPE WRITE_VALUE: on "django.db.models.fields.CharField" goto 1403; on "django.db.models.fields.BooleanField" goto 1404; else goto 1405
+empty
+UP UP LEFT WRITE_POS PREV_DFS WRITE_VALUE NEXT_LEAF WRITE_VALUE
+empty
+UP UP WRITE_POS PREV_DFS WRITE_VALUE WRITE_POS
+empty
+LEFT WRITE_VALUE PREV_NODE_TYPE WRITE_VALUE
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1001" goto 1412; else goto 1413
+switch LEFT WRITE_VALUE: on "to" goto 1410; on "object_name" goto 1411; else goto 1414
+switch LEFT WRITE_VALUE: on "default" goto 1406; on "Meta" goto 1407; on "max_length" goto 1408; on "primary_key" goto 1409; else goto 1415
+empty
+empty
+empty
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 1417; on "AttributeLoad" goto 1418; on "ListLoad" goto 1419; on "Dict" goto 1420; on "NameLoad" goto 1421; on "Num" goto 1422; else goto 1423
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1402; on "Str" goto 1416; else goto 1424
+LEFT WRITE_VALUE LEFT WRITE_VALUE
+WRITE_POS
+LEFT PREV_NODE_TYPE LEFT WRITE_VALUE
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch UP LEFT WRITE_TYPE: on "ListLoad" goto 1428; else goto 1429
+empty
+switch WRITE_POS: on "-1009|-1007" goto 1430; else goto 1431
+switch UP LEFT DOWN_LAST WRITE_TYPE: on "TupleLoad" goto 1426; on "NameStore" goto 1427; else goto 1432
+switch WRITE_POS: on "-1005" goto 1367; on "-1004|-1002" goto 1378; on "-1003" goto 1401; on "-1001" goto 1425; else goto 1433
+empty
+WRITE_POS
+switch WRITE_POS: on "-1003" goto 1435; else goto 1436
+empty
+empty
+empty
+switch LEFT LEFT WRITE_VALUE: on "-1" goto 1439; else goto 1440
+empty
+empty
+switch WRITE_POS: on "-1005" goto 1438; on "-1003" goto 1441; on "-1001" goto 1442; else goto 1443
+UP WRITE_POS
+PREV_DFS PREV_NODE_TYPE WRITE_VALUE
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT LEFT WRITE_TYPE: on "ListLoad" goto 1447; else goto 1448
+switch WRITE_POS: on "-1005" goto 1445; on "-1003" goto 1446; else goto 1449
+empty
+WRITE_POS
+empty
+WRITE_POS
+switch WRITE_POS: on "-1003" goto 1453; else goto 1454
+switch UP UP LEFT WRITE_VALUE: on "models" goto 1451; on "backwards" goto 1452; else goto 1455
+empty
+WRITE_POS
+empty
+switch UP WRITE_POS: on "-1002" goto 1458; else goto 1459
+LEFT LEFT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "Str" goto 1460; else goto 1461
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch WRITE_POS: on "-1011" goto 1463; on "-1009" goto 1464; on "-1001" goto 1465; else goto 1466
+switch WRITE_POS: on "-1007|-1005" goto 1457; on "-1003" goto 1462; else goto 1467
+LEFT LEFT PREV_NODE_CONTEXT RIGHT RIGHT WRITE_TYPE
+empty
+switch LEFT LEFT PREV_DFS WRITE_TYPE: on "Str" goto 1469; else goto 1470
+WRITE_POS
+LEFT PREV_NODE_CONTEXT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT LEFT WRITE_TYPE: on "Num" goto 1472; else goto 1473
+switch WRITE_POS: on "-1005|-1003" goto 1471; else goto 1474
+empty
+empty
+empty
+switch WRITE_POS: on "-1003" goto 1477; else goto 1478
+empty
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "ListComp" goto 1482; else goto 1483
+empty
+empty
+switch PREV_DFS LEFT WRITE_TYPE: on "Str" goto 1485; else goto 1486
+LEFT WRITE_TYPE =eq= 
+switch LEFT DOWN_LAST WRITE_TYPE: on "comprehension" goto 1484; on "Str" goto 1487; else goto 1488
+switch LEFT WRITE_TYPE: on "BinOpMod" goto 1476; on "SubscriptLoad" goto 1479; on "Lambda" goto 1480; on "BinOpAdd" goto 1481; else goto 1489
+switch LEFT WRITE_TYPE: on "Call" goto 1437; on "AttributeLoad" goto 1444; on "ListLoad" goto 1450; on "Dict" goto 1456; on "NameLoad" goto 1468; on "Num" goto 1475; else goto 1490
+switch LEFT WRITE_TYPE: on "-1" goto 1359; on "TupleLoad" goto 1360; on "Str" goto 1434; else goto 1491
+empty
+UP WRITE_VALUE
+empty
+switch UP LEFT WRITE_TYPE: on "FunctionDef" goto 1494; else goto 1495
+empty
+UP WRITE_VALUE
+switch UP LEFT DOWN_LAST WRITE_TYPE: on "decorator_list" goto 1497; else goto 1498
+switch UP PREV_DFS LEFT WRITE_TYPE: on "body" goto 1493; on "NameLoad" goto 1496; else goto 1499
+empty
+empty
+switch WRITE_POS: on "-1002" goto 1500; on "-1001" goto 1501; else goto 1502
+UP UP WRITE_VALUE
+empty
+switch WRITE_POS: on "-1001" goto 1504; else goto 1505
+PREV_DFS PREV_DFS UP UP WRITE_TYPE
+empty
+empty
+UP UP WRITE_VALUE
+switch PREV_LEAF PREV_NODE_TYPE NEXT_LEAF WRITE_TYPE: on "args" goto 1508; on "NameParam" goto 1509; else goto 1510
+switch UP UP UP WRITE_POS: on "-1001" goto 1507; else goto 1511
+empty
+empty
+PREV_DFS WRITE_VALUE
+PREV_DFS WRITE_VALUE
+empty
+switch PREV_DFS WRITE_POS: on "-1002" goto 1515; on "-1001" goto 1516; else goto 1517
+switch PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "defaults" goto 1513; on "NameLoad" goto 1514; else goto 1518
+empty
+PREV_DFS PREV_NODE_TYPE RIGHT WRITE_TYPE
+empty
+switch WRITE_POS: on "-1003" goto 1520; on "-1002" goto 1521; else goto 1522
+switch PREV_DFS LEFT NEXT_LEAF WRITE_TYPE: on "-1" goto 1506; on "Module" goto 1512; on "NameParam" goto 1519; else goto 1523
+UP UP UP WRITE_VALUE
+UP UP UP WRITE_VALUE
+empty
+switch WRITE_POS: on "-1001" goto 1525; on "-1000" goto 1526; else goto 1527
+WRITE_POS UP UP UP WRITE_VALUE
+WRITE_POS UP UP UP WRITE_VALUE
+switch PREV_DFS PREV_NODE_TYPE DOWN_LAST WRITE_POS: on "-1001" goto 1528; on "-1000" goto 1529; else goto 1530
+LEFT WRITE_TYPE PREV_LEAF WRITE_VALUE
+UP PREV_DFS WRITE_VALUE
+PREV_LEAF PREV_NODE_CONTEXT NEXT_LEAF RIGHT WRITE_TYPE PREV_LEAF WRITE_VALUE
+empty
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "-1" goto 1535; on "NameLoad" goto 1536; on "Num" goto 1537; else goto 1538
+switch UP PREV_DFS LEFT WRITE_POS: on "-1002" goto 1532; on "-1001" goto 1533; on "-1000" goto 1534; else goto 1539
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+PREV_DFS WRITE_VALUE
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+empty
+empty
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "CompareIs" goto 1549; on "CompareGt" goto 1550; on "CompareNotIn" goto 1551; on "CompareNotEq" goto 1552; else goto 1553
+switch LEFT WRITE_TYPE: on "CompareEq" goto 1542; on "Call" goto 1543; on "AttributeLoad" goto 1544; on "UnaryOpNot" goto 1545; on "CompareIsNot" goto 1546; on "CompareIn" goto 1547; on "NameLoad" goto 1548; else goto 1554
+switch WRITE_POS: on "-1000" goto 1541; else goto 1555
+empty
+UP UP UP WRITE_VALUE
+empty
+UP UP UP WRITE_VALUE
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "Call" goto 1558; on "AttributeLoad" goto 1559; else goto 1560
+UP PREV_NODE_CONTEXT DOWN_LAST LEFT WRITE_TYPE
+UP UP UP WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "AttributeLoad" goto 1565; on "TupleLoad" goto 1566; on "BinOpMod" goto 1567; on "SubscriptLoad" goto 1568; on "BinOpAdd" goto 1569; on "Str" goto 1570; on "Num" goto 1571; else goto 1572
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "Call" goto 1562; on "Return" goto 1563; on "NameLoad" goto 1564; else goto 1573
+switch PREV_LEAF UP WRITE_TYPE: on "Expr" goto 1557; on "arguments" goto 1561; else goto 1574
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 1576; on "AttributeLoad" goto 1577; on "NameLoad" goto 1578; else goto 1579
+empty
+switch WRITE_POS: on "-1000" goto 1580; else goto 1581
+empty
+empty
+empty
+empty
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "-1" goto 1584; on "AttributeLoad" goto 1585; on "NameLoad" goto 1586; else goto 1587
+switch WRITE_POS: on "-1001" goto 1583; else goto 1588
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+LEFT DOWN_FIRST DOWN_LAST WRITE_VALUE
+empty
+empty
+empty
+LEFT DOWN_FIRST DOWN_LAST WRITE_VALUE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "body" goto 1593; on "NameStore" goto 1594; else goto 1595
+switch PREV_DFS WRITE_TYPE: on "With" goto 1590; on "Str" goto 1591; on "NameStore" goto 1592; else goto 1596
+empty
+empty
+empty
+empty
+empty
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 1600; on "AttributeLoad" goto 1601; on "NameLoad" goto 1602; else goto 1603
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 1598; on "Str" goto 1599; else goto 1604
+empty
+empty
+LEFT WRITE_VALUE
+LEFT WRITE_VALUE
+LEFT PREV_NODE_VALUE RIGHT WRITE_TYPE
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Dict" goto 1611; on "SubscriptLoad" goto 1612; else goto 1613
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Call" goto 1606; on "AttributeLoad" goto 1607; on "TupleLoad" goto 1608; on "BinOpMod" goto 1609; on "NameLoad" goto 1610; else goto 1614
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE
+switch LEFT WRITE_TYPE: on "-1" goto 1605; on "Str" goto 1615; else goto 1616
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Slice" goto 1620; on "ExtSlice" goto 1621; else goto 1622
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1618; on "Index" goto 1619; else goto 1623
+empty
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "AttributeLoad" goto 1625; on "NameLoad" goto 1626; else goto 1627
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 1628; on "AttributeLoad" goto 1629; on "SubscriptLoad" goto 1630; on "NameLoad" goto 1631; else goto 1632
+switch WRITE_POS: on "-1001" goto 1624; else goto 1633
+empty
+empty
+switch WRITE_POS: on "-1000" goto 1635; else goto 1636
+empty
+empty
+switch WRITE_POS: on "-1000" goto 1638; else goto 1639
+empty
+LEFT WRITE_TYPE
+switch WRITE_POS: on "-1000" goto 1641; else goto 1642
+empty
+empty
+switch WRITE_POS: on "-1000" goto 1644; else goto 1645
+UP LEFT DOWN_LAST WRITE_TYPE
+LEFT WRITE_TYPE
+switch WRITE_POS: on "-1000" goto 1647; else goto 1648
+switch UP LEFT DOWN_LAST WRITE_TYPE: on "Expr" goto 1637; on "If" goto 1640; on "Assign" goto 1643; on "Return" goto 1646; else goto 1649
+UP PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1651; on "Call" goto 1652; on "AttributeLoad" goto 1653; on "NameLoad" goto 1654; else goto 1655
+empty
+switch WRITE_POS: on "-1001" goto 1656; else goto 1657
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE PREV_DFS WRITE_VALUE
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch WRITE_POS: on "-1001" goto 1659; else goto 1660
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "CompareEq" goto 1666; on "SubscriptLoad" goto 1667; on "CompareIn" goto 1668; else goto 1669
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Call" goto 1662; on "AttributeLoad" goto 1663; on "UnaryOpNot" goto 1664; on "NameLoad" goto 1665; else goto 1670
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch WRITE_POS: on "-1000" goto 1672; else goto 1673
+empty
+empty
+empty
+empty
+switch LEFT WRITE_VALUE: on "-1" goto 1676; on "i" goto 1677; else goto 1678
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "ListLoad" goto 1683; on "TupleLoad" goto 1684; on "SubscriptLoad" goto 1685; else goto 1686
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1679; on "Call" goto 1680; on "AttributeLoad" goto 1681; on "NameLoad" goto 1682; else goto 1687
+empty
+empty
+switch WRITE_POS: on "-1002" goto 1675; on "-1001" goto 1688; on "-1000" goto 1689; else goto 1690
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch WRITE_POS: on "-1001" goto 1692; else goto 1693
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch WRITE_POS: on "-1000" goto 1697; else goto 1698
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1000" goto 1700; else goto 1701
+switch PREV_DFS PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "Call" goto 1695; on "Raise" goto 1696; on "NameLoad" goto 1699; else goto 1702
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+empty
+switch WRITE_POS: on "-1000" goto 1704; else goto 1705
+empty
+empty
+empty
+PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+empty
+switch UP LEFT WRITE_VALUE: on "-1" goto 1710; else goto 1711
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 1707; on "AttributeLoad" goto 1708; on "NameLoad" goto 1709; else goto 1712
+PREV_LEAF WRITE_VALUE
+empty
+switch WRITE_POS: on "-1001" goto 1713; on "-1000" goto 1714; else goto 1715
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "AttributeLoad" goto 1720; on "SubscriptLoad" goto 1721; on "BinOpSub" goto 1722; on "BinOpAdd" goto 1723; on "Num" goto 1724; else goto 1725
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 1717; on "Call" goto 1718; on "NameLoad" goto 1719; else goto 1726
+empty
+LEFT WRITE_TYPE DOWN_FIRST DOWN_LAST WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1732; on "AttributeLoad" goto 1733; on "SubscriptLoad" goto 1734; on "BinOpMult" goto 1735; else goto 1736
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Call" goto 1728; on "BinOpSub" goto 1729; on "NameLoad" goto 1730; on "Num" goto 1731; else goto 1737
+switch WRITE_POS: on "-1000" goto 1727; else goto 1738
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 1743; on "AttributeLoad" goto 1744; on "SubscriptLoad" goto 1745; on "BinOpSub" goto 1746; on "BinOpMult" goto 1747; else goto 1748
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1740; on "NameLoad" goto 1741; on "Num" goto 1742; else goto 1749
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch WRITE_POS: on "-1001" goto 1750; else goto 1751
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch WRITE_POS: on "-1000" goto 1755; else goto 1756
+empty
+empty
+LEFT LEFT LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+empty
+switch LEFT WRITE_TYPE: on "-1" goto 1759; on "Str" goto 1760; else goto 1761
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "-1" goto 1753; on "Call" goto 1754; on "AttributeLoad" goto 1757; on "BinOpMod" goto 1758; on "Str" goto 1762; on "NameLoad" goto 1763; else goto 1764
+empty
+PREV_DFS PREV_NODE_CONTEXT NEXT_LEAF WRITE_POS NEXT_LEAF WRITE_TYPE
+empty
+empty
+switch LEFT WRITE_TYPE: on "AttributeStore" goto 1768; else goto 1769
+switch PREV_DFS WRITE_TYPE: on "TupleStore" goto 1766; on "NameStore" goto 1767; else goto 1770
+empty
+empty
+switch WRITE_POS: on "-1001" goto 1772; else goto 1773
+empty
+UP PREV_DFS WRITE_TYPE WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "ListLoad" goto 1785; on "TupleLoad" goto 1786; on "BinOpMod" goto 1787; on "BinOpSub" goto 1788; on "BinOpPow" goto 1789; else goto 1790
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 1780; on "AttributeLoad" goto 1781; on "SubscriptLoad" goto 1782; on "BinOpMult" goto 1783; on "Num" goto 1784; else goto 1791
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 1776; on "BinOpAdd" goto 1777; on "Str" goto 1778; on "NameLoad" goto 1779; else goto 1792
+empty
+LEFT WRITE_TYPE DOWN_FIRST DOWN_LAST WRITE_TYPE WRITE_VALUE
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "AttributeLoad" goto 1798; on "SubscriptLoad" goto 1799; else goto 1800
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Call" goto 1794; on "BinOpAdd" goto 1795; on "Str" goto 1796; on "NameLoad" goto 1797; else goto 1801
+LEFT WRITE_TYPE DOWN_FIRST DOWN_LAST WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+PREV_DFS PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "BinOpMod" goto 1812; on "SubscriptLoad" goto 1813; on "BinOpDiv" goto 1814; else goto 1815
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 1807; on "AttributeLoad" goto 1808; on "ListLoad" goto 1809; on "BinOpAdd" goto 1810; on "BinOpMult" goto 1811; else goto 1816
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1803; on "Str" goto 1804; on "NameLoad" goto 1805; on "Num" goto 1806; else goto 1817
+PREV_DFS WRITE_VALUE
+empty
+empty
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1819; on "Call" goto 1820; on "BinOpAdd" goto 1821; on "Str" goto 1822; on "NameLoad" goto 1823; on "Num" goto 1824; else goto 1825
+LEFT WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT DOWN_LAST WRITE_TYPE: on "Call" goto 1834; on "SubscriptLoad" goto 1835; on "BinOpMult" goto 1836; else goto 1837
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE =eq= 
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "AttributeLoad" goto 1832; on "BinOpDiv" goto 1833; on "BinOpAdd" goto 1838; on "BinOpMult" goto 1839; on "BinOpPow" goto 1840; on "Str" goto 1841; else goto 1842
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1827; on "Call" goto 1828; on "SubscriptLoad" goto 1829; on "NameLoad" goto 1830; on "Num" goto 1831; else goto 1843
+switch PREV_DFS WRITE_TYPE: on "BinOpAdd" goto 1793; on "Str" goto 1802; on "NameLoad" goto 1818; on "attr" goto 1826; else goto 1844
+empty
+UP PREV_NODE_CONTEXT WRITE_POS DOWN_FIRST WRITE_TYPE
+switch WRITE_POS: on "-1001" goto 1846; else goto 1847
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_POS: on "-1000" goto 1851; else goto 1852
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 1854; on "AttributeLoad" goto 1855; on "BinOpAdd" goto 1856; on "BinOpMult" goto 1857; on "NameLoad" goto 1858; else goto 1859
+switch UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE: on "Slice" goto 1849; on "NameLoad" goto 1850; on "Num" goto 1853; else goto 1860
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT DOWN_LAST WRITE_TYPE: on "Index" goto 1867; on "Str" goto 1868; else goto 1869
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 1864; on "BinOpSub|BinOpAdd" goto 1865; on "BinOpMult" goto 1866; else goto 1870
+switch LEFT WRITE_TYPE: on "-1" goto 1861; on "NameLoad" goto 1862; on "Num" goto 1863; else goto 1871
+empty
+empty
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "Call" goto 1873; on "TupleLoad" goto 1874; else goto 1875
+empty
+empty
+empty
+empty
+empty
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "CompareIs" goto 1880; on "UnaryOpNot" goto 1881; on "Str" goto 1882; else goto 1883
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "CompareEq" goto 1877; on "Call" goto 1878; on "CompareIn" goto 1879; else goto 1884
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1886; on "BinOpMod" goto 1887; on "Str" goto 1888; on "NameLoad" goto 1889; else goto 1890
+switch WRITE_POS: on "-1000" goto 1885; else goto 1891
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+LEFT WRITE_TYPE DOWN_LAST WRITE_VALUE
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1894; on "AttributeLoad" goto 1895; on "Str" goto 1896; on "NameLoad" goto 1897; on "Num" goto 1898; else goto 1899
+switch WRITE_POS: on "-1000" goto 1893; else goto 1900
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "-1" goto 1903; on "AttributeLoad" goto 1904; on "NameLoad" goto 1905; else goto 1906
+switch WRITE_POS: on "-1001" goto 1902; else goto 1907
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+PREV_DFS PREV_NODE_CONTEXT PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "Call" goto 1913; on "AttributeLoad" goto 1914; on "ListLoad" goto 1915; on "SubscriptLoad" goto 1916; on "Str" goto 1917; else goto 1918
+switch UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE: on "-1" goto 1909; on "BinOpMult" goto 1910; on "NameLoad" goto 1911; on "Num" goto 1912; else goto 1919
+empty
+empty
+empty
+empty
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 1921; on "AttributeLoad" goto 1922; on "SubscriptLoad" goto 1923; on "NameLoad" goto 1924; else goto 1925
+empty
+LEFT PREV_NODE_CONTEXT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Num" goto 1927; else goto 1928
+UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE
+switch LEFT PREV_NODE_CONTEXT NEXT_LEAF WRITE_TYPE: on "Module" goto 1920; on "NameLoad" goto 1926; on "Num" goto 1929; else goto 1930
+empty
+empty
+empty
+PREV_DFS WRITE_VALUE
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "AttributeLoad" goto 1932; on "NameLoad" goto 1933; on "Num" goto 1934; else goto 1935
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+switch WRITE_POS: on "-1001" goto 1936; else goto 1937
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "Call" goto 1943; on "SubscriptLoad" goto 1944; else goto 1945
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "-1" goto 1939; on "AttributeLoad" goto 1940; on "Str" goto 1941; on "NameLoad" goto 1942; else goto 1946
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "Call" goto 1948; on "AttributeLoad" goto 1949; on "NameLoad" goto 1950; else goto 1951
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 1961; else goto 1962
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "Call" goto 1957; on "ListLoad" goto 1958; on "SubscriptLoad" goto 1959; on "Str" goto 1960; else goto 1963
+switch LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE: on "-1" goto 1953; on "AttributeLoad" goto 1954; on "TupleLoad" goto 1955; on "NameLoad" goto 1956; else goto 1964
+switch LEFT WRITE_TYPE: on "-1" goto 1947; on "Str" goto 1952; else goto 1965
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE PREV_DFS WRITE_VALUE
+switch WRITE_POS: on "-1000" goto 1967; else goto 1968
+WRITE_POS UP PREV_NODE_TYPE DOWN_LAST WRITE_POS
+empty
+LEFT WRITE_TYPE
+switch PREV_DFS WRITE_TYPE: on "Slice" goto 1970; on "ExtSlice" goto 1971; else goto 1972
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+PREV_LEAF WRITE_TYPE
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch UP PREV_DFS PREV_NODE_VALUE WRITE_TYPE: on "If" goto 1974; on "NameParam" goto 1975; else goto 1976
+empty
+PREV_DFS WRITE_VALUE
+empty
+UP PREV_NODE_CONTEXT DOWN_LAST WRITE_TYPE
+empty
+switch UP WRITE_POS: on "-1001" goto 1981; else goto 1982
+empty
+UP UP WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "SubscriptLoad" goto 1990; on "CompareGt" goto 1991; on "CompareIsNot" goto 1992; else goto 1993
+switch LEFT WRITE_TYPE: on "CompareEq" goto 1984; on "BoolOpAnd" goto 1985; on "CompareIs" goto 1986; on "CompareLt" goto 1987; on "CompareNotEq" goto 1988; on "CompareIn" goto 1989; else goto 1994
+switch LEFT WRITE_TYPE: on "-1" goto 1977; on "Call" goto 1978; on "AttributeLoad" goto 1979; on "UnaryOpNot" goto 1980; on "NameLoad" goto 1983; else goto 1995
+empty
+empty
+empty
+LEFT WRITE_TYPE
+switch LEFT WRITE_TYPE: on "AttributeLoad" goto 1997; on "Str" goto 1998; on "Num" goto 1999; else goto 2000
+LEFT PREV_NODE_CONTEXT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+switch WRITE_POS: on "-1002" goto 2001; on "-1001" goto 2002; else goto 2003
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "-1" goto 2005; on "AttributeStore" goto 2006; on "NameStore" goto 2007; else goto 2008
+empty
+empty
+LEFT PREV_NODE_VALUE RIGHT WRITE_TYPE
+switch UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE: on "ListLoad" goto 2010; on "BinOpMod" goto 2011; else goto 2012
+empty
+LEFT PREV_NODE_VALUE PREV_NODE_CONTEXT RIGHT WRITE_POS WRITE_TYPE
+switch PREV_DFS PREV_NODE_VALUE NEXT_LEAF WRITE_TYPE: on "Module" goto 2009; on "Str" goto 2013; on "Num" goto 2014; else goto 2015
+empty
+empty
+empty
+switch WRITE_POS: on "-1002" goto 2017; on "-1001" goto 2018; else goto 2019
+empty
+empty
+UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE
+empty
+switch WRITE_POS: on "-1001" goto 2022; on "-1000" goto 2023; else goto 2024
+empty
+empty
+empty
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch PREV_LEAF WRITE_VALUE: on "join" goto 2026; on "dict" goto 2027; on "all|any" goto 2028; else goto 2029
+empty
+switch WRITE_POS: on "-1000" goto 2030; else goto 2031
+empty
+empty
+empty
+switch WRITE_POS: on "-1002" goto 2034; else goto 2035
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+empty
+PREV_DFS WRITE_TYPE WRITE_VALUE
+switch PREV_DFS WRITE_TYPE: on "BinOpBitOr" goto 2037; on "attr" goto 2038; else goto 2039
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2041; else goto 2042
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2044; else goto 2045
+PREV_DFS PREV_NODE_TYPE DOWN_LAST WRITE_TYPE
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2048; else goto 2049
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2051; else goto 2052
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2054; else goto 2055
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2057; else goto 2058
+empty
+empty
+empty
+switch WRITE_POS: on "-1002" goto 2060; on "-1001" goto 2061; else goto 2062
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+empty
+empty
+empty
+empty
+empty
+empty
+switch UP PREV_NODE_TYPE DOWN_FIRST WRITE_TYPE: on "-1" goto 2066; on "BinOpSub" goto 2067; on "NameLoad" goto 2068; on "Num" goto 2069; else goto 2070
+switch WRITE_POS: on "-1001" goto 2065; else goto 2071
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2073; else goto 2074
+LEFT PREV_NODE_CONTEXT RIGHT WRITE_TYPE
+UP PREV_NODE_CONTEXT DOWN_FIRST WRITE_TYPE
+switch WRITE_POS: on "-1001" goto 2076; else goto 2077
+empty
+empty
+empty
+switch WRITE_POS: on "-1002" goto 2079; on "-1001" goto 2080; else goto 2081
+UP PREV_NODE_TYPE DOWN_LAST WRITE_TYPE
+empty
+switch WRITE_POS: on "-1001" goto 2083; else goto 2084
+WRITE_POS
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2087; else goto 2088
+LEFT WRITE_TYPE
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2091; else goto 2092
+empty
+empty
+empty
+switch PREV_DFS WRITE_TYPE: on "Str" goto 2094; on "NameLoad" goto 2095; else goto 2096
+empty
+switch WRITE_POS: on "-1001" goto 2097; else goto 2098
+empty
+empty
+WRITE_POS
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2103; else goto 2104
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2106; else goto 2107
+empty
+LEFT WRITE_TYPE
+switch WRITE_POS: on "-1002" goto 2109; else goto 2110
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2112; else goto 2113
+empty
+empty
+empty
+empty
+switch WRITE_POS: on "-1002" goto 2116; on "-1001" goto 2117; else goto 2118
+empty
+empty
+switch WRITE_POS: on "-1001" goto 2120; else goto 2121
+WRITE_POS
+empty
+empty
+empty
+empty
+WRITE_POS
+empty
+switch UP WRITE_TYPE: on "-1" goto 0; on "Module" goto 28; on "Expr" goto 48; on "Import" goto 51; on "alias" goto 52; on "If" goto 75; on "CompareEq" goto 116; on "body" goto 291; on "Call" goto 768; on "AttributeLoad" goto 791; on "ImportFrom" goto 794; on "Assign" goto 1008; on "ListLoad" goto 1066; on "TupleLoad" goto 1253; on "Index" goto 1275; on "ClassDef" goto 1283; on "bases" goto 1287; on "decorator_list" goto 1296; on "keyword" goto 1347; on "name" goto 1348; on "TryExcept" goto 1352; on "handlers" goto 1353; on "ExceptHandler" goto 1357; on "type" goto 1358; on "Dict" goto 1492; on "FunctionDef" goto 1503; on "arguments" goto 1524; on "args" goto 1531; on "defaults" goto 1540; on "BoolOpAnd" goto 1556; on "Return" goto 1575; on "CompareIs" goto 1582; on "AttributeStore" goto 1589; on "With" goto 1597; on "BinOpMod" goto 1617; on "SubscriptLoad" goto 1634; on "orelse" goto 1650; on "Lambda" goto 1658; on "CompareLt" goto 1661; on "UnaryOpNot" goto 1671; on "CompareGt" goto 1674; on "For" goto 1691; on "CompareNotIn" goto 1694; on "Raise" goto 1703; on "ListComp" goto 1706; on "comprehension" goto 1716; on "BinOpSub" goto 1739; on "BinOpDiv" goto 1752; on "Print" goto 1765; on "TupleStore" goto 1771; on "TryFinally" goto 1774; on "finalbody" goto 1775; on "BinOpAdd" goto 1845; on "CompareIsNot" goto 1848; on "Slice" goto 1872; on "Yield" goto 1876; on "Assert" goto 1892; on "CompareNotEq" goto 1901; on "SubscriptStore" goto 1908; on "BinOpMult" goto 1931; on "BinOpBitAnd" goto 1938; on "CompareIn" goto 1966; on "CompareGtE" goto 1969; on "ExtSlice" goto 1973; on "BoolOpOr" goto 1996; on "IfExp" goto 2004; on "AugAssignAdd" goto 2016; on "CompareLtELtE" goto 2020; on "Global" goto 2021; on "While" goto 2025; on "GeneratorExp" goto 2032; on "UnaryOpUAdd" goto 2033; on "DictComp" goto 2036; on "BinOpBitOr" goto 2040; on "BinOpFloorDiv" goto 2043; on "AugAssignMult" goto 2046; on "Delete" goto 2047; on "SubscriptDel" goto 2050; on "CompareLtE" goto 2053; on "AugAssignSub" goto 2056; on "AttributeDel" goto 2059; on "CompareLtLt" goto 2063; on "UnaryOpUSub" goto 2064; on "BinOpPow" goto 2072; on "BinOpBitXor" goto 2075; on "BinOpLShift" goto 2078; on "CompareLtELt" goto 2082; on "AugAssignBitOr" goto 2085; on "Exec" goto 2086; on "AugAssignMod" goto 2089; on "Set" goto 2090; on "AugAssignDiv" goto 2093; on "BinOpRShift" goto 2099; on "CompareEqEqEq" goto 2100; on "UnaryOpInvert" goto 2101; on "ListStore" goto 2102; on "AugAssignBitAnd" goto 2105; on "AugAssignBitXor" goto 2108; on "CompareEqEq" goto 2111; on "SetComp" goto 2114; on "Repr" goto 2115; on "CompareLtLtE" goto 2119; on "AugAssignRShift" goto 2122; on "AugAssignFloorDiv" goto 2123; on "CompareLtELtELtE" goto 2124; on "CompareGtGt" goto 2125; on "CompareEqEqEqEq" goto 2126; on "CompareIsIs" goto 2127; on "AugAssignLShift" goto 2128; else goto 2129
