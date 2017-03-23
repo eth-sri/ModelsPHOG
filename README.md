@@ -53,3 +53,7 @@ bazel test -c opt //...
 ```
 
 You can also use -c dbg instead of -c opt to run with debug version of the code.
+
+# Running on existing datasets
+
+See running details at [http://www.srl.inf.ethz.ch/phog].
