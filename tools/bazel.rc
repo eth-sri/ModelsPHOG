@@ -1,1 +1,0 @@
-build --crosstool_top=//tools/cpp:toolchain --cxxopt="-DGTEST_HAS_TR1_TUPLE=0" --cxxopt="-fopenmp" --linkopt="-fopenmp"

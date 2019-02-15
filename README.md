@@ -41,7 +41,7 @@ sudo apt-get install libgoogle-glog-dev libgflags-dev libargtable2-dev cmake
 
 
 ```
-bazel build -c opt //...
+bazel build -c opt //... --cxxopt="-fopenmp" --linkopt="-fopenmp" --cxxopt="-DGTEST_HAS_TR1_TUPLE=0"
 ```
 
 In case you see an error, you may need to set java home by calling: export JAVA_HOME=/usr/lib/jvm/java-8-oracle
@@ -49,7 +49,7 @@ In case you see an error, you may need to set java home by calling: export JAVA_
 # Run tests
 
 ```
-bazel test -c opt //...
+bazel test -c opt //... --cxxopt="-fopenmp" --linkopt="-fopenmp" --cxxopt="-DGTEST_HAS_TR1_TUPLE=0"
 ```
 
 You can also use -c dbg instead of -c opt to run with debug version of the code.
